@@ -1,0 +1,294 @@
+/* breadcrumb */
+.breadcrumb-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 160px;
+}
+
+/* 課程圖片+課程相關資訊 */
+.course-title{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/* 課程圖片 */
+.course-img {
+  width: 45%;
+  height: 450px;
+  overflow: hidden;
+}
+.course-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* 課程相關資訊 */
+.course-info{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  /* gap: 20px; */
+  justify-content: space-between;
+}
+
+.course-name{
+  color:var(--g1-color);
+  font-size:var(--h4-font-size);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.course-intro{
+  color:var(--g1-color);
+  font-size: var(--p-font-size);
+  margin-bottom: 40px;
+  letter-spacing: 1px
+}
+
+.course-price{
+  color: var(--o1-color);
+  font-size:var(--h4-font-size);
+  font-weight: 800;
+}
+
+.scoreAndShare{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.star-rating{
+  display: flex;
+  align-items: center;
+  background-color: var(--g4-color) ;
+  width: 149px;
+  height: 26px;
+}
+.back-stars{
+  display: flex;
+  background-color: #ffc107 ;
+  /* width: 50%; */
+  height: 26px;
+  position: relative;
+}
+.front-stars{
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  top: -1.2px;
+  left:-1px;
+  z-index: 1;
+}
+.score{
+  font-size: var(--h5-font-size);
+  padding-right: 300px;
+}
+.share{
+  display: flex;
+  gap: 12px;
+}
+
+.purchaseAndShare{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.purchase-btn{
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+  width: 400px;
+  height: 60px;
+  background-color: var(--o1-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.purchase-btn:hover{
+  color: var(--b1-color);
+  background-color: var(--o3-color);
+  font-weight: 800;
+}
+
+.purchaseAndShare i{
+  color: red;
+  font-size: var(--h4-font-size);
+}
+.heart-icon{
+  font-size: 40px;
+  color: red;
+  cursor: pointer;
+}
+.coachAndLocation{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+/*  教練資訊  */
+.coach-box{
+  width: 45%;
+}
+
+.coach-top{
+  display: flex;
+  align-items: center;
+}
+.coach-img{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+.coach-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.coach-name{
+  color: var(--g1-color);
+  font-size: var(--h4-font-size);
+  font-weight: 800;
+}
+
+/* 教練介紹 */
+.coach-info{
+  margin-top: 24px;
+}
+.coach-title{
+  font-size: var(--h5-font-size);
+  color: var(--b1-color);
+  font-weight: 800;
+  border-bottom: 1px solid var(--g2-color);
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+  margin-top: 40px;
+}
+
+.coach-intro, .coach-cert li,.exp-text{
+  font-size: var(--h6-font-size);
+}
+.coach-cert li{
+  display: flex;
+  align-items: top;
+  margin-bottom: 12px;
+}
+
+/* 上課地點 */
+.course-location{
+  margin-top: 24px;
+  margin-bottom: 60px;
+  width: 45%;
+}
+.location-title{
+  color: var(--g1-color);
+  font-size: var(--h4-font-size);
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+.gym-name,.gym-address{
+  color: var(--g1-color);
+  font-size: var(--h5-font-size);
+  margin-bottom: 24px;
+}
+
+
+/* 課程評論 */
+.course-comment{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.comment-title{
+  font-size: var(--h4-font-size);
+  font-weight: 800;
+  color: var(--g1-color);
+  margin-bottom: 32px;
+}
+.comment{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.member-info{
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  width:300px
+}
+.member-img{
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+.member-img img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.nameAndTime{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.member-name{
+  color: var(--b1-color);
+  font-size: var(--h6-font-size);
+}
+.comment-time{
+  color: var(--g2-color);
+}
+.scoreAndText{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.star-rating-comment{
+  display: flex;
+  align-items: center;
+  background-color: var(--g4-color) ;
+  width: 129px;
+  height: 25px;
+}
+.back-stars-comment{
+  display: flex;
+  background-color: #ffc107 ;
+  /* width: 50%; */
+  height: 25px;
+  position: relative;
+}
+.front-stars-comment{
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  top: -1.5px;
+  left:-1px;
+  z-index: 1;
+}
+.comment-none{
+  font-size: var(--h5-font-size);
+  color: var(--g1-color);
+  font-weight: 800;
+}
+/* google map */
+.route{
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: var(--o1-color);
+  color: var(--white-color);
+  font-size: var(--h6-font-size);
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.route:hover{
+  background-color: var(--o3-color);
+  font-weight: 800;
+  color: var(--b1-color);
+}

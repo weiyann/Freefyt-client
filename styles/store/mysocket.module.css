@@ -1,0 +1,133 @@
+/* 聊天室 */
+.chat-room-button {
+  width: 60px;
+  height: 60px;
+  background-color: var(--b1-color);
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.modal {
+  /* display: none; */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 25% 58% 0;
+  padding: 25px;
+  border: 1px solid #888;
+  width: 40%;
+  height: 500px;
+  border-radius: 10px;
+  overflow-y: auto;
+  /* position: fixed; */
+}
+.modal-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--h5-font-size);
+  background-color: var(--white-color);
+  color: var(--b1-color);
+  padding: 10px;
+  border-bottom: 3px solid #ccc;
+}
+.modal-title h4{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  color: #aaa;
+  display: flex;
+  justify-content: right;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-content>div:nth-child(2) {
+  height: 320px;
+  font-size: var(--h6-font-size);
+  padding: 5px 0;
+  
+}
+/* 靠左的樣式 */
+.modal-content div:nth-child(odd) {
+  text-align: left;
+}
+
+/* 靠右的樣式 */
+.modal-content div:nth-child(even) {
+  text-align: right;
+}
+
+/* .my-message {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  max-width: 70%;
+  align-self: flex-end;
+}
+
+.other-message {
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  max-width: 70%;
+} */
+
+.my-form {
+  display: flex;
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.my-form input {
+  flex: 1;
+  padding: 10px;
+  height: 48px;
+  font-size: var(--h6-font-size);
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: #f0f0f0; 
+}
+
+.my-form button {
+  border: none;
+  padding: 8px;
+  border-radius: 0 5px 5px 0;
+  background-color: var(--b1-color); 
+  color: #fff;
+  cursor: pointer;
+}
+
+.my-form button:hover {
+  background-color: var(--b2-color); 
+}

@@ -1,0 +1,429 @@
+/* 下面是pid的css */
+
+.bgid {
+  width: 100%;
+  display: flex;
+  padding-top: 100px;
+}
+.bgid-page {
+  width: 100%;
+
+  margin-left: 1%;
+  margin-right: 3%;
+}
+.bgid-member {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid var(--b1-color);
+}
+.bgid-mem-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.bgid-mem-men{
+  margin: 20px;
+}
+.bgid-mem-men p {
+  color: var(--b1-color);
+  font-size: var(--h5-font-size);
+}
+.bgid-mem-imgs {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+}
+.bgid-mem-imgs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.bgid-mem-img {
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+.bgid-mem-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.bgid-mem-trac {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: var(--b1-color);
+  color: var(--white-color);
+  border-radius: 20px;
+  font-size: var(--p-font-size);
+}
+.bgid-mem-trac:hover {
+  background-color: var(--o1-color);
+}
+
+.bgid-suggest {
+  width: 30%;
+  background-color: green;
+}
+.bgid-img {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+.bgid-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.bgid-title {
+  font-size: var(--h3-font-size);
+  padding: var(--h5-font-size);
+}
+.bgid-prepagedetail {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--h6-font-size);
+  color: var(--g2-color);
+}
+
+.bgid-class {
+  display: flex;
+}
+.bgid-content {
+  padding: var(--h3-font-size);
+
+    color: black;
+    font-size:var(--h5-font-size);
+    line-height: 1.8;
+  
+}
+
+.bgid-collecting {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: var(--g3-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-to-collect-word {
+  display: flex;
+}
+
+.add-to-collect-btn {
+  width: 100px;
+  padding: 10px;
+  border: 3px solid var(--b1-color);
+  background-color: transparent;
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.add-to-collect-btn:hover {
+  background-color: var(--b2-color);
+  color: var(--white-color);
+}
+
+.bgid-nextad {
+  display: flex;
+  justify-content: space-around;
+  margin: 3px;
+  padding: 20px;
+}
+
+.bgid-upblog {
+  width: 39%;
+  border: 1px var(--g3-color) solid;
+  border-radius: 25%;
+}
+.bgid-nextblog {
+  width: 39%;
+  height: auto;
+  border: 1px var(--g3-color) solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.bgid-upnextblog {
+  padding: 10px;
+  display: flex;
+}
+.bgid-nextblogbtn {
+  width: 100%;
+  background-color: var(--o1-color);
+  color: var(--white-color);
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.bgid-nextblogbtn:hover {
+  background-color: var(--o2-color);
+}
+.bgid-nextblog-a {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bgid-upnextblog h3 {
+  font-weight: bold;
+}
+.bgid-nextblog-b {
+  height: 80px;
+  padding: 10px;
+}
+.bgid-response {
+  margin-top: 50px;
+}
+
+.bgidre-titel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bgidre-titel h5 {
+  font-size: var(--h5-font-size);
+  margin: 30px;
+  color: var(--b1-color);
+}
+.bgid-showall {
+  width: 100%;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: var(--h6-font-size);
+  margin: 25px;
+  color: var(--b2-color);
+}
+
+.bgidre-content {
+  display: flex;
+}
+
+.bgidre-img {
+  width: 30px;
+  height: 30px;
+}
+.bgidre-imgin {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* 卡片 */
+/* .bgid-cards{
+    width: 100%;
+  height: auto;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(150, 150, 150, 0.3);
+    
+} */
+.bgid-item {
+  width: 100%;
+  height: auto;
+  background-color: var(--white-color);
+
+  margin: 0;
+}
+.bgid-flex {
+  display: flex;
+}
+
+.bgid-img-a {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+.bgid-img-a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.bgid-name {
+  height: 65px;
+  font-size: var(--h6-font-size);
+  color: var(--b1-color);
+  font-weight: bold;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+}
+.blog-fav {
+  font-size: var(--p-sm-font-size);
+  color: var(--g2-color);
+  /* padding: 0px 10px; */
+}
+.bgid-price {
+  font-size: var(--h6-font-size);
+  color: var(--o1-color);
+  font-weight: bold;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.bgid-info {
+  padding: 10px 10px;
+  letter-spacing: 1px;
+}
+
+.bgid-stock {
+  font-size: var(--p-sm-font-size);
+  color: var(--g2-color);
+  /* padding: 0px 10px; */
+}
+
+.bgid-purchase-qty {
+  margin-top: 10px;
+  font-size: var(--h6-font-size);
+  color: var(--black-color);
+
+  /* padding: 10px; */
+}
+
+/* 加入購物車按鈕 */
+.cart-btn {
+  width: 100%;
+  padding: 10px;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid var(--b1-color);
+  background-color: transparent;
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* bgid-card: Hover */
+/* .bgid-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+  transform-origin: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  background-color: var(--o1-color);
+  height: auto;
+} */
+/* 
+.bgid-item:hover .bgid-name {
+  color: var(--white-color);
+}
+
+.bgid-item:hover .bgid-price {
+  color: var(--white-color);
+}
+
+.bgid-item:hover .bgid-stock, .bgid-item:hover .bgid-purchase-qty {
+  color: var(--white-color);
+} */
+
+/* 加入購物車按鈕: hover */
+.bgid-item:hover .add-to-cart-btn {
+  border: 3px solid var(--white-color);
+  background-color: transparent;
+  color: var(--black-color);
+}
+.bgid-item:hover .add-to-cart-btn:hover {
+  display: block;
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+/* 增加留言 */
+.bg-writereply-a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.bgid-writecontent {
+  width: 100%;
+  font-size: var(--h6-font-size);
+    padding: 10px;
+    border: 0.1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+}
+.bgid-enterbtn {
+  height: 50px;
+  width: 25%;
+  border: 3px solid var(--b1-color);
+  background-color: var(--b1-color);
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--white-color);
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 25px;
+}
+
+.bgid-enterbtn:hover {
+  background-color: var(--b2-color);
+  color: var(--o1-color);
+}
+
+
+.bg-writereplyform p{
+  font-size: var(--h5-font-size);
+  margin: 30px;
+  color: var(--b1-color);
+font-weight: bold;
+}

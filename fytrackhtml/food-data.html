@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>食品資料庫</title>
+    <link rel="stylesheet" href="../styles/styleguide.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/fytrack/food-data.module.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex space-between">
+        <div class="logo"><img src="../public/image/logo2.png" alt="" /></div>
+        <ul class="navbar">
+          <a href="#"><li class="navbar__link">健身追蹤</li></a>
+          <a href="#"><li class="navbar__link">課程專區</li></a>
+          <a href="#"><li class="navbar__link">線上商城</li></a>
+          <a href="#"><li class="navbar__link">健身論壇</li></a>
+        </ul>
+        <div class="navbar-icons">
+          <i class="navbar-icons__icon fa-solid fa-magnifying-glass"></i>
+          <i class="navbar-icons__icon fa-regular fa-bell"></i>
+          <i class="navbar-icons__icon fa-solid fa-cart-shopping"></i>
+          <div class="btn-login">登入</div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- 麵包屑導航 -->
+      <div class="breadcrumbs">首頁 / 健身追蹤 / 營養追蹤 / 食品資料庫</div>
+      <!-- 主要內容區 -->
+      <div class="main-content">
+        <div class="search-block">
+          <h2 style="color: white; text-align: center">食品資料庫</h2>
+          <div class="search-inputs">
+            <label for="food-type" style="color: white">食品種類：</label>
+            <select id="food-type">
+              <option value="all" class="select-option">All</option>
+              <!-- 其他選項 -->
+            </select>
+            <label for="keyword" class="input-label">關鍵字搜尋：</label>
+            <input type="text" id="keyword" placeholder="找食物" />
+          </div>
+          <div class="search-buttons">
+            <button class="clear-btn">清除</button>
+            <button class="search-btn">搜尋</button>
+          </div>
+        </div>
+        <div class="search-results">
+          <p>共有 N 項結果</p>
+          <table class="data-table">
+            <!-- 表格內容 -->
+            <tr>
+              <th class="data-th">加入餐點</th>
+              <th class="data-th">食品</th>
+              <th class="data-th">份量</th>
+              <th class="data-th">份量單位</th>
+              <th class="data-th">熱量</th>
+              <th class="data-th">蛋白質</th>
+              <th class="data-th">醣類</th>
+              <th class="data-th">脂質</th>
+              <th class="data-th">鈉</th>
+            </tr>
+            <!-- 模擬數據行 --> 
+            <tr>
+              <td><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+            <!-- 可以添加更多行以模擬數據 -->
+            <tr>
+              <td class="data-td"><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+            <tr>
+              <td class="data-td"><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+            <tr>
+              <td class="data-td"><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+            <tr>
+              <td class="data-td"><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+            <tr>
+              <td class="data-td"><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+            <tr>
+              <td class="data-td"><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+            <tr>
+              <td class="data-td"><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+            <tr>
+              <td class="data-td"><i class="fa-solid fa-circle-plus"></i></td>
+              <td class="data-td">食品名稱</td>
+              <td class="data-td">1</td>
+              <td class="data-td">份</td>
+              <td class="data-td">200 kcal</td>
+              <td class="data-td">10 g</td>
+              <td class="data-td">20 g</td>
+              <td class="data-td">5 g</td>
+              <td class="data-td">100 mg</td>
+            </tr>
+          </table>
+          <div class="pagination">
+            <a href="#" class="page-link">1</a>
+            <a href="#" class="page-link">2</a>
+            <a href="#" class="page-link">3</a>
+            <a href="#" class="page-link">4</a>
+            <a href="#" class="page-link">5</a>
+            <!-- 其他頁碼 -->
+            <a href="#" class="page-link">〉</a>
+            <a href="#" class="page-link">》</a>
+            <span>共有23頁</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

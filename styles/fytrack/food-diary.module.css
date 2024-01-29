@@ -1,0 +1,287 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto; /* 水平居中內容 */
+  border-radius: 10px; /* 增加圓角邊框 */
+  box-sizing: border-box;
+  width: 80%;
+  /* margin-bottom: 100px; */
+  padding-top: 100px;
+  padding-bottom: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f9f9f9; /* 添加淺色背景 */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* 添加陰影 */
+}
+
+/* 麵包屑樣式 */
+.breadcrumbs {
+  font-size: 20px;
+  color: #888888;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+/* 主要內容區樣式 */
+.main-content {
+  display: flex;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  width: 50%;
+  height: 600px;
+  border: 1px solid lightgrey;
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24); /* 添加陰影 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加平滑過渡效果 */
+
+}
+
+.dashboard:hover {
+  transform: scale(1.03); /* 輕微放大 */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* 增加陰影 */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease; /* 平滑過度效果 */
+  border: 2px solid #ff804a; /* 添加邊框 */
+}
+
+.dashboard .date-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: gray;
+}
+
+.dashboard .settings-button {
+  background-color: #1c3b5e;
+  color: white;
+  border: 2px solid #1c3b5e; /* 增加邊框 */
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* 添加平滑過渡效果 */
+  font-size: 16px; /* 增加字體大小 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 添加陰影 */
+  transition: all 0.3s ease, transform 0.2s;
+}
+
+.settings-button:hover {
+  background-color: #ff804a;
+  color: #ffffff;
+  transform: scale(1.05); /* 輕微放大按鈕 */
+  border-color: #ff804a; /* 改變邊框顏色 */
+}
+
+.settings-button:active {
+  color: #1c3b5e;
+  background-color: #ffffff;
+}
+
+.nutrition-container {
+  display: flex;
+  justify-content: space-around; /* 增加元素之間的空間 */
+  align-items: center; /* 垂直居中對齊內容 */
+  width: 100%; /* 確保容器佔滿整個寬度 */
+  padding: 10px;
+}
+
+.dashboard .circular-chart {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px; /* 同樣增加左右邊距 */
+  padding: 10px;
+  background-color: transparent;
+}
+
+.dashboard .circular-content {
+  font-size: 20px; /* 調整字體大小 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nutrition-info {
+  text-align: center; /* 文字水平置中 */
+  vertical-align: middle;
+  margin: 0 20px; /* 增加左右邊距以拉開距離 */
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.fa-solid {
+  font-size: 24px;
+}
+
+.target,
+.remainder,
+.intake {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 內容垂直置中 */
+  margin: 10px 0; /* 調整上下間距，可根據需要調整 */
+}
+
+/* 營養進度條區塊樣式 */
+.dashboard .nutrition-bars {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  gap: 10px; /* 元素之間的間距 */
+}
+
+.dashboard .nutrition-bar {
+  flex-basis: calc(33.33% - 20px); /* 三個元素每行顯示一個 */
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+
+.dashboard .nutrition-bar .paragraph {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.dashboard .progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  margin-top: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.dashboard .progress {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.dashboard .nutrition-info .progress-bar .data-fill {
+  /* 這將根據數據動態調整寬度 */
+  background-color: deepskyblue;
+  height: 100%; /* 數據條的高度填滿進度條 */
+  width: 50%; /* 假設數據進度為 50%，可以根據實際數據調整這個值 */
+  border-radius: 5px; /* 數據條的圓角 */
+  transition: width 0.3s ease; /* 平滑過渡效果 */
+}
+
+.dashboard .progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: darkgrey;
+  border-radius: 5px;
+}
+
+/* 營養數據區塊 hover 效果 */
+.dashboard .nutrition-info:hover {
+  border-radius: 10px;
+  transform: scale(1.08); /* 輕微放大 */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* 平滑過渡效果 */
+}
+
+/* 圓形圖表區塊 hover 效果 */
+.dashboard .circular-chart:hover {
+  transform: scale(1.05); /* 輕微放大 */
+  transition: border 0.3s ease, transform 0.3s ease; /* 平滑過渡效果 */
+}
+
+/* 營養進度條區塊 hover 效果 */
+.dashboard .nutrition-bar:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+  transform: scale(1.05); /* 輕微放大 */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* 平滑過渡效果 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+}
+
+/* 額外訊息區塊樣式 */
+.calorie-info {
+  margin-top: 20px;
+}
+
+.calorie-burned {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  border-top: 1px solid lightgrey;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+.calorie-burned img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+/* 食物日記卡片區塊樣式 */
+.food-diary {
+  flex: 1;
+  padding-left: 20px; /* 根據需要調整間距 */
+}
+
+.meal-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* 卡片之間的間距 */
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meal-card:hover {
+  transform: scale(1.05); /* 輕微放大 */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 增加陰影 */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* 平滑過渡效果 */
+  border:2px solid #ff804a;
+  /* background-color: #ff804a; */
+}
+
+/* MealCardButton hover 效果 */
+.meal-card button:hover {
+  color: #ff804a; /* 改變顏色 */
+  transform: scale(1.1) rotate(15deg); /* 輕微放大和旋轉 */
+  transition: color 0.3s ease, transform 0.3s ease; /* 平滑過渡效果 */
+}
+
+
+.meal-image .img-resize {
+  width: 80px; /* 圓形圖片大小 */
+  height: 80px;
+  border-radius: 50%; /* 圓形圖片 */
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.breakfast,
+.lunch,
+.dinner,
+.dessert {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #888888;
+}
+
+.fa-solid.fa-circle-plus {
+  margin-left: auto;
+  font-size: 2rem;
+  color: #536080;
+  cursor: pointer;
+}

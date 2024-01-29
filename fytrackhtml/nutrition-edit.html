@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>編輯營養追蹤</title>
+    <link rel="stylesheet" href="../styles/styleguide.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/fytrack/nutrition-edit.module.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex space-between">
+        <div class="logo"><img src="../public/image/logo2.png" alt="" /></div>
+        <ul class="navbar">
+          <a href="#"><li class="navbar__link">健身追蹤</li></a>
+          <a href="#"><li class="navbar__link">課程專區</li></a>
+          <a href="#"><li class="navbar__link">線上商城</li></a>
+          <a href="#"><li class="navbar__link">健身論壇</li></a>
+        </ul>
+        <div class="navbar-icons">
+          <i class="navbar-icons__icon fa-solid fa-magnifying-glass"></i>
+          <i class="navbar-icons__icon fa-regular fa-bell"></i>
+          <i class="navbar-icons__icon fa-solid fa-cart-shopping"></i>
+          <div class="btn-login">登入</div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- 麵包屑導航 -->
+      <div class="breadcrumbs">首頁 / 健身追蹤 / 營養追蹤 / 設定</div>
+      <!-- 主要內容區 -->
+      <div class="image-container">
+        <img
+          src="../public/fytrack_img/add-img.jpg"
+          alt="新增營養數據頁面圖"
+        />
+        <i class="fa-regular fa-square-plus icon-plus"></i>
+      </div>
+      <form class="nutrition-form">
+        <div class="form-title">編輯設定目標</div>
+        
+        <!-- 時間表單項目 -->
+        <!-- <div class="form-item">
+          <div class="input-group">
+            <i class="fa-solid fa-calendar-days"></i>
+            <label for="date" class="label">時間</label>
+          </div>
+          <input type="text" id="date" placeholder="請輸入日期、時間" />
+        </div> -->
+        
+        <!-- 目標熱量表單項目 -->
+        <div class="form-item">
+          <div class="input-group">
+            <i class="fa-solid fa-bullseye"></i>
+            <label for="target" class="label">目標熱量</label>
+          </div>
+          <input type="text" id="target" placeholder="變更目標熱量" />
+        </div>
+        
+        <!-- 目標脂肪表單項目 -->
+        <div class="form-item">
+          <div class="input-group">
+            <i class="fa-brands fa-nutritionix"></i>
+            <label for="fat" class="label">目標脂肪</label>
+          </div>
+          <input type="text" id="fat" placeholder="變更目標脂肪" />
+        </div>
+        
+        <!-- 目標蛋白質表單項目 -->
+        <div class="form-item">
+          <div class="input-group">
+            <i class="fa-brands fa-nutritionix"></i>
+            <label for="protein" class="label">目標蛋白質</label>
+          </div>
+          <input type="text" id="protein" placeholder="變更目標蛋白質" />
+        </div>
+        
+        <!-- 目標碳水化合物表單項目 -->
+        <div class="form-item">
+          <div class="input-group">
+            <i class="fa-brands fa-nutritionix"></i>
+            <label for="carbohydrates" class="label">目標碳水化合物</label>
+          </div>
+          <input type="text" id="carbohydrates" placeholder="變更目標碳水化合物" />
+        </div>
+        
+        <button type="submit" class="button">送出</button>
+
+      </form>
+    </div>
+  </body>
+</html>

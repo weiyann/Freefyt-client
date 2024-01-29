@@ -1,0 +1,241 @@
+/* cart-step */
+#cart-step {
+  width: 100%;
+  padding: 160px 0;
+}
+
+.cart-step-section {
+  width: 100%;
+  padding: 160px 0;
+}
+
+.cart-step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px;
+  z-index: 2;
+}
+
+.num {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: var(--o2-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--h6-font-size);
+  font-weight: bold;
+  color: var(--white-color);
+}
+
+.step-text {
+  width: 100px;
+  color: var(--o2-color);
+  font-size: var(--h6-font-size);
+  font-weight: bold;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+/* current+prev 步驟套用深色 */
+.num-current {
+  background-color: var(--o1-color);
+}
+
+.step-text-current {
+  color: var(--o1-color);
+}
+
+.step-line {
+  width: 600px;
+  height: 3px;
+  position: absolute;
+  top: 30px;
+  background-color: var(--o2-color);
+  z-index: 1;
+}
+
+/* step 1 */
+/* 預約時間 */
+
+.choose-time{
+  color: var(--b1-color);
+  font-size: var(--h4-font-size);
+  text-align: center;
+  font-weight: 800;
+  margin: 40px;
+}
+.weeklyCalendar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.course-order-title{
+  width: 100%;
+  color: var(--b1-color);
+  display: flex;
+  justify-content: center;
+  font-size: var(--h4-font-size);
+  font-weight: bold;
+  background-color: var(--g4-color);
+  border: 1px solid var(--g3-color);
+  padding: 10px 0;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.course-item{
+  display: grid;
+  padding: 10px 0;
+  border: 1px solid var(--g3-color);
+  grid-template-columns: 1fr 1fr 2fr 1fr ;
+  align-items: center;
+}
+.course-th{
+  text-align: center;
+  color: var(--g1-color);
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+  padding: 0;
+  margin: 5px 15px;
+}
+.course-td{
+  text-align: center;
+  color: var(--g1-color);
+  font-size: var(--h6-font-size);
+  padding: 0;
+  margin: 5px 15px;
+}
+
+/* 前往結帳按鈕 */
+.btn-container{
+  padding: 20px 20px;
+  /* border: 1px solid var(--g3-color); */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.btn-to-checkout{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: var(--b2-color);
+  padding: 10px;
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+  border-radius: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.btn-to-checkout:hover{
+  background-color: var(--b4-color);
+  color: var(--b1-color);
+  font-weight: 800;
+}
+.btn-to-checkout-disabled{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: var(--g3-color);
+  padding: 10px;
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+/* step2 */
+/* 填寫付款資料 */
+.credit-card-container{
+  width: 600px;
+  border:1px solid var(--g3-color);
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+.card-title{
+  width: 100%;
+  color: var(--b1-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--h5-font-size);
+  font-weight: bold;
+  background-color: var(--g4-color);
+  border: 1px solid var(--g3-color);
+  padding: 10px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.card-body{
+  padding: 20px;
+}
+.credit-card-title{
+  color: var(--b1-color);
+  font-size: var(--h6-font-size);
+  font-weight: 800;
+}
+.card-text{
+  color: var(--b1-color);
+  font-size: var(--h6-font-size);
+  margin-top: 10px;
+}
+.card-body input{
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  font-size: var(--h6-font-size);
+  margin-bottom: 4px;
+}
+
+/* 信用卡結帳按鈕 */
+.btn-pay-credit{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: var(--b2-color);
+  padding: 10px;
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+  border-radius: 10px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+.btn-pay-credit:hover{
+  background-color:var(--b4-color);
+  color: var(--b1-color);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+/* step 3 */
+.success-text {
+  text-align: center;
+  font-size: var(--h4-font-size);
+  color: #07c05f;
+  margin: 10px 0;
+}
+.order-line{
+  display: flex;
+ margin-bottom: 20px;
+}
+.order-text{
+  font-size: var(--h6-font-size);
+  color: var(--g1-color);
+  letter-spacing: 1px;
+  margin-right:5px ;
+}

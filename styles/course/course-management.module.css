@@ -1,0 +1,478 @@
+.breadcrumb-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 160px;
+}
+/* 管理介面 */
+.management-interface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 130px;
+}
+/* 管理選項 */
+.management-select-group {
+  display: flex;
+  justify-content: left;
+  width: 1200px;
+  margin-bottom: -4px;
+}
+.management-selection {
+  display: flex;
+  padding: 8px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+  border: 4px solid var(--b1-color);
+  border-bottom: 0;
+  margin-right: -4px;
+  color: var(--b1-color);
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+}
+.management-selection:hover {
+  color: var(--white-color);
+  background-color: var(--b1-color);
+  cursor: pointer;
+}
+.management-selection-active{
+  color: var(--white-color);
+  background-color: var(--b1-color);
+}
+
+.management-content {
+  width: 1200px;
+  background-color: var(--g4-color);
+  border: 4px solid var(--b1-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 月曆標題+按鈕 */
+.calendar-title{
+  display: flex;
+  margin: 30px 0px;
+  padding-left: 60px;
+  width: 100%;
+  align-items: center;
+}
+.preMonth{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border: 2px solid var(--b1-color);
+  border-radius: 20px 0 0 20px;
+  cursor: pointer;
+}
+.preMonth:hover,.nextMonth:hover{
+  background-color: var(--b2-color);
+}
+.preMonth svg,.nextMonth svg{
+  color:var(--b1-color);
+  width: 30px;
+  height: 30px;
+}
+.preMonth:hover svg,.nextMonth:hover svg{
+  color:var(--white-color);
+}
+.nextMonth{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border: 2px solid var(--b1-color);
+  border-radius: 0 20px 20px 0;
+  margin-left: -1px;
+  cursor: pointer;
+}
+.yearAndMonth{
+  color: var(--g1-color);
+  font-size: var(--h4-font-size);
+  font-weight: 800;
+  margin-left: 30px;
+  width: 300px;
+}
+.status-text{
+  color: var(--g1-color);
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+  margin-left: 12px;
+  margin-right: 28px;
+}
+.reserved-dot{
+  background-color: var(--o1-color);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+.unreserved-dot{
+  background-color: var(--b2-color);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+.finished-dot{
+  background-color: var(--g2-color);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+
+/* 月曆 */
+.calendar {
+  width: 90%;
+  border-collapse: collapse;
+  margin-bottom: 20px; /* 可根據需要調整 */
+}
+.tr{
+  border: 1px solid var(--g2-color);
+  text-align: center;
+  background-color: var(--b4-color);
+  color: var(--b2-color);
+  font-size: var(--h5-font-size);
+}
+.th {
+  border: 1px solid var(--g2-color);
+  padding: 8px;
+}
+.day-box{
+  height: 140px;
+  width: 153px;
+  background-color: var(--white-color);
+}
+.order-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 120px
+}
+.course-reserved{
+  background-color: var(--o1-color);
+  color:var(--white-color);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: fit-content;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+.course-unreserved{
+  background-color: var(--b2-color);
+  color:var(--white-color);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: fit-content;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+.course-finished{
+  background-color: var(--g2-color);
+  color:var(--white-color);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: fit-content;
+  padding: 0px 5px;
+}
+/* 當天課程清單 */
+.currentDate-title{
+  color: var(--g1-color);
+  font-size: var(--h4-font-size);
+  font-weight: 800;
+  width: 100%;
+  justify-content: flex-start;
+  padding-left: 60px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.currentDateList{
+width: 90%;
+margin-bottom: 80px;
+}
+.currentDateList-th{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--b4-color);
+  font-size: var(--h5-font-size);
+  color: var(--b1-color);
+  font-weight: 800;
+  border: 1px solid var(--g2-color);
+  height: 48px;
+}
+.currentDateList-td{
+display: flex;
+justify-content: center;
+align-items: center;
+  width: 100%;
+}
+.currentDateList-tr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--white-color);
+  font-size: var(--p-font-size);
+  color: var(--g1-color);
+  border: 1px solid var(--g2-color);
+  border-top: 0px;
+  height: 48px;
+}
+.currentDateList p{
+  font-size: var(--h6-font-size);
+}
+
+/* 我的課程 */
+/* 篩選 */
+.sort-group {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  padding:48px
+}
+.sort-title{
+  color: var(--b1-color);
+  font-size: var(--h6-font-size);
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.reserved {
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  border: 2px solid var(--o1-color);
+  color: var(--o1-color);
+  font-size: var(--h6-font-size);
+  margin-right: 24px;
+}
+.reserved-active,.reserved:hover {
+  color:var(--white-color);
+  background-color: var(--o1-color);
+  cursor: pointer;
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  border: 2px solid var(--o1-color);
+  font-size: var(--h6-font-size);
+  margin-right: 24px;
+}
+.unreserved {
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  border: 2px solid var(--b2-color);
+  color: var(--b2-color);
+  font-size: var(--h6-font-size);
+  margin-right: 24px;
+}
+.unreserved-active,.unreserved:hover {
+  color:var(--white-color);
+  background-color: var(--b2-color);
+  cursor: pointer;
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  border: 2px solid var(--b2-color);
+  font-size: var(--h6-font-size);
+  margin-right: 24px;
+}
+.finished {
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  border: 2px solid var(--g2-color);
+  color: var(--g2-color);
+  font-size: var(--h6-font-size);
+}
+.finished-active,.finished:hover{
+  color:var(--white-color);
+  background-color: var(--g2-color);
+  cursor: pointer;
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  border: 2px solid var(--g2-color);
+  font-size: var(--h6-font-size);
+}
+
+/* 日期篩選 */
+.date-filter{
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+.date-label{
+  color: var(--g1-color);
+  font-size: var(--p-font-size);
+}
+.date-input{
+  width: 160px;
+  height:32px;
+  font-size: var(--h6-font-size);
+  border-radius: 5px;
+  border: 2px solid var(--g2-color);
+  background-color: var(--g4-color);
+  color: var(--g1-color);
+  margin: 0px 12px;
+}
+
+
+/* 我的課程卡片 */
+.course-box{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 60px;
+}
+.course-card{
+  width: 900px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: var(--card-shadow1);
+  display: flex;
+}
+/* 我的課程圖片 */
+.course-img{
+  width: 250px;
+  height:200px;
+  border-radius:10px 0px 0px 10px;
+  overflow: hidden;
+}
+.course-img img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* 卡片主體 */
+.card-body{
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+.course-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-right: 80px; */
+  width: 300px;
+}
+.course-name{
+  color: var(--g1-color);
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+  width: 100%;
+}
+.course-price{
+  color: var(--o1-color);
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+}
+.coach{
+  display: flex;
+  align-items: center;
+  width:100%
+}
+.coach-img{
+  width: 80px;
+  height:80px;
+  border-radius:50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.coach-img img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.coach-name{
+  color: var(--g1-color);
+  font-size: var(--h6-font-size);
+  font-weight: 800;
+}
+
+.course-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.course-time{
+  color: var(--g1-color);
+  font-size: var(--h6-font-size);
+  font-weight: 800;
+}
+.purchase-time{
+  color: var(--g1-color);
+  font-size: var(--p-font-size);
+}
+.course-status{
+  color: var(--g1-color);
+  font-size: var(--p-font-size);
+  display: flex;
+  align-items: center;
+}
+.btn-reserved{
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: var(--white-color);
+  background-color: var(--o1-color);
+  font-size: var(--p-font-size);
+}
+.btn-unreserved{
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: var(--white-color);
+  background-color: var(--b2-color);
+  font-size: var(--p-font-size);
+}
+.btn-finished{
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: var(--white-color);
+  background-color: var(--g2-color);
+  font-size: var(--p-font-size);
+}
+.course-link{
+  color: var(--b2-color);
+  border: none;
+  font-size: var(--p-font-size);
+}
+.course-link:hover{
+  color: var(--o1-color);
+  cursor: pointer;
+}

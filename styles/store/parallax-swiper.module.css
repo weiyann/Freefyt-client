@@ -1,0 +1,76 @@
+.swiper {
+  width: 100%;
+  height: 50vh;
+  object-fit: contain;
+  object-position: top;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 3px;
+  margin-top: 120px;
+  margin-left: 300px;
+}
+
+.text {
+  font-size: 1.6rem;
+  max-width: 700px;
+  line-height: 1.5;
+  color: white;
+  letter-spacing: 2px;
+  margin-left: 300px;
+}
+
+.btn-get-coupon {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: var(--b1-color);
+  font-size: var(--h6-font-size);
+  padding: 10px 40px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-get-coupon:hover {
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: var(--h6-font-size);
+  padding: 10px 40px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content-wrapper {
+  margin-left: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: center;
+}

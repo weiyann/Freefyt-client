@@ -1,0 +1,6143 @@
+[
+  {
+    "food_id": "1",
+    "food_category_id": "1",
+    "food_name": "稻荷壽司",
+    "food_calorie": "238",
+    "food_protein": "7.2",
+    "food_carb": "40.6",
+    "food_fat": "5.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "2",
+    "food_category_id": "1",
+    "food_name": "大飯糰泡菜鮪魚",
+    "food_calorie": "277",
+    "food_protein": "7.1",
+    "food_carb": "48.2",
+    "food_fat": "6.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "3",
+    "food_category_id": "1",
+    "food_name": "大飯糰江原道雪蟹蟹膏",
+    "food_calorie": "266",
+    "food_protein": "5.9",
+    "food_carb": "43.5",
+    "food_fat": "7.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "4",
+    "food_category_id": "1",
+    "food_name": "鮭魚海帶芽飯糰",
+    "food_calorie": "173",
+    "food_protein": "4.1",
+    "food_carb": "34.4",
+    "food_fat": "2.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "5",
+    "food_category_id": "1",
+    "food_name": "雞肉飯飯糰",
+    "food_calorie": "198",
+    "food_protein": "5.9",
+    "food_carb": "34.2",
+    "food_fat": "4.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "6",
+    "food_category_id": "1",
+    "food_name": "韓式牛肉飯卷",
+    "food_calorie": "216",
+    "food_protein": "7.3",
+    "food_carb": "35.1",
+    "food_fat": "5.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "7",
+    "food_category_id": "1",
+    "food_name": "大飯糰全州風味拌飯",
+    "food_calorie": "273",
+    "food_protein": "9.5",
+    "food_carb": "45.2",
+    "food_fat": "5.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "8",
+    "food_category_id": "1",
+    "food_name": "芝麻香鬆飯糰",
+    "food_calorie": "237",
+    "food_protein": "5.8",
+    "food_carb": "39.1",
+    "food_fat": "6.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "9",
+    "food_category_id": "1",
+    "food_name": "香腸炒飯飯糰",
+    "food_calorie": "229",
+    "food_protein": "5.8",
+    "food_carb": "40.9",
+    "food_fat": "4.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "10",
+    "food_category_id": "1",
+    "food_name": "少一杯蛤蜊飯糰",
+    "food_calorie": "198",
+    "food_protein": "4.3",
+    "food_carb": "39.1",
+    "food_fat": "2.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "11",
+    "food_category_id": "1",
+    "food_name": "鮑菇脆筍飯糰",
+    "food_calorie": "165",
+    "food_protein": "3.7",
+    "food_carb": "32.7",
+    "food_fat": "2.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "12",
+    "food_category_id": "1",
+    "food_name": "鮮鮭鮪魚雙手卷",
+    "food_calorie": "296",
+    "food_protein": "7",
+    "food_carb": "56.4",
+    "food_fat": "4.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "13",
+    "food_category_id": "1",
+    "food_name": "海陸雙拼雙手卷一",
+    "food_calorie": "279",
+    "food_fat": "4.9",
+    "food_protein": "8.2",
+    "food_carb": "50.5",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "14",
+    "food_category_id": "1",
+    "food_name": "大飯糰辣炒豬肉",
+    "food_calorie": "256",
+    "food_protein": "6.6",
+    "food_carb": "48.5",
+    "food_fat": "3.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "15",
+    "food_category_id": "1",
+    "food_name": "熟成明太子飯糰",
+    "food_calorie": "156",
+    "food_protein": "3.9",
+    "food_carb": "30.5",
+    "food_fat": "2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "16",
+    "food_category_id": "1",
+    "food_name": "稻荷壽司",
+    "food_calorie": "361",
+    "food_protein": "11.2",
+    "food_carb": "68.4",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "17",
+    "food_category_id": "1",
+    "food_name": "大飯糰韓式炙燒美乃雞",
+    "food_calorie": "270",
+    "food_protein": "8.3",
+    "food_carb": "48.8",
+    "food_fat": "4.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "18",
+    "food_category_id": "1",
+    "food_name": "大飯糰韓式烤牛肉",
+    "food_calorie": "250",
+    "food_protein": "6.6",
+    "food_carb": "46.1",
+    "food_fat": "4.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "19",
+    "food_category_id": "1",
+    "food_name": "蔬食鮪魚飯糰",
+    "food_calorie": "188",
+    "food_protein": "4.5",
+    "food_carb": "35",
+    "food_fat": "3.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "20",
+    "food_category_id": "1",
+    "food_name": "北海道昆布飯糰",
+    "food_calorie": "149",
+    "food_protein": "3.3",
+    "food_carb": "32.8",
+    "food_fat": "0.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "21",
+    "food_category_id": "1",
+    "food_name": "鹽蔥燒肉飯糰",
+    "food_calorie": "174",
+    "food_protein": "5.7",
+    "food_carb": "30.8",
+    "food_fat": "3.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "22",
+    "food_category_id": "1",
+    "food_name": "椒麻肉鬆飯糰",
+    "food_calorie": "234",
+    "food_protein": "5.3",
+    "food_carb": "36.8",
+    "food_fat": "7.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "23",
+    "food_category_id": "1",
+    "food_name": "鹽水雞飯糰",
+    "food_calorie": "159",
+    "food_protein": "6.6",
+    "food_carb": "27",
+    "food_fat": "2.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "24",
+    "food_category_id": "1",
+    "food_name": "黃金海膽醬干貝飯糰",
+    "food_calorie": "144",
+    "food_protein": "4.4",
+    "food_carb": "28.8",
+    "food_fat": "28.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "25",
+    "food_category_id": "1",
+    "food_name": "壽喜燒牛五花飯糰",
+    "food_calorie": "209",
+    "food_protein": "7.3",
+    "food_carb": "30.4",
+    "food_fat": "6.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "26",
+    "food_category_id": "1",
+    "food_name": "鮪魚飯糰",
+    "food_calorie": "188",
+    "food_protein": "5",
+    "food_carb": "32",
+    "food_fat": "4.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "27",
+    "food_category_id": "1",
+    "food_name": "明太子龍蝦風味沙拉飯糰",
+    "food_calorie": "211",
+    "food_protein": "4.5",
+    "food_carb": "34.7",
+    "food_fat": "6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "28",
+    "food_category_id": "1",
+    "food_name": "紅鮭飯糰",
+    "food_calorie": "171",
+    "food_protein": "5.2",
+    "food_carb": "33.7",
+    "food_fat": "1.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "29",
+    "food_category_id": "1",
+    "food_name": "鮭魚鮭魚卵飯糰",
+    "food_calorie": "203",
+    "food_protein": "4.8",
+    "food_carb": "32.9",
+    "food_fat": "5.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "30",
+    "food_category_id": "1",
+    "food_name": "江原道雪蟹蟹膏飯糰",
+    "food_calorie": "193",
+    "food_protein": "4.1",
+    "food_carb": "31.8",
+    "food_fat": "5.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "31",
+    "food_category_id": "1",
+    "food_name": "炙燒鹽麴鯖魚飯糰",
+    "food_calorie": "193",
+    "food_protein": "5.6",
+    "food_carb": "30.5",
+    "food_fat": "5.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "32",
+    "food_category_id": "1",
+    "food_name": "經典肉鬆飯糰",
+    "food_calorie": "239",
+    "food_protein": "5.6",
+    "food_carb": "41.4",
+    "food_fat": "5.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "33",
+    "food_category_id": "1",
+    "food_name": "雞肉飯飯糰",
+    "food_calorie": "186",
+    "food_protein": "5.4",
+    "food_carb": "33",
+    "food_fat": "3.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "34",
+    "food_category_id": "1",
+    "food_name": "鮪魚細卷",
+    "food_calorie": "167",
+    "food_protein": "4.4",
+    "food_carb": "30.2",
+    "food_fat": "3.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "35",
+    "food_category_id": "1",
+    "food_name": "肉鬆細卷",
+    "food_calorie": "217",
+    "food_protein": "4.4",
+    "food_carb": "37.7",
+    "food_fat": "5.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "36",
+    "food_category_id": "1",
+    "food_name": "鮪魚飯糰",
+    "food_calorie": "188",
+    "food_protein": "5",
+    "food_carb": "32",
+    "food_fat": "4.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "37",
+    "food_category_id": "1",
+    "food_name": "明太子龍蝦風味沙拉飯糰",
+    "food_calorie": "211",
+    "food_protein": "4.5",
+    "food_carb": "34.7",
+    "food_fat": "6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "38",
+    "food_category_id": "1",
+    "food_name": "經典肉鬆飯糰",
+    "food_calorie": "268",
+    "food_protein": "5.9",
+    "food_carb": "42.6",
+    "food_fat": "8.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "39",
+    "food_category_id": "1",
+    "food_name": "肉鬆細卷",
+    "food_calorie": "229",
+    "food_protein": "5.1",
+    "food_carb": "33.8",
+    "food_fat": "8.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "40",
+    "food_category_id": "1",
+    "food_name": "鮪魚細卷",
+    "food_calorie": "176",
+    "food_protein": "3.8",
+    "food_carb": "30.2",
+    "food_fat": "4.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "41",
+    "food_category_id": "2",
+    "food_name": "雞蛋牛奶手排包",
+    "food_calorie": "443",
+    "food_protein": "11.1",
+    "food_carb": "66.4",
+    "food_fat": "14.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "42",
+    "food_category_id": "2",
+    "food_name": "典藏蜂蜜蛋糕",
+    "food_calorie": "180",
+    "food_protein": "3.8",
+    "food_carb": "33.9",
+    "food_fat": "3.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "43",
+    "food_category_id": "2",
+    "food_name": "蜜雪蛋糕",
+    "food_calorie": "402",
+    "food_protein": "8.3",
+    "food_carb": "62.2",
+    "food_fat": "13.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "44",
+    "food_category_id": "2",
+    "food_name": "杯子蛋糕",
+    "food_calorie": "100",
+    "food_protein": "1.8",
+    "food_carb": "12.5",
+    "food_fat": "4.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "45",
+    "food_category_id": "2",
+    "food_name": "巧克力派司",
+    "food_calorie": "405",
+    "food_protein": "5.9",
+    "food_carb": "37",
+    "food_fat": "25.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "46",
+    "food_category_id": "2",
+    "food_name": "重黑巧克力蛋糕",
+    "food_calorie": "419",
+    "food_protein": "7.3",
+    "food_carb": "45.8",
+    "food_fat": "23",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "47",
+    "food_category_id": "2",
+    "food_name": "起酥蛋糕",
+    "food_calorie": "235",
+    "food_protein": "5.2",
+    "food_carb": "32.1",
+    "food_fat": "9.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "48",
+    "food_category_id": "2",
+    "food_name": "蔥花麵包",
+    "food_calorie": "367",
+    "food_protein": "9",
+    "food_carb": "49.1",
+    "food_fat": "14.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "49",
+    "food_category_id": "2",
+    "food_name": "鹹奶油菠蘿小土司",
+    "food_calorie": "433",
+    "food_protein": "9.1",
+    "food_carb": "57",
+    "food_fat": "18.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "50",
+    "food_category_id": "2",
+    "food_name": "維也納奶油軟法",
+    "food_calorie": "393",
+    "food_protein": "8.3",
+    "food_carb": "50.6",
+    "food_fat": "17.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "51",
+    "food_category_id": "2",
+    "food_name": "紫薯芋泥軟歐",
+    "food_calorie": "250",
+    "food_protein": "6.3",
+    "food_carb": "44.6",
+    "food_fat": "5.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "52",
+    "food_category_id": "2",
+    "food_name": "鮮乳虎皮蛋糕捲",
+    "food_calorie": "507",
+    "food_protein": "9.4",
+    "food_carb": "47.3",
+    "food_fat": "31.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "53",
+    "food_category_id": "2",
+    "food_name": "維也納奶油餐包",
+    "food_calorie": "177",
+    "food_protein": "3",
+    "food_carb": "18.2",
+    "food_fat": "10.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "54",
+    "food_category_id": "2",
+    "food_name": "黃金奶油鹽可頌",
+    "food_calorie": "267",
+    "food_protein": "7.3",
+    "food_carb": "33.6",
+    "food_fat": "11.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "55",
+    "food_category_id": "2",
+    "food_name": "菠蘿麵包",
+    "food_calorie": "373",
+    "food_protein": "10.1",
+    "food_carb": "52.9",
+    "food_fat": "13.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "56",
+    "food_category_id": "2",
+    "food_name": "墨西哥葡萄奶酥麵包",
+    "food_calorie": "465",
+    "food_protein": "9.2",
+    "food_carb": "56.7",
+    "food_fat": "22.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "57",
+    "food_category_id": "2",
+    "food_name": "帕瑪森起司方塊堡",
+    "food_calorie": "265",
+    "food_protein": "7.7",
+    "food_carb": "36.6",
+    "food_fat": "9.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "58",
+    "food_category_id": "2",
+    "food_name": "韓國麵包球",
+    "food_calorie": "102",
+    "food_protein": "1.5",
+    "food_carb": "14.4",
+    "food_fat": "4.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "59",
+    "food_category_id": "2",
+    "food_name": "琥珀楓糖小可頌",
+    "food_calorie": "221",
+    "food_protein": "4.2",
+    "food_carb": "23.7",
+    "food_fat": "12.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "60",
+    "food_category_id": "2",
+    "food_name": "葡萄丹麥捲",
+    "food_calorie": "304",
+    "food_protein": "5.5",
+    "food_carb": "35.3",
+    "food_fat": "15.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "61",
+    "food_category_id": "2",
+    "food_name": "巧克力菠蘿",
+    "food_calorie": "346",
+    "food_protein": "9.4",
+    "food_carb": "47.9",
+    "food_fat": "13",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "62",
+    "food_category_id": "2",
+    "food_name": "香蒜起司麵包",
+    "food_calorie": "292",
+    "food_protein": "10.5",
+    "food_carb": "36.5",
+    "food_fat": "11.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "63",
+    "food_category_id": "2",
+    "food_name": "花生煉乳泡芙捲蛋糕",
+    "food_calorie": "465",
+    "food_protein": "7.5",
+    "food_carb": "27",
+    "food_fat": "36.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "64",
+    "food_category_id": "2",
+    "food_name": "海鹽奶香羅宋",
+    "food_calorie": "389",
+    "food_protein": "8.4",
+    "food_carb": "51.6",
+    "food_fat": "16.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "65",
+    "food_category_id": "2",
+    "food_name": "醇厚巧克力球",
+    "food_calorie": "294",
+    "food_protein": "3.8",
+    "food_carb": "46.2",
+    "food_fat": "10.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "66",
+    "food_category_id": "2",
+    "food_name": "法式巧克力拔絲麵包",
+    "food_calorie": "403",
+    "food_protein": "12.4",
+    "food_carb": "60.8",
+    "food_fat": "12.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "67",
+    "food_category_id": "2",
+    "food_name": "厚切醇乳香土司",
+    "food_calorie": "548",
+    "food_protein": "18.9",
+    "food_carb": "96.3",
+    "food_fat": "9.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "68",
+    "food_category_id": "2",
+    "food_name": "鮮奶餐包",
+    "food_calorie": "96",
+    "food_protein": "3.3",
+    "food_carb": "15.5",
+    "food_fat": "2.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "69",
+    "food_category_id": "2",
+    "food_name": "毛毛蟲奶露麵包",
+    "food_calorie": "301",
+    "food_protein": "7.5",
+    "food_carb": "39.9",
+    "food_fat": "12.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "70",
+    "food_category_id": "2",
+    "food_name": "芝心乳酪丹麥",
+    "food_calorie": "251",
+    "food_protein": "5.8",
+    "food_carb": "27.6",
+    "food_fat": "13.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "71",
+    "food_category_id": "2",
+    "food_name": "芋泥金沙麻吉麵包",
+    "food_calorie": "271",
+    "food_protein": "6.8",
+    "food_carb": "50.1",
+    "food_fat": "4.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "72",
+    "food_category_id": "2",
+    "food_name": "花生煉乳軟法",
+    "food_calorie": "314",
+    "food_protein": "10",
+    "food_carb": "44.2",
+    "food_fat": "10.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "73",
+    "food_category_id": "2",
+    "food_name": "脆皮巧克力麵包",
+    "food_calorie": "229",
+    "food_protein": "5",
+    "food_carb": "36.1",
+    "food_fat": "7.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "74",
+    "food_category_id": "2",
+    "food_name": "雙目糖蜂蜜蛋糕",
+    "food_calorie": "348",
+    "food_protein": "6.9",
+    "food_carb": "45.9",
+    "food_fat": "15.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "75",
+    "food_category_id": "2",
+    "food_name": "菠蘿奶酥麵包",
+    "food_calorie": "383",
+    "food_protein": "8.2",
+    "food_carb": "55.2",
+    "food_fat": "14.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "76",
+    "food_category_id": "2",
+    "food_name": "蜂蜜檸檬雙享夾心土司",
+    "food_calorie": "113",
+    "food_protein": "2.9",
+    "food_carb": "14.8",
+    "food_fat": "4.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "77",
+    "food_category_id": "2",
+    "food_name": "香檸鹽之花熔岩蛋糕",
+    "food_calorie": "351",
+    "food_protein": "6",
+    "food_carb": "33.4",
+    "food_fat": "21.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "78",
+    "food_category_id": "2",
+    "food_name": "蜜香紅茶蘋果鬆餅",
+    "food_calorie": "360",
+    "food_protein": "4.9",
+    "food_carb": "60.4",
+    "food_fat": "11",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "79",
+    "food_category_id": "2",
+    "food_name": "香橙乳酪球",
+    "food_calorie": "237",
+    "food_protein": "6.6",
+    "food_carb": "40.9",
+    "food_fat": "5.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "80",
+    "food_category_id": "2",
+    "food_name": "百香橘丁Ｑ貝果",
+    "food_calorie": "227",
+    "food_protein": "8.2",
+    "food_carb": "42.9",
+    "food_fat": "2.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "81",
+    "food_category_id": "2",
+    "food_name": "激辛熱狗捲",
+    "food_calorie": "205",
+    "food_protein": "11.7",
+    "food_carb": "23.5",
+    "food_fat": "7.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "82",
+    "food_category_id": "2",
+    "food_name": "醇黑可可軟法",
+    "food_calorie": "328",
+    "food_protein": "8.5",
+    "food_carb": "41.8",
+    "food_fat": "14",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "83",
+    "food_category_id": "2",
+    "food_name": "大納言紅豆鬆餅",
+    "food_calorie": "359",
+    "food_protein": "6.8",
+    "food_carb": "56.4",
+    "food_fat": "11.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "84",
+    "food_category_id": "2",
+    "food_name": "芋泥Ｑ心球",
+    "food_calorie": "124",
+    "food_protein": "1.8",
+    "food_carb": "19",
+    "food_fat": "4.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "85",
+    "food_category_id": "2",
+    "food_name": "紅豆ｍｉｎｉ銅鑼燒",
+    "food_calorie": "39",
+    "food_protein": "0.9",
+    "food_carb": "6.5",
+    "food_fat": "1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "86",
+    "food_category_id": "2",
+    "food_name": "大納言紅豆奶油滿餡麵包",
+    "food_calorie": "360",
+    "food_protein": "8.4",
+    "food_carb": "51.7",
+    "food_fat": "13.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "87",
+    "food_category_id": "2",
+    "food_name": "紅豆丹麥捲",
+    "food_calorie": "302",
+    "food_protein": "6.4",
+    "food_carb": "36.3",
+    "food_fat": "14.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "88",
+    "food_category_id": "2",
+    "food_name": "紫薯紅豆麵包",
+    "food_calorie": "214",
+    "food_protein": "6.3",
+    "food_carb": "38.7",
+    "food_fat": "3.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "89",
+    "food_category_id": "2",
+    "food_name": "藍莓桑葚乳酪Ｑ貝果",
+    "food_calorie": "236",
+    "food_protein": "7.7",
+    "food_carb": "42.7",
+    "food_fat": "3.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "90",
+    "food_category_id": "2",
+    "food_name": "茉窨香柚包",
+    "food_calorie": "123",
+    "food_protein": "2.8",
+    "food_carb": "24.4",
+    "food_fat": "1.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "91",
+    "food_category_id": "2",
+    "food_name": "藍莓夾心土司",
+    "food_calorie": "216",
+    "food_protein": "5.1",
+    "food_carb": "33.5",
+    "food_fat": "6.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "92",
+    "food_category_id": "2",
+    "food_name": "花生麻吉麵包",
+    "food_calorie": "329",
+    "food_protein": "9.5",
+    "food_carb": "42.2",
+    "food_fat": "13.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "93",
+    "food_category_id": "2",
+    "food_name": "肉桂巧克力鬆餅",
+    "food_calorie": "380",
+    "food_protein": "6.6",
+    "food_carb": "55.6",
+    "food_fat": "14.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "94",
+    "food_category_id": "2",
+    "food_name": "咖啡核桃軟歐",
+    "food_calorie": "301",
+    "food_protein": "8.6",
+    "food_carb": "44.9",
+    "food_fat": "9.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "95",
+    "food_category_id": "2",
+    "food_name": "香醇奶油抹醬麵包",
+    "food_calorie": "277",
+    "food_protein": "7.3",
+    "food_carb": "39.1",
+    "food_fat": "10.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "96",
+    "food_category_id": "2",
+    "food_name": "咖啡焦糖海鹽滿餡",
+    "food_calorie": "383",
+    "food_protein": "6.8",
+    "food_carb": "43.4",
+    "food_fat": "20.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "97",
+    "food_category_id": "2",
+    "food_name": "可可熔岩烏龍茶戚風蛋糕",
+    "food_calorie": "332",
+    "food_protein": "7.1",
+    "food_carb": "32.2",
+    "food_fat": "19.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "98",
+    "food_category_id": "2",
+    "food_name": "伯爵茶焦糖鬆餅",
+    "food_calorie": "341",
+    "food_protein": "5.3",
+    "food_carb": "57.9",
+    "food_fat": "9.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "99",
+    "food_category_id": "2",
+    "food_name": "榛果摩卡夾心土司",
+    "food_calorie": "267",
+    "food_protein": "5.5",
+    "food_carb": "33.2",
+    "food_fat": "12.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "100",
+    "food_category_id": "2",
+    "food_name": "芋泥鬆鬆麵包",
+    "food_calorie": "304",
+    "food_protein": "7.7",
+    "food_carb": "42.1",
+    "food_fat": "11.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "101",
+    "food_category_id": "2",
+    "food_name": "蛋捲排包",
+    "food_calorie": "415",
+    "food_protein": "9.9",
+    "food_carb": "58.3",
+    "food_fat": "15.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "102",
+    "food_category_id": "2",
+    "food_name": "椰香葡萄麵包",
+    "food_calorie": "370",
+    "food_protein": "9.5",
+    "food_carb": "50.1",
+    "food_fat": "14.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "103",
+    "food_category_id": "2",
+    "food_name": "柚子奶油土司",
+    "food_calorie": "270",
+    "food_protein": "8.7",
+    "food_carb": "50",
+    "food_fat": "3.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "104",
+    "food_category_id": "2",
+    "food_name": "奶酥小菠蘿",
+    "food_calorie": "210",
+    "food_protein": "5.2",
+    "food_carb": "28.1",
+    "food_fat": "8.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "105",
+    "food_category_id": "2",
+    "food_name": "可可虎皮蛋糕",
+    "food_calorie": "242",
+    "food_protein": "6.5",
+    "food_carb": "22.6",
+    "food_fat": "13.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "106",
+    "food_category_id": "2",
+    "food_name": "古早味雲蛋糕",
+    "food_calorie": "308",
+    "food_protein": "7.2",
+    "food_carb": "36.3",
+    "food_fat": "14.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "107",
+    "food_category_id": "2",
+    "food_name": "４００次咖啡鬆餅",
+    "food_calorie": "367",
+    "food_protein": "6.3",
+    "food_carb": "53.4",
+    "food_fat": "14.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "108",
+    "food_category_id": "2",
+    "food_name": "焦糖乳酪肉桂捲",
+    "food_calorie": "218",
+    "food_protein": "6",
+    "food_carb": "34.6",
+    "food_fat": "6.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "109",
+    "food_category_id": "2",
+    "food_name": "咖啡奶油夾心麵包",
+    "food_calorie": "261",
+    "food_protein": "5.7",
+    "food_carb": "30.7",
+    "food_fat": "12.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "110",
+    "food_category_id": "2",
+    "food_name": "蒜香金磚",
+    "food_calorie": "301",
+    "food_protein": "6.3",
+    "food_carb": "35",
+    "food_fat": "15.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "111",
+    "food_category_id": "2",
+    "food_name": "義式經典紅醬麵包",
+    "food_calorie": "308",
+    "food_protein": "10",
+    "food_carb": "47.2",
+    "food_fat": "8.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "112",
+    "food_category_id": "2",
+    "food_name": "蜜蘋奶酥鐵觀音貝果",
+    "food_calorie": "269",
+    "food_protein": "8.3",
+    "food_carb": "40.9",
+    "food_fat": "8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "113",
+    "food_category_id": "2",
+    "food_name": "雙莓乳酪爆擊貝果",
+    "food_calorie": "230",
+    "food_protein": "7.7",
+    "food_carb": "40.1",
+    "food_fat": "4.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "114",
+    "food_category_id": "2",
+    "food_name": "雙重芝士條",
+    "food_calorie": "303",
+    "food_protein": "10.5",
+    "food_carb": "36.6",
+    "food_fat": "12.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "115",
+    "food_category_id": "2",
+    "food_name": "起司乳酪蛋糕",
+    "food_calorie": "215",
+    "food_protein": "3.7",
+    "food_carb": "25.1",
+    "food_fat": "11.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "116",
+    "food_category_id": "2",
+    "food_name": "蜜桃乳酪小丹麥",
+    "food_calorie": "324",
+    "food_protein": "6.2",
+    "food_carb": "33.2",
+    "food_fat": "18.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "117",
+    "food_category_id": "2",
+    "food_name": "黃金托斯卡尼",
+    "food_calorie": "383",
+    "food_protein": "9.5",
+    "food_carb": "50.7",
+    "food_fat": "15.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "118",
+    "food_category_id": "2",
+    "food_name": "切達乳酪烤餅",
+    "food_calorie": "239",
+    "food_protein": "6.6",
+    "food_carb": "31.9",
+    "food_fat": "9.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "119",
+    "food_category_id": "2",
+    "food_name": "聲頌起司佛卡夏",
+    "food_calorie": "197",
+    "food_protein": "6.5",
+    "food_carb": "31.9",
+    "food_fat": "4.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "120",
+    "food_category_id": "2",
+    "food_name": "榛果濃可可滿餡",
+    "food_calorie": "392",
+    "food_protein": "8.6",
+    "food_carb": "43.8",
+    "food_fat": "20.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "121",
+    "food_category_id": "2",
+    "food_name": "莓果可可滿餡",
+    "food_calorie": "290",
+    "food_protein": "6.8",
+    "food_carb": "41.3",
+    "food_fat": "10.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "122",
+    "food_category_id": "2",
+    "food_name": "波隆納紅醬薯泥雙享夾心土司",
+    "food_calorie": "81",
+    "food_protein": "3.2",
+    "food_carb": "13.9",
+    "food_fat": "1.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "123",
+    "food_category_id": "2",
+    "food_name": "醇濃黑巧鬆餅",
+    "food_calorie": "359",
+    "food_protein": "6.6",
+    "food_carb": "55.8",
+    "food_fat": "12.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "124",
+    "food_category_id": "2",
+    "food_name": "堅果奶油軟法",
+    "food_calorie": "347",
+    "food_protein": "8.5",
+    "food_carb": "38.9",
+    "food_fat": "17.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "125",
+    "food_category_id": "2",
+    "food_name": "黑巧豆豆土司",
+    "food_calorie": "326",
+    "food_protein": "9.9",
+    "food_carb": "55.6",
+    "food_fat": "7.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "126",
+    "food_category_id": "2",
+    "food_name": "榛的豆豆麵包",
+    "food_calorie": "307",
+    "food_protein": "8.8",
+    "food_carb": "40.1",
+    "food_fat": "12.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "127",
+    "food_category_id": "2",
+    "food_name": "巧克雷阿胖",
+    "food_calorie": "270",
+    "food_protein": "6.1",
+    "food_carb": "33",
+    "food_fat": "12.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "128",
+    "food_category_id": "2",
+    "food_name": "米歇爾柯茲巧克力熔岩蛋糕",
+    "food_calorie": "388",
+    "food_protein": "7.8",
+    "food_carb": "31.3",
+    "food_fat": "25.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "129",
+    "food_category_id": "2",
+    "food_name": "焦糖花生朱古力鬆餅",
+    "food_calorie": "357",
+    "food_protein": "6.5",
+    "food_carb": "53.9",
+    "food_fat": "12.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "130",
+    "food_category_id": "2",
+    "food_name": "法式海鹽焦糖巧克力夾心土司",
+    "food_calorie": "226",
+    "food_protein": "5.6",
+    "food_carb": "36.7",
+    "food_fat": "6.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "131",
+    "food_category_id": "2",
+    "food_name": "德國鹼水乳酪麵包",
+    "food_calorie": "362",
+    "food_protein": "11.4",
+    "food_carb": "55.8",
+    "food_fat": "10.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "132",
+    "food_category_id": "2",
+    "food_name": "葡萄蝸牛捲",
+    "food_calorie": "265",
+    "food_protein": "4.8",
+    "food_carb": "32.9",
+    "food_fat": "12.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "133",
+    "food_category_id": "2",
+    "food_name": "莓好草莓鬆餅",
+    "food_calorie": "340",
+    "food_protein": "5.6",
+    "food_carb": "60.1",
+    "food_fat": "8.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "134",
+    "food_category_id": "2",
+    "food_name": "丹麥菠蘿可頌",
+    "food_calorie": "390",
+    "food_protein": "7.9",
+    "food_carb": "46",
+    "food_fat": "19.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "135",
+    "food_category_id": "2",
+    "food_name": "起司火腿麵包",
+    "food_calorie": "234",
+    "food_protein": "7.4",
+    "food_carb": "36.8",
+    "food_fat": "6.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "136",
+    "food_category_id": "2",
+    "food_name": "紅豆麵包",
+    "food_calorie": "406",
+    "food_protein": "11.9",
+    "food_carb": "72.6",
+    "food_fat": "7.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "137",
+    "food_category_id": "2",
+    "food_name": "草莓麵包",
+    "food_calorie": "244",
+    "food_protein": "6.4",
+    "food_carb": "45.5",
+    "food_fat": "4.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "138",
+    "food_category_id": "2",
+    "food_name": "海苔肉鬆沙拉麵包",
+    "food_calorie": "375",
+    "food_protein": "9.5",
+    "food_carb": "40.5",
+    "food_fat": "19.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "139",
+    "food_category_id": "2",
+    "food_name": "醇黑可可好棒棒",
+    "food_calorie": "528",
+    "food_protein": "10.4",
+    "food_carb": "68.5",
+    "food_fat": "23.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "140",
+    "food_category_id": "2",
+    "food_name": "熱狗麵包",
+    "food_calorie": "172",
+    "food_protein": "5.8",
+    "food_carb": "27.8",
+    "food_fat": "4.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "141",
+    "food_category_id": "2",
+    "food_name": "克林姆麵包",
+    "food_calorie": "355",
+    "food_protein": "9.8",
+    "food_carb": "62.4",
+    "food_fat": "7.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "142",
+    "food_category_id": "2",
+    "food_name": "奶酥麵包",
+    "food_calorie": "384",
+    "food_protein": "8.8",
+    "food_carb": "47.3",
+    "food_fat": "17.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "143",
+    "food_category_id": "2",
+    "food_name": "香濃牛奶好棒棒",
+    "food_calorie": "474",
+    "food_protein": "10.8",
+    "food_carb": "61.6",
+    "food_fat": "20.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "144",
+    "food_category_id": "2",
+    "food_name": "起酥葡萄奶酥",
+    "food_calorie": "422",
+    "food_protein": "9",
+    "food_carb": "50.2",
+    "food_fat": "20.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "145",
+    "food_category_id": "2",
+    "food_name": "果粒草莓滿餡麵包",
+    "food_calorie": "299",
+    "food_protein": "6.9",
+    "food_carb": "45.4",
+    "food_fat": "9.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "146",
+    "food_category_id": "2",
+    "food_name": "香濃深焙花生滿餡麵包",
+    "food_calorie": "461",
+    "food_protein": "10.8",
+    "food_carb": "44",
+    "food_fat": "26.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "147",
+    "food_category_id": "2",
+    "food_name": "起酥肉鬆麵包",
+    "food_calorie": "370",
+    "food_protein": "9.8",
+    "food_carb": "48.3",
+    "food_fat": "15.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "148",
+    "food_category_id": "2",
+    "food_name": "榛果可可滿餡麵包",
+    "food_calorie": "414",
+    "food_protein": "8.5",
+    "food_carb": "40.7",
+    "food_fat": "24.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "149",
+    "food_category_id": "2",
+    "food_name": "加州葡萄小土司",
+    "food_calorie": "395",
+    "food_protein": "11",
+    "food_carb": "62.8",
+    "food_fat": "11.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "150",
+    "food_category_id": "2",
+    "food_name": "哆啦Ａ夢小蛋糕",
+    "food_calorie": "326",
+    "food_protein": "6",
+    "food_carb": "48.6",
+    "food_fat": "11.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "151",
+    "food_category_id": "2",
+    "food_name": "巧克力捲",
+    "food_calorie": "94",
+    "food_protein": "2.9",
+    "food_carb": "14.9",
+    "food_fat": "2.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "152",
+    "food_category_id": "2",
+    "food_name": "蜂蜜牛奶球",
+    "food_calorie": "39",
+    "food_protein": "1",
+    "food_carb": "7",
+    "food_fat": "0.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "153",
+    "food_category_id": "2",
+    "food_name": "草莓夾心",
+    "food_calorie": "55",
+    "food_protein": "1.6",
+    "food_carb": "10.2",
+    "food_fat": "0.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "154",
+    "food_category_id": "2",
+    "food_name": "愛心牛奶球",
+    "food_calorie": "203",
+    "food_protein": "5.4",
+    "food_carb": "34.9",
+    "food_fat": "4.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "155",
+    "food_category_id": "2",
+    "food_name": "手工拔絲麵包",
+    "food_calorie": "480",
+    "food_protein": "15.5",
+    "food_carb": "71",
+    "food_fat": "14.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "156",
+    "food_category_id": "2",
+    "food_name": "醇乳香土司",
+    "food_calorie": "548",
+    "food_protein": "18.9",
+    "food_carb": "96.3",
+    "food_fat": "9.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "157",
+    "food_category_id": "2",
+    "food_name": "原味覺土司",
+    "food_calorie": "485",
+    "food_protein": "21.5",
+    "food_carb": "88.6",
+    "food_fat": "5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "158",
+    "food_category_id": "2",
+    "food_name": "草莓夾心土司",
+    "food_calorie": "179",
+    "food_protein": "5.2",
+    "food_carb": "35",
+    "food_fat": "2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "159",
+    "food_category_id": "2",
+    "food_name": "花生夾心土司",
+    "food_calorie": "292",
+    "food_protein": "7.2",
+    "food_carb": "30.4",
+    "food_fat": "15.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "160",
+    "food_category_id": "2",
+    "food_name": "板巧克力夾心土司",
+    "food_calorie": "241",
+    "food_protein": "5.5",
+    "food_carb": "33.1",
+    "food_fat": "9.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "161",
+    "food_category_id": "2",
+    "food_name": "經典蜂蜜鬆餅",
+    "food_calorie": "365",
+    "food_protein": "5.8",
+    "food_carb": "54.6",
+    "food_fat": "13.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "162",
+    "food_category_id": "2",
+    "food_name": "陽光葡萄土司",
+    "food_calorie": "363",
+    "food_protein": "10.7",
+    "food_carb": "65.9",
+    "food_fat": "6.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "163",
+    "food_category_id": "2",
+    "food_name": "綿柔鮮奶土司",
+    "food_calorie": "321",
+    "food_protein": "11.1",
+    "food_carb": "56.4",
+    "food_fat": "5.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "164",
+    "food_category_id": "2",
+    "food_name": "榛果巧克力鬆餅",
+    "food_calorie": "351",
+    "food_protein": "6.8",
+    "food_carb": "53.1",
+    "food_fat": "12.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "165",
+    "food_category_id": "2",
+    "food_name": "新纖麥土司",
+    "food_calorie": "487",
+    "food_protein": "21.5",
+    "food_carb": "88.6",
+    "food_fat": "6.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "166",
+    "food_category_id": "2",
+    "food_name": "小麥胚芽土司",
+    "food_calorie": "276",
+    "food_protein": "12.2",
+    "food_carb": "50.3",
+    "food_fat": "3.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "167",
+    "food_category_id": "3",
+    "food_name": "肉鬆火腿三明治",
+    "food_calorie": "197",
+    "food_protein": "5.8",
+    "food_carb": "21.8",
+    "food_fat": "9.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "168",
+    "food_category_id": "3",
+    "food_name": "醬燒烤雞三明治",
+    "food_calorie": "181",
+    "food_protein": "9.3",
+    "food_carb": "21.9",
+    "food_fat": "6.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "169",
+    "food_category_id": "3",
+    "food_name": "紐奧良風味烤雞鮮蔬三明治",
+    "food_calorie": "200",
+    "food_protein": "13.9",
+    "food_carb": "20.6",
+    "food_fat": "6.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "170",
+    "food_category_id": "3",
+    "food_name": "三重起司貝果堡",
+    "food_calorie": "320",
+    "food_protein": "12",
+    "food_carb": "40.9",
+    "food_fat": "12",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "171",
+    "food_category_id": "3",
+    "food_name": "火腿起司蛋三明治",
+    "food_calorie": "194",
+    "food_protein": "5.6",
+    "food_carb": "22",
+    "food_fat": "9.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "172",
+    "food_category_id": "3",
+    "food_name": "經典總匯三明治",
+    "food_calorie": "192",
+    "food_protein": "7.5",
+    "food_carb": "22.2",
+    "food_fat": "8.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "173",
+    "food_category_id": "3",
+    "food_name": "藍莓優格三明治",
+    "food_calorie": "142",
+    "food_protein": "4.1",
+    "food_carb": "23.4",
+    "food_fat": "3.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "174",
+    "food_category_id": "3",
+    "food_name": "雞蛋沙拉三明治",
+    "food_calorie": "199",
+    "food_protein": "7.6",
+    "food_carb": "23.9",
+    "food_fat": "8.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "175",
+    "food_category_id": "3",
+    "food_name": "水果派對三明治",
+    "food_calorie": "165",
+    "food_protein": "3.9",
+    "food_carb": "26.6",
+    "food_fat": "4.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "176",
+    "food_category_id": "3",
+    "food_name": "彩蔬洋芋三明治",
+    "food_calorie": "234",
+    "food_protein": "5.8",
+    "food_carb": "30.3",
+    "food_fat": "10",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "177",
+    "food_category_id": "3",
+    "food_name": "香雞蛋堡",
+    "food_calorie": "254",
+    "food_protein": "11.9",
+    "food_carb": "28.1",
+    "food_fat": "10.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "178",
+    "food_category_id": "3",
+    "food_name": "蕈菇嫩蛋貝果堡",
+    "food_calorie": "326",
+    "food_protein": "10.1",
+    "food_carb": "42.4",
+    "food_fat": "12.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "179",
+    "food_category_id": "3",
+    "food_name": "蔬菜百匯三明治",
+    "food_calorie": "158",
+    "food_protein": "5.9",
+    "food_carb": "17.9",
+    "food_fat": "7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "180",
+    "food_category_id": "3",
+    "food_name": "龍蝦風味沙拉三明治",
+    "food_calorie": "208",
+    "food_protein": "5.9",
+    "food_carb": "20.7",
+    "food_fat": "11.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "181",
+    "food_category_id": "3",
+    "food_name": "大麥蛋白豬肉堡",
+    "food_calorie": "208",
+    "food_protein": "13.5",
+    "food_carb": "27.1",
+    "food_fat": "5.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "182",
+    "food_category_id": "3",
+    "food_name": "泰式打拋豬貝果堡",
+    "food_calorie": "289",
+    "food_protein": "12.9",
+    "food_carb": "38.4",
+    "food_fat": "9.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "183",
+    "food_category_id": "3",
+    "food_name": "黃金魚堡",
+    "food_calorie": "287",
+    "food_protein": "10.6",
+    "food_carb": "29.1",
+    "food_fat": "14.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "184",
+    "food_category_id": "3",
+    "food_name": "多重起司貝果堡",
+    "food_calorie": "322",
+    "food_protein": "12.8",
+    "food_carb": "41.2",
+    "food_fat": "11.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "185",
+    "food_category_id": "3",
+    "food_name": "羅勒菠菠植蔬堡",
+    "food_calorie": "274",
+    "food_protein": "9.9",
+    "food_carb": "25.7",
+    "food_fat": "14.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "186",
+    "food_category_id": "3",
+    "food_name": "美式乳酪薯餅三明治",
+    "food_calorie": "228",
+    "food_protein": "6.6",
+    "food_carb": "23.6",
+    "food_fat": "11.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "187",
+    "food_category_id": "3",
+    "food_name": "焗烤鮪魚三明治",
+    "food_calorie": "242",
+    "food_protein": "8.8",
+    "food_carb": "23.7",
+    "food_fat": "12.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "188",
+    "food_category_id": "3",
+    "food_name": "輕乳酪巧克力三明治",
+    "food_calorie": "174",
+    "food_protein": "5.4",
+    "food_carb": "25.8",
+    "food_fat": "5.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "189",
+    "food_category_id": "3",
+    "food_name": "瘋狂起司三明治",
+    "food_calorie": "235",
+    "food_protein": "7.6",
+    "food_carb": "27.3",
+    "food_fat": "10.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "190",
+    "food_category_id": "3",
+    "food_name": "鮪魚溏心蛋三明治",
+    "food_calorie": "189",
+    "food_protein": "7.2",
+    "food_carb": "19.4",
+    "food_fat": "9.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "191",
+    "food_category_id": "3",
+    "food_name": "經典雙牛起司堡",
+    "food_calorie": "315",
+    "food_protein": "18.2",
+    "food_carb": "31.1",
+    "food_fat": "13",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "192",
+    "food_category_id": "3",
+    "food_name": "美式雞腿堡",
+    "food_calorie": "385",
+    "food_protein": "16",
+    "food_carb": "35.5",
+    "food_fat": "19.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "193",
+    "food_category_id": "3",
+    "food_name": "豬肉起司堡",
+    "food_calorie": "208",
+    "food_protein": "11.1",
+    "food_carb": "24.1",
+    "food_fat": "7.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "194",
+    "food_category_id": "3",
+    "food_name": "豬肉起司蛋堡",
+    "food_calorie": "237",
+    "food_protein": "14.9",
+    "food_carb": "26.3",
+    "food_fat": "8.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "195",
+    "food_category_id": "4",
+    "food_name": "台式芋頭鹹粥",
+    "food_calorie": "395",
+    "food_protein": "14.5",
+    "food_carb": "50.4",
+    "food_fat": "15",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "196",
+    "food_category_id": "4",
+    "food_name": "沙茶豬肉炒麵",
+    "food_calorie": "486",
+    "food_protein": "21.7",
+    "food_carb": "65.1",
+    "food_fat": "15.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "197",
+    "food_category_id": "4",
+    "food_name": "生滾皮蛋煲粥",
+    "food_calorie": "280",
+    "food_protein": "14",
+    "food_carb": "33.5",
+    "food_fat": "10",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "198",
+    "food_category_id": "4",
+    "food_name": "香辣醬香腸蛋炒飯",
+    "food_calorie": "830",
+    "food_protein": "19.5",
+    "food_carb": "114.6",
+    "food_fat": "32.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "199",
+    "food_category_id": "4",
+    "food_name": "烤蔬菜蕃茄筆尖麵",
+    "food_calorie": "451",
+    "food_protein": "16.7",
+    "food_carb": "78.5",
+    "food_fat": "7.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "200",
+    "food_category_id": "4",
+    "food_name": "清炒海鮮義大利麵",
+    "food_calorie": "427",
+    "food_protein": "23.8",
+    "food_carb": "63.2",
+    "food_fat": "8.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "201",
+    "food_category_id": "4",
+    "food_name": "四起司煙燻火腿焗麵",
+    "food_calorie": "687",
+    "food_protein": "28.3",
+    "food_carb": "75.9",
+    "food_fat": "30.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "202",
+    "food_category_id": "4",
+    "food_name": "烤蛋白餐盒",
+    "food_calorie": "513",
+    "food_protein": "34",
+    "food_carb": "72.6",
+    "food_fat": "9.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "203",
+    "food_category_id": "4",
+    "food_name": "優質池上飯",
+    "food_calorie": "291",
+    "food_protein": "4.3",
+    "food_carb": "63.9",
+    "food_fat": "2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "204",
+    "food_category_id": "4",
+    "food_name": "香辣醬雞肉炒麵",
+    "food_calorie": "611",
+    "food_protein": "24.8",
+    "food_carb": "83.1",
+    "food_fat": "19.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "205",
+    "food_category_id": "4",
+    "food_name": "蒜炒塔香腿排義大利麵",
+    "food_calorie": "531",
+    "food_protein": "25.7",
+    "food_carb": "64.1",
+    "food_fat": "19.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "206",
+    "food_category_id": "4",
+    "food_name": "金咖哩甘口咖哩飯",
+    "food_calorie": "659",
+    "food_protein": "16.2",
+    "food_carb": "118.2",
+    "food_fat": "13.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "207",
+    "food_category_id": "4",
+    "food_name": "金咖哩濃辛咖哩飯",
+    "food_calorie": "709",
+    "food_protein": "17.9",
+    "food_carb": "114.5",
+    "food_fat": "20",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "208",
+    "food_category_id": "4",
+    "food_name": "沙茶豬肉燴飯",
+    "food_calorie": "709",
+    "food_protein": "23.5",
+    "food_carb": "91.3",
+    "food_fat": "27.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "209",
+    "food_category_id": "4",
+    "food_name": "鐵板滑蛋炸豬排丼",
+    "food_calorie": "693",
+    "food_protein": "24.3",
+    "food_carb": "112.3",
+    "food_fat": "16.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "210",
+    "food_category_id": "4",
+    "food_name": "ＢＢＱ雞丁白花椰餐盒",
+    "food_calorie": "365",
+    "food_protein": "19",
+    "food_carb": "53.3",
+    "food_fat": "8.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "211",
+    "food_category_id": "4",
+    "food_name": "義式蕃茄紅醬燻腸焗飯",
+    "food_calorie": "720",
+    "food_protein": "29.5",
+    "food_carb": "88.5",
+    "food_fat": "27.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "212",
+    "food_category_id": "4",
+    "food_name": "健身Ｇ肉餐盒",
+    "food_calorie": "450",
+    "food_protein": "27.8",
+    "food_carb": "67.8",
+    "food_fat": "7.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "213",
+    "food_category_id": "4",
+    "food_name": "青花菜香腸肉末貓耳朵麵",
+    "food_calorie": "753",
+    "food_protein": "30.3",
+    "food_carb": "78.6",
+    "food_fat": "35.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "214",
+    "food_category_id": "4",
+    "food_name": "獵人雞肉丸子茄汁鉛筆麵",
+    "food_calorie": "675",
+    "food_protein": "29.4",
+    "food_carb": "69.9",
+    "food_fat": "30.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "215",
+    "food_category_id": "4",
+    "food_name": "日式豬排佐咖哩歐姆蛋燴飯",
+    "food_calorie": "771",
+    "food_protein": "31.4",
+    "food_carb": "101.6",
+    "food_fat": "26.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "216",
+    "food_category_id": "4",
+    "food_name": "香草雞排佐白醬歐姆蛋燴飯",
+    "food_calorie": "695",
+    "food_protein": "30",
+    "food_carb": "88.1",
+    "food_fat": "24.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "217",
+    "food_category_id": "4",
+    "food_name": "炙烤親子丼",
+    "food_calorie": "722",
+    "food_protein": "26.8",
+    "food_carb": "106.4",
+    "food_fat": "21",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "218",
+    "food_category_id": "4",
+    "food_name": "鮮筍雞茸粥",
+    "food_calorie": "312",
+    "food_protein": "9.5",
+    "food_carb": "41.5",
+    "food_fat": "12",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "219",
+    "food_category_id": "4",
+    "food_name": "炭香燒豚飯",
+    "food_calorie": "534",
+    "food_protein": "15.4",
+    "food_carb": "76.5",
+    "food_fat": "18.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "220",
+    "food_category_id": "4",
+    "food_name": "蕃茄鮪魚冷義大利麵",
+    "food_calorie": "301",
+    "food_protein": "14.3",
+    "food_carb": "45.9",
+    "food_fat": "6.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "221",
+    "food_category_id": "4",
+    "food_name": "羅勒海鮮冷義大利麵",
+    "food_calorie": "312",
+    "food_protein": "12.8",
+    "food_carb": "41.8",
+    "food_fat": "10.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "222",
+    "food_category_id": "4",
+    "food_name": "明太子鮭魚冷義大利麵",
+    "food_calorie": "348",
+    "food_protein": "13.6",
+    "food_carb": "44.5",
+    "food_fat": "12.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "223",
+    "food_category_id": "4",
+    "food_name": "皮蛋辣拌麵",
+    "food_calorie": "621",
+    "food_protein": "22.5",
+    "food_carb": "73.3",
+    "food_fat": "26.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "224",
+    "food_category_id": "4",
+    "food_name": "黑纖雞肉粥",
+    "food_calorie": "291",
+    "food_protein": "15",
+    "food_carb": "29.5",
+    "food_fat": "12.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "225",
+    "food_category_id": "4",
+    "food_name": "海之味漁夫飯",
+    "food_calorie": "499",
+    "food_protein": "22.6",
+    "food_carb": "91.9",
+    "food_fat": "4.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "226",
+    "food_category_id": "4",
+    "food_name": "糖燻野郎熟成牛飯",
+    "food_calorie": "656",
+    "food_protein": "14.7",
+    "food_carb": "97.2",
+    "food_fat": "23",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "227",
+    "food_category_id": "4",
+    "food_name": "壹號醬鹽蔥雞豚飯",
+    "food_calorie": "621",
+    "food_protein": "20.9",
+    "food_carb": "96",
+    "food_fat": "16.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "228",
+    "food_category_id": "4",
+    "food_name": "嘉義劉里長雞肉飯",
+    "food_calorie": "563",
+    "food_protein": "19.5",
+    "food_carb": "93.8",
+    "food_fat": "12",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "229",
+    "food_category_id": "4",
+    "food_name": "嘉義劉里長剝皮瓜仔雞飯",
+    "food_calorie": "497",
+    "food_protein": "17.2",
+    "food_carb": "95",
+    "food_fat": "5.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "230",
+    "food_category_id": "4",
+    "food_name": "蒜辣雙醬麵",
+    "food_calorie": "528",
+    "food_protein": "21.9",
+    "food_carb": "71.2",
+    "food_fat": "17.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "231",
+    "food_category_id": "4",
+    "food_name": "海鮮什錦炒麵",
+    "food_calorie": "537",
+    "food_protein": "26",
+    "food_carb": "56.4",
+    "food_fat": "23",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "232",
+    "food_category_id": "4",
+    "food_name": "粉紅蝦蝦細扁麵",
+    "food_calorie": "432",
+    "food_protein": "19.7",
+    "food_carb": "54.8",
+    "food_fat": "15",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "233",
+    "food_category_id": "4",
+    "food_name": "金沙培根細扁麵",
+    "food_calorie": "466",
+    "food_protein": "22",
+    "food_carb": "55.5",
+    "food_fat": "17.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "234",
+    "food_category_id": "4",
+    "food_name": "蒜炒橄欖油腿排義大利麵",
+    "food_calorie": "553",
+    "food_protein": "24.5",
+    "food_carb": "72.8",
+    "food_fat": "18.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "235",
+    "food_category_id": "4",
+    "food_name": "香濃雙重起司海陸焗飯",
+    "food_calorie": "691",
+    "food_protein": "22.9",
+    "food_carb": "98.8",
+    "food_fat": "22.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "236",
+    "food_category_id": "4",
+    "food_name": "黑松露佐野菇黑纖飯（素）",
+    "food_calorie": "590",
+    "food_protein": "12.3",
+    "food_carb": "100.4",
+    "food_fat": "15.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "237",
+    "food_category_id": "4",
+    "food_name": "青醬雞肉義大利麵",
+    "food_calorie": "601",
+    "food_protein": "29.7",
+    "food_carb": "73.5",
+    "food_fat": "20.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "238",
+    "food_category_id": "4",
+    "food_name": "清炒海鮮義大利麵",
+    "food_calorie": "469",
+    "food_protein": "23.8",
+    "food_carb": "68.1",
+    "food_fat": "11.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "239",
+    "food_category_id": "4",
+    "food_name": "海鮮明太子風奶香義大利麵",
+    "food_calorie": "439",
+    "food_protein": "19.9",
+    "food_carb": "65.6",
+    "food_fat": "10.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "240",
+    "food_category_id": "4",
+    "food_name": "辛辛炒豚五色盒",
+    "food_calorie": "409",
+    "food_protein": "20.8",
+    "food_carb": "45.5",
+    "food_fat": "16",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "241",
+    "food_category_id": "4",
+    "food_name": "美式雞丁蔬穀盒",
+    "food_calorie": "372",
+    "food_protein": "21.6",
+    "food_carb": "45.9",
+    "food_fat": "11.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "242",
+    "food_category_id": "4",
+    "food_name": "麻婆豆腐烏龍麵",
+    "food_calorie": "496",
+    "food_protein": "19.2",
+    "food_carb": "70.8",
+    "food_fat": "15",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "243",
+    "food_category_id": "4",
+    "food_name": "焗烤燻火腿筆尖麵",
+    "food_calorie": "701",
+    "food_protein": "29.4",
+    "food_carb": "63",
+    "food_fat": "36.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "244",
+    "food_category_id": "4",
+    "food_name": "香拌海鮮醬蝦仁炒麵",
+    "food_calorie": "594",
+    "food_protein": "20.1",
+    "food_carb": "70.5",
+    "food_fat": "25.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "245",
+    "food_category_id": "4",
+    "food_name": "新招牌腿排便當",
+    "food_calorie": "506",
+    "food_protein": "16.4",
+    "food_carb": "91",
+    "food_fat": "8.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "246",
+    "food_category_id": "4",
+    "food_name": "烤蛋白餐盒",
+    "food_calorie": "471",
+    "food_protein": "25.5",
+    "food_carb": "70.3",
+    "food_fat": "9.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "247",
+    "food_category_id": "4",
+    "food_name": "香拌海鮮醬肉絲蛋炒飯",
+    "food_calorie": "689",
+    "food_protein": "17.8",
+    "food_carb": "96.3",
+    "food_fat": "25.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "248",
+    "food_category_id": "4",
+    "food_name": "港式香滑嫩蛋牛肉燴飯",
+    "food_calorie": "521",
+    "food_protein": "20.4",
+    "food_carb": "97.6",
+    "food_fat": "5.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "249",
+    "food_category_id": "4",
+    "food_name": "滑蛋干貝雞茸粥",
+    "food_calorie": "280",
+    "food_protein": "10.5",
+    "food_carb": "42.5",
+    "food_fat": "7.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "250",
+    "food_category_id": "4",
+    "food_name": "沙茶豬肉燴飯",
+    "food_calorie": "715",
+    "food_protein": "23.7",
+    "food_carb": "99.5",
+    "food_fat": "24.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "251",
+    "food_category_id": "4",
+    "food_name": "老薑麻油片豚燴飯",
+    "food_calorie": "595",
+    "food_protein": "19.4",
+    "food_carb": "103.4",
+    "food_fat": "11.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "252",
+    "food_category_id": "4",
+    "food_name": "新招牌腿排便當",
+    "food_calorie": "556",
+    "food_protein": "15.7",
+    "food_carb": "88.3",
+    "food_fat": "15.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "253",
+    "food_category_id": "4",
+    "food_name": "香烤嫩雞彩蔬餐盒",
+    "food_calorie": "800",
+    "food_protein": "32.1",
+    "food_carb": "84.9",
+    "food_fat": "36.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "254",
+    "food_category_id": "4",
+    "food_name": "香滑嫩蛋牛肉燴飯",
+    "food_calorie": "479",
+    "food_protein": "19.3",
+    "food_carb": "71.9",
+    "food_fat": "12.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "255",
+    "food_category_id": "4",
+    "food_name": "四川風味麻婆豆腐燴飯",
+    "food_calorie": "710",
+    "food_protein": "30.2",
+    "food_carb": "102.1",
+    "food_fat": "20",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "256",
+    "food_category_id": "4",
+    "food_name": "糖燻野郎炙燒牛",
+    "food_calorie": "609",
+    "food_protein": "15.5",
+    "food_carb": "93.6",
+    "food_fat": "19.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "257",
+    "food_category_id": "4",
+    "food_name": "炸醬炒泡麵",
+    "food_calorie": "773",
+    "food_protein": "17.2",
+    "food_carb": "89",
+    "food_fat": "38.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "258",
+    "food_category_id": "4",
+    "food_name": "海鮮明太子風奶香義大利麵",
+    "food_calorie": "466",
+    "food_protein": "22.6",
+    "food_carb": "63.6",
+    "food_fat": "13.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "259",
+    "food_category_id": "5",
+    "food_name": "鮮筍排骨湯",
+    "food_calorie": "159",
+    "food_protein": "18.2",
+    "food_carb": "2.9",
+    "food_fat": "8.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "260",
+    "food_category_id": "5",
+    "food_name": "剝皮辣椒雞湯",
+    "food_calorie": "160",
+    "food_protein": "27.5",
+    "food_carb": "3.7",
+    "food_fat": "3.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "261",
+    "food_category_id": "5",
+    "food_name": "玉米濃湯",
+    "food_calorie": "223",
+    "food_protein": "10.6",
+    "food_carb": "21.5",
+    "food_fat": "10.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "262",
+    "food_category_id": "5",
+    "food_name": "特級海鮮球",
+    "food_calorie": "26",
+    "food_protein": "3",
+    "food_carb": "2.5",
+    "food_fat": "0.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "263",
+    "food_category_id": "5",
+    "food_name": "讚岐烏龍麵",
+    "food_calorie": "162",
+    "food_protein": "3.8",
+    "food_carb": "36.1",
+    "food_fat": "0.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "264",
+    "food_category_id": "5",
+    "food_name": "香菇雞燉湯",
+    "food_calorie": "139",
+    "food_protein": "17",
+    "food_carb": "8.3",
+    "food_fat": "4.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "265",
+    "food_category_id": "5",
+    "food_name": "四神豬肚湯",
+    "food_calorie": "157",
+    "food_protein": "13.8",
+    "food_carb": "20.5",
+    "food_fat": "2.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "266",
+    "food_category_id": "5",
+    "food_name": "韓式泡菜豬肉鍋",
+    "food_calorie": "253",
+    "food_protein": "19.4",
+    "food_carb": "22.6",
+    "food_fat": "9.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "267",
+    "food_category_id": "5",
+    "food_name": "藥燉排骨湯",
+    "food_calorie": "311",
+    "food_protein": "27.2",
+    "food_carb": "3.8",
+    "food_fat": "20.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "268",
+    "food_category_id": "5",
+    "food_name": "起司牛奶鍋",
+    "food_calorie": "286",
+    "food_protein": "18.1",
+    "food_carb": "29.6",
+    "food_fat": "10.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "269",
+    "food_category_id": "5",
+    "food_name": "剝皮辣椒雞湯",
+    "food_calorie": "128",
+    "food_protein": "20.2",
+    "food_carb": "5.8",
+    "food_fat": "2.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "270",
+    "food_category_id": "5",
+    "food_name": "麻咪瘦肉湯",
+    "food_calorie": "163",
+    "food_protein": "9.3",
+    "food_carb": "10.2",
+    "food_fat": "9.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "271",
+    "food_category_id": "5",
+    "food_name": "蒜香軟法玉米濃湯",
+    "food_calorie": "263",
+    "food_protein": "10.4",
+    "food_carb": "21",
+    "food_fat": "15.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "272",
+    "food_category_id": "5",
+    "food_name": "蒸蛋湯",
+    "food_calorie": "139",
+    "food_protein": "13.6",
+    "food_carb": "4.4",
+    "food_fat": "7.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "273",
+    "food_category_id": "6",
+    "food_name": "鐵板黑胡椒嫩雞胸",
+    "food_calorie": "116",
+    "food_protein": "24",
+    "food_carb": "0.3",
+    "food_fat": "2.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "274",
+    "food_category_id": "6",
+    "food_name": "青檸烤雞握沙拉",
+    "food_calorie": "228",
+    "food_protein": "9.8",
+    "food_carb": "26.7",
+    "food_fat": "9.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "275",
+    "food_category_id": "6",
+    "food_name": "桃木燻雞胸",
+    "food_calorie": "102",
+    "food_protein": "20.1",
+    "food_carb": "0.5",
+    "food_fat": "2.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "276",
+    "food_category_id": "6",
+    "food_name": "青醬優格雞肉握沙拉",
+    "food_calorie": "267",
+    "food_protein": "11.3",
+    "food_carb": "26.6",
+    "food_fat": "12.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "277",
+    "food_category_id": "6",
+    "food_name": "小滷青蔬",
+    "food_calorie": "65",
+    "food_protein": "2.3",
+    "food_carb": "7.3",
+    "food_fat": "2.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "278",
+    "food_category_id": "6",
+    "food_name": "季節水果拼盤（截切）",
+    "food_calorie": "86",
+    "food_protein": "1.2",
+    "food_carb": "20.4",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "279",
+    "food_category_id": "6",
+    "food_name": "猴菇麻油蔬（蛋素）",
+    "food_calorie": "235",
+    "food_protein": "5.8",
+    "food_carb": "9.6",
+    "food_fat": "19.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "280",
+    "food_category_id": "6",
+    "food_name": "海帶脆筍肉（全素）",
+    "food_calorie": "278",
+    "food_protein": "10.4",
+    "food_carb": "15.1",
+    "food_fat": "19.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "281",
+    "food_category_id": "6",
+    "food_name": "沙茶香辣雞胗",
+    "food_calorie": "226",
+    "food_protein": "24.4",
+    "food_carb": "5.9",
+    "food_fat": "11.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "282",
+    "food_category_id": "6",
+    "food_name": "蒜香綜合滷味",
+    "food_calorie": "230",
+    "food_protein": "18.6",
+    "food_carb": "6.5",
+    "food_fat": "14.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "283",
+    "food_category_id": "6",
+    "food_name": "東山綜合滷味",
+    "food_calorie": "260",
+    "food_protein": "14.2",
+    "food_carb": "38.3",
+    "food_fat": "5.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "284",
+    "food_category_id": "6",
+    "food_name": "牛奶鳳梨（截切）",
+    "food_calorie": "115",
+    "food_protein": "1.4",
+    "food_carb": "26.2",
+    "food_fat": "0.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "285",
+    "food_category_id": "6",
+    "food_name": "火山鳳梨（截切）",
+    "food_calorie": "85",
+    "food_protein": "0.6",
+    "food_carb": "22.4",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "286",
+    "food_category_id": "6",
+    "food_name": "火腿洋芋沙拉",
+    "food_calorie": "157",
+    "food_protein": "3.4",
+    "food_carb": "21.6",
+    "food_fat": "6.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "287",
+    "food_category_id": "6",
+    "food_name": "香辣醬冰糖滷味",
+    "food_calorie": "155",
+    "food_protein": "7.6",
+    "food_carb": "17",
+    "food_fat": "6.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "288",
+    "food_category_id": "6",
+    "food_name": "雙拼水果盒（截切）",
+    "food_calorie": "71",
+    "food_protein": "1.6",
+    "food_carb": "6.1",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "289",
+    "food_category_id": "6",
+    "food_name": "雞汁油蔥手工麵線",
+    "food_calorie": "290",
+    "food_protein": "9.2",
+    "food_carb": "39.2",
+    "food_fat": "10.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "290",
+    "food_category_id": "6",
+    "food_name": "糖燻豬耳絲",
+    "food_calorie": "170",
+    "food_protein": "16.1",
+    "food_carb": "1.3",
+    "food_fat": "11.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "291",
+    "food_category_id": "6",
+    "food_name": "秘香椒麻嫩雞胸",
+    "food_calorie": "149",
+    "food_protein": "29",
+    "food_carb": "3.8",
+    "food_fat": "1.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "292",
+    "food_category_id": "6",
+    "food_name": "雙色地瓜雞肉握沙拉",
+    "food_calorie": "314",
+    "food_protein": "6.5",
+    "food_carb": "43.6",
+    "food_fat": "12.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "293",
+    "food_category_id": "6",
+    "food_name": "地瓜雞胸沙拉",
+    "food_calorie": "209",
+    "food_protein": "9.2",
+    "food_carb": "36.7",
+    "food_fat": "2.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "294",
+    "food_category_id": "6",
+    "food_name": "五色海藻沙拉",
+    "food_calorie": "38",
+    "food_protein": "1.6",
+    "food_carb": "8",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "295",
+    "food_category_id": "6",
+    "food_name": "泰式香檸嫩雞胸",
+    "food_calorie": "121",
+    "food_protein": "24.5",
+    "food_carb": "1.8",
+    "food_fat": "1.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "296",
+    "food_category_id": "6",
+    "food_name": "蕃茄蛋洋芋握沙拉",
+    "food_calorie": "249",
+    "food_protein": "8.7",
+    "food_carb": "24.1",
+    "food_fat": "13.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "297",
+    "food_category_id": "6",
+    "food_name": "彩蔬洋芋火腿沙拉",
+    "food_calorie": "131",
+    "food_protein": "4.2",
+    "food_carb": "18.3",
+    "food_fat": "4.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "298",
+    "food_category_id": "6",
+    "food_name": "蕃茄蛋洋芋握沙拉",
+    "food_calorie": "249",
+    "food_protein": "8.7",
+    "food_carb": "24.1",
+    "food_fat": "13.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "299",
+    "food_category_id": "6",
+    "food_name": "鹹水雞胸",
+    "food_calorie": "100",
+    "food_protein": "17.7",
+    "food_carb": "0",
+    "food_fat": "3.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "300",
+    "food_category_id": "6",
+    "food_name": "十品目田園沙拉",
+    "food_calorie": "71",
+    "food_protein": "1.6",
+    "food_carb": "16.2",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "301",
+    "food_category_id": "6",
+    "food_name": "凱薩沙拉",
+    "food_calorie": "47",
+    "food_protein": "1.7",
+    "food_carb": "8.3",
+    "food_fat": "0.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "302",
+    "food_category_id": "6",
+    "food_name": "香麻滷雞爪",
+    "food_calorie": "180",
+    "food_protein": "16.6",
+    "food_carb": "5.8",
+    "food_fat": "10",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "303",
+    "food_category_id": "6",
+    "food_name": "蔥鹽雞肉沙拉",
+    "food_calorie": "188",
+    "food_protein": "12.4",
+    "food_carb": "24.2",
+    "food_fat": "4.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "304",
+    "food_category_id": "6",
+    "food_name": "優格鮪魚沙拉",
+    "food_calorie": "157",
+    "food_protein": "4.7",
+    "food_carb": "20.6",
+    "food_fat": "6.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "305",
+    "food_category_id": "6",
+    "food_name": "履歷子彈蓮霧（截切）",
+    "food_calorie": "65",
+    "food_protein": "0.6",
+    "food_carb": "15.3",
+    "food_fat": "0.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "306",
+    "food_category_id": "6",
+    "food_name": "椒鹽鮭豚丸",
+    "food_calorie": "203",
+    "food_protein": "12.6",
+    "food_carb": "9.3",
+    "food_fat": "12.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "307",
+    "food_category_id": "6",
+    "food_name": "繽紛水果佐鮮乳優格",
+    "food_calorie": "198",
+    "food_protein": "6.3",
+    "food_carb": "25.1",
+    "food_fat": "8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "308",
+    "food_category_id": "6",
+    "food_name": "蒜味香腸",
+    "food_calorie": "207",
+    "food_protein": "8.7",
+    "food_carb": "9.4",
+    "food_fat": "14.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "309",
+    "food_category_id": "6",
+    "food_name": "吹風滷味",
+    "food_calorie": "212",
+    "food_protein": "11",
+    "food_carb": "22.1",
+    "food_fat": "8.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "310",
+    "food_category_id": "6",
+    "food_name": "烤雞蒟蒻麵沙拉",
+    "food_calorie": "121",
+    "food_protein": "7.5",
+    "food_carb": "8.5",
+    "food_fat": "6.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "311",
+    "food_category_id": "6",
+    "food_name": "茶葉蛋白",
+    "food_calorie": "45",
+    "food_protein": "9.2",
+    "food_carb": "1.8",
+    "food_fat": "0.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "312",
+    "food_category_id": "6",
+    "food_name": "維也納風味雞肉棒",
+    "food_calorie": "195",
+    "food_protein": "10.3",
+    "food_carb": "6.1",
+    "food_fat": "14.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "313",
+    "food_category_id": "6",
+    "food_name": "香橘醋金時地瓜沙拉",
+    "food_calorie": "189",
+    "food_protein": "10.5",
+    "food_carb": "24",
+    "food_fat": "5.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "314",
+    "food_category_id": "6",
+    "food_name": "蒜香紐奧良風味雞Ｑ丸",
+    "food_calorie": "110",
+    "food_protein": "12.8",
+    "food_carb": "3.4",
+    "food_fat": "5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "315",
+    "food_category_id": "6",
+    "food_name": "日式海藻雞絲沙拉",
+    "food_calorie": "102",
+    "food_protein": "3.9",
+    "food_carb": "11.8",
+    "food_fat": "4.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "316",
+    "food_category_id": "6",
+    "food_name": "十品目田園沙拉",
+    "food_calorie": "45",
+    "food_protein": "1.6",
+    "food_carb": "9.6",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "317",
+    "food_category_id": "6",
+    "food_name": "泰式青木瓜雞絲沙拉",
+    "food_calorie": "107",
+    "food_protein": "4.9",
+    "food_carb": "16.1",
+    "food_fat": "2.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "318",
+    "food_category_id": "6",
+    "food_name": "墨式肉醬起司捲",
+    "food_calorie": "283",
+    "food_protein": "15.2",
+    "food_carb": "26.3",
+    "food_fat": "12.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "319",
+    "food_category_id": "6",
+    "food_name": "古早味炒炊粉",
+    "food_calorie": "492",
+    "food_protein": "7.3",
+    "food_carb": "60.4",
+    "food_fat": "24.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "320",
+    "food_category_id": "6",
+    "food_name": "蔬食鮪魚握沙拉",
+    "food_calorie": "241",
+    "food_protein": "8.2",
+    "food_carb": "22.5",
+    "food_fat": "13.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "321",
+    "food_category_id": "6",
+    "food_name": "黑胡椒蒜味雞柳條",
+    "food_calorie": "118",
+    "food_protein": "21.2",
+    "food_carb": "1.8",
+    "food_fat": "2.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "322",
+    "food_category_id": "6",
+    "food_name": "松露起司烘蛋捲",
+    "food_calorie": "267",
+    "food_protein": "13.6",
+    "food_carb": "19.8",
+    "food_fat": "14.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "323",
+    "food_category_id": "6",
+    "food_name": "糖燻貢丸",
+    "food_calorie": "45",
+    "food_protein": "2.3",
+    "food_carb": "1.2",
+    "food_fat": "3.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "324",
+    "food_category_id": "6",
+    "food_name": "辛潮椒麻小香腸",
+    "food_calorie": "188",
+    "food_protein": "7.7",
+    "food_carb": "6.6",
+    "food_fat": "14.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "325",
+    "food_category_id": "6",
+    "food_name": "古早味香滷嫩雞胸",
+    "food_calorie": "136",
+    "food_protein": "28.1",
+    "food_carb": "4.3",
+    "food_fat": "0.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "326",
+    "food_category_id": "6",
+    "food_name": "高粱酒珍珠香腸",
+    "food_calorie": "193",
+    "food_protein": "7.7",
+    "food_carb": "8.3",
+    "food_fat": "14.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "327",
+    "food_category_id": "6",
+    "food_name": "莎莎烤雞麵沙拉",
+    "food_calorie": "232",
+    "food_protein": "12.6",
+    "food_carb": "35.8",
+    "food_fat": "4.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "328",
+    "food_category_id": "6",
+    "food_name": "古早味香滷嫩雞胸增量版",
+    "food_calorie": "184",
+    "food_protein": "37.9",
+    "food_carb": "5.8",
+    "food_fat": "1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "329",
+    "food_category_id": "6",
+    "food_name": "蒜香紐奧良風味雞Ｑ丸增量版",
+    "food_calorie": "149",
+    "food_protein": "17.3",
+    "food_carb": "4.6",
+    "food_fat": "6.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "330",
+    "food_category_id": "6",
+    "food_name": "雪梨（截切）",
+    "food_calorie": "56",
+    "food_protein": "0.4",
+    "food_carb": "13.3",
+    "food_fat": "0.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "331",
+    "food_category_id": "6",
+    "food_name": "水梨（截切）",
+    "food_calorie": "58",
+    "food_protein": "0.8",
+    "food_carb": "15",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "332",
+    "food_category_id": "6",
+    "food_name": "蘋果油醋雞肉沙拉",
+    "food_calorie": "226",
+    "food_protein": "14.2",
+    "food_carb": "24.5",
+    "food_fat": "8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "333",
+    "food_category_id": "6",
+    "food_name": "青醬優格雞肉握沙拉",
+    "food_calorie": "202",
+    "food_protein": "8.5",
+    "food_carb": "24.8",
+    "food_fat": "7.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "334",
+    "food_category_id": "6",
+    "food_name": "薑汁胡麻溫野菜",
+    "food_calorie": "264",
+    "food_protein": "6.6",
+    "food_carb": "9.8",
+    "food_fat": "22.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "335",
+    "food_category_id": "6",
+    "food_name": "青醬優格雞肉握沙拉",
+    "food_calorie": "202",
+    "food_protein": "8.5",
+    "food_carb": "24.8",
+    "food_fat": "7.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "336",
+    "food_category_id": "6",
+    "food_name": "香辣蛋白丁",
+    "food_calorie": "61",
+    "food_protein": "8.1",
+    "food_carb": "6.8",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "337",
+    "food_category_id": "6",
+    "food_name": "麻油拌麵線",
+    "food_calorie": "345",
+    "food_protein": "7.5",
+    "food_carb": "49.8",
+    "food_fat": "13",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "338",
+    "food_category_id": "6",
+    "food_name": "黃金霸王腿條",
+    "food_calorie": "241",
+    "food_protein": "11.3",
+    "food_carb": "10.6",
+    "food_fat": "17",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "339",
+    "food_category_id": "6",
+    "food_name": "匈牙利香草烤雞翅",
+    "food_calorie": "202",
+    "food_protein": "19.4",
+    "food_carb": "1.5",
+    "food_fat": "13.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "340",
+    "food_category_id": "6",
+    "food_name": "麻辣燙",
+    "food_calorie": "308",
+    "food_protein": "18.9",
+    "food_carb": "37.8",
+    "food_fat": "9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "341",
+    "food_category_id": "6",
+    "food_name": "法式舒肥嫩雞胸",
+    "food_calorie": "94",
+    "food_protein": "19.5",
+    "food_carb": "1",
+    "food_fat": "1.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "342",
+    "food_category_id": "6",
+    "food_name": "川味香麻嫩雞胸",
+    "food_calorie": "104",
+    "food_protein": "20.4",
+    "food_carb": "1",
+    "food_fat": "2.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "343",
+    "food_category_id": "6",
+    "food_name": "原味德國Ｑ脆腸",
+    "food_calorie": "148",
+    "food_protein": "6.7",
+    "food_carb": "4",
+    "food_fat": "11.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "344",
+    "food_category_id": "6",
+    "food_name": "蒜味德國Ｑ脆腸",
+    "food_calorie": "145",
+    "food_protein": "6.5",
+    "food_carb": "5.1",
+    "food_fat": "10.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "345",
+    "food_category_id": "6",
+    "food_name": "滿漢小香腸",
+    "food_calorie": "228",
+    "food_protein": "9.7",
+    "food_carb": "8.6",
+    "food_fat": "17.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "346",
+    "food_category_id": "6",
+    "food_name": "乳酪德式小香腸",
+    "food_calorie": "150",
+    "food_protein": "6.9",
+    "food_carb": "4.7",
+    "food_fat": "11.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "347",
+    "food_category_id": "6",
+    "food_name": "珍珠香腸（蒜味）",
+    "food_calorie": "179",
+    "food_protein": "8.7",
+    "food_carb": "11.1",
+    "food_fat": "11.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "348",
+    "food_category_id": "6",
+    "food_name": "珍珠香腸（紹興）",
+    "food_calorie": "222",
+    "food_protein": "8",
+    "food_carb": "8",
+    "food_fat": "17.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "349",
+    "food_category_id": "6",
+    "food_name": "香蔥經典嫩雞胸",
+    "food_calorie": "154",
+    "food_protein": "22.4",
+    "food_carb": "4.14",
+    "food_fat": "5.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "350",
+    "food_category_id": "6",
+    "food_name": "甲霸大熱狗",
+    "food_calorie": "193",
+    "food_protein": "9.8",
+    "food_carb": "7",
+    "food_fat": "14",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "351",
+    "food_category_id": "6",
+    "food_name": "義式經典嫩雞胸",
+    "food_calorie": "120",
+    "food_protein": "21.7",
+    "food_carb": "1.5",
+    "food_fat": "3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "352",
+    "food_category_id": "7",
+    "food_name": "馬祖老酒香腸",
+    "food_calorie": "148",
+    "food_protein": "10.2",
+    "food_carb": "5.5",
+    "food_fat": "9.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "353",
+    "food_category_id": "7",
+    "food_name": "鼎王麻辣腸",
+    "food_calorie": "154",
+    "food_protein": "9.8",
+    "food_carb": "6.8",
+    "food_fat": "9.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "354",
+    "food_category_id": "7",
+    "food_name": "辣味德式香腸",
+    "food_calorie": "169",
+    "food_protein": "9.9",
+    "food_carb": "2.1",
+    "food_fat": "13.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "355",
+    "food_category_id": "7",
+    "food_name": "金黃芝士熱狗",
+    "food_calorie": "220",
+    "food_protein": "10.9",
+    "food_carb": "4.6",
+    "food_fat": "17.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "356",
+    "food_category_id": "7",
+    "food_name": "經典原味熱狗",
+    "food_calorie": "224",
+    "food_protein": "11",
+    "food_carb": "3.6",
+    "food_fat": "18.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "357",
+    "food_category_id": "7",
+    "food_name": "紹興夯腸",
+    "food_calorie": "200",
+    "food_protein": "8.1",
+    "food_carb": "2.7",
+    "food_fat": "17.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "358",
+    "food_category_id": "7",
+    "food_name": "冰烤蕃薯",
+    "food_calorie": "72",
+    "food_protein": "0.7",
+    "food_carb": "17.3",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "359",
+    "food_category_id": "7",
+    "food_name": "爆汁原味熱狗",
+    "food_calorie": "189",
+    "food_protein": "12.3",
+    "food_carb": "1.6",
+    "food_fat": "14.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "360",
+    "food_category_id": "7",
+    "food_name": "青花椒麻爆汁熱狗",
+    "food_calorie": "227",
+    "food_protein": "9.4",
+    "food_carb": "7.6",
+    "food_fat": "17.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "361",
+    "food_category_id": "7",
+    "food_name": "辣味爆汁熱狗",
+    "food_calorie": "180",
+    "food_protein": "10.2",
+    "food_carb": "4.7",
+    "food_fat": "13.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "362",
+    "food_category_id": "8",
+    "food_name": "鹽味毛豆",
+    "food_calorie": "178",
+    "food_protein": "16.3",
+    "food_carb": "15.7",
+    "food_fat": "5.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "363",
+    "food_category_id": "8",
+    "food_name": "蒜蒜辣烤腿排",
+    "food_calorie": "226",
+    "food_protein": "18.8",
+    "food_carb": "1.3",
+    "food_fat": "16.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "364",
+    "food_category_id": "8",
+    "food_name": "起司火腿蔥抓餅",
+    "food_calorie": "412",
+    "food_protein": "12.3",
+    "food_carb": "50.9",
+    "food_fat": "17.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "365",
+    "food_category_id": "8",
+    "food_name": "香腸肉燥炒麵",
+    "food_calorie": "263",
+    "food_protein": "11.7",
+    "food_carb": "38.7",
+    "food_fat": "6.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "366",
+    "food_category_id": "8",
+    "food_name": "池上白飯（３入）",
+    "food_calorie": "283",
+    "food_protein": "4.2",
+    "food_carb": "61.8",
+    "food_fat": "2.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "367",
+    "food_category_id": "8",
+    "food_name": "川味椒麻煎餃",
+    "food_calorie": "412",
+    "food_protein": "12.3",
+    "food_carb": "50.9",
+    "food_fat": "17.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "368",
+    "food_category_id": "8",
+    "food_name": "麻油肉絲炒飯",
+    "food_calorie": "344",
+    "food_protein": "8.7",
+    "food_carb": "46.8",
+    "food_fat": "13.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "369",
+    "food_category_id": "8",
+    "food_name": "麻辣豬皮",
+    "food_calorie": "247",
+    "food_protein": "19.8",
+    "food_carb": "5.5",
+    "food_fat": "16.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "370",
+    "food_category_id": "8",
+    "food_name": "水煎包",
+    "food_calorie": "160",
+    "food_protein": "6.1",
+    "food_carb": "23.8",
+    "food_fat": "4.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "371",
+    "food_category_id": "8",
+    "food_name": "塔香鹹酥雞",
+    "food_calorie": "202",
+    "food_protein": "13.3",
+    "food_carb": "11.3",
+    "food_fat": "11.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "372",
+    "food_category_id": "8",
+    "food_name": "泰式辣炒豬肉飯",
+    "food_calorie": "361",
+    "food_protein": "10.9",
+    "food_carb": "56.8",
+    "food_fat": "10",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "373",
+    "food_category_id": "8",
+    "food_name": "玉米豬肉手工水餃",
+    "food_calorie": "295",
+    "food_protein": "13.5",
+    "food_carb": "35.7",
+    "food_fat": "10.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "374",
+    "food_category_id": "8",
+    "food_name": "泰式蛤蜊酸辣寬粉",
+    "food_calorie": "143",
+    "food_protein": "3.6",
+    "food_carb": "27.9",
+    "food_fat": "1.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "375",
+    "food_category_id": "8",
+    "food_name": "韓式炸Ｇ",
+    "food_calorie": "213",
+    "food_protein": "11.1",
+    "food_carb": "28.6",
+    "food_fat": "6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "376",
+    "food_category_id": "8",
+    "food_name": "椒麻綜合滷味",
+    "food_calorie": "235",
+    "food_protein": "8.1",
+    "food_carb": "21.5",
+    "food_fat": "12.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "377",
+    "food_category_id": "8",
+    "food_name": "田家千層三星蔥拉餅",
+    "food_calorie": "334",
+    "food_protein": "6.5",
+    "food_carb": "37.1",
+    "food_fat": "17.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "378",
+    "food_category_id": "8",
+    "food_name": "田家千層胡椒拉餅",
+    "food_calorie": "316",
+    "food_protein": "9.3",
+    "food_carb": "39.3",
+    "food_fat": "13.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "379",
+    "food_category_id": "8",
+    "food_name": "海底撈麻辣炒泡麵",
+    "food_calorie": "354",
+    "food_protein": "7.4",
+    "food_carb": "35.8",
+    "food_fat": "20.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "380",
+    "food_category_id": "8",
+    "food_name": "招牌鮮肉鍋貼",
+    "food_calorie": "215",
+    "food_protein": "8.1",
+    "food_carb": "19",
+    "food_fat": "11.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "381",
+    "food_category_id": "8",
+    "food_name": "一口鮮肉餡餅",
+    "food_calorie": "377",
+    "food_protein": "16.6",
+    "food_carb": "38.3",
+    "food_fat": "17.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "382",
+    "food_category_id": "8",
+    "food_name": "雙起司火腿蔥抓餅",
+    "food_calorie": "422",
+    "food_protein": "13.5",
+    "food_carb": "53",
+    "food_fat": "17.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "383",
+    "food_category_id": "8",
+    "food_name": "經典小籠湯包",
+    "food_calorie": "117",
+    "food_protein": "6.6",
+    "food_carb": "13.9",
+    "food_fat": "3.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "384",
+    "food_category_id": "8",
+    "food_name": "少一杯雙拼",
+    "food_calorie": "126",
+    "food_protein": "2.9",
+    "food_carb": "18.6",
+    "food_fat": "4.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "385",
+    "food_category_id": "8",
+    "food_name": "鮮肉爆漿餡餅",
+    "food_calorie": "317",
+    "food_protein": "13.8",
+    "food_carb": "32.8",
+    "food_fat": "14.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "386",
+    "food_category_id": "8",
+    "food_name": "美式ＢＢＱ翅腿",
+    "food_calorie": "282",
+    "food_protein": "22.1",
+    "food_carb": "11.9",
+    "food_fat": "16.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "387",
+    "food_category_id": "8",
+    "food_name": "紐澳良辣味烤翅",
+    "food_calorie": "240",
+    "food_protein": "20.7",
+    "food_carb": "5.9",
+    "food_fat": "14.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "388",
+    "food_category_id": "8",
+    "food_name": "玉米豬肉手工水餃",
+    "food_calorie": "139",
+    "food_protein": "6.6",
+    "food_carb": "17.2",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "389",
+    "food_category_id": "8",
+    "food_name": "鮮肉小籠湯包",
+    "food_calorie": "94",
+    "food_protein": "6.2",
+    "food_carb": "9.4",
+    "food_fat": "3.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "390",
+    "food_category_id": "8",
+    "food_name": "泰式打拋燴飯",
+    "food_calorie": "252",
+    "food_protein": "7.2",
+    "food_carb": "43.4",
+    "food_fat": "5.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "391",
+    "food_category_id": "8",
+    "food_name": "日式可可咖哩飯",
+    "food_calorie": "367",
+    "food_protein": "6.1",
+    "food_carb": "72.5",
+    "food_fat": "5.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "392",
+    "food_category_id": "8",
+    "food_name": "經典鮮肉鍋貼",
+    "food_calorie": "375",
+    "food_protein": "15.3",
+    "food_carb": "37.3",
+    "food_fat": "18.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "393",
+    "food_category_id": "8",
+    "food_name": "海陸綜合鮮肉燒賣",
+    "food_calorie": "134",
+    "food_protein": "8.4",
+    "food_carb": "11.1",
+    "food_fat": "6.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "394",
+    "food_category_id": "8",
+    "food_name": "奶油雙饗義大利麵",
+    "food_calorie": "252",
+    "food_protein": "10.5",
+    "food_carb": "34.5",
+    "food_fat": "8.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "395",
+    "food_category_id": "8",
+    "food_name": "韓式炸醬麵",
+    "food_calorie": "299",
+    "food_protein": "10.2",
+    "food_carb": "53.6",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "396",
+    "food_category_id": "8",
+    "food_name": "咖哩豬肉烏龍麵",
+    "food_calorie": "272",
+    "food_protein": "6.7",
+    "food_carb": "42.7",
+    "food_fat": "8.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "397",
+    "food_category_id": "8",
+    "food_name": "胡麻乾拌麵",
+    "food_calorie": "313",
+    "food_protein": "12.8",
+    "food_carb": "44.1",
+    "food_fat": "9.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "398",
+    "food_category_id": "8",
+    "food_name": "椒麻擔擔麵",
+    "food_calorie": "313",
+    "food_protein": "9.5",
+    "food_carb": "43.1",
+    "food_fat": "11.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "399",
+    "food_category_id": "8",
+    "food_name": "黑胡椒素雞塊",
+    "food_calorie": "281",
+    "food_protein": "14.9",
+    "food_carb": "23.4",
+    "food_fat": "14.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "400",
+    "food_category_id": "8",
+    "food_name": "香烤雞腿條",
+    "food_calorie": "95",
+    "food_protein": "14.5",
+    "food_carb": "4.3",
+    "food_fat": "2.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "401",
+    "food_category_id": "8",
+    "food_name": "十三香烤雞翅",
+    "food_calorie": "248",
+    "food_protein": "18.7",
+    "food_carb": "6.6",
+    "food_fat": "16.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "402",
+    "food_category_id": "8",
+    "food_name": "韓式炸雞",
+    "food_calorie": "259",
+    "food_protein": "12.9",
+    "food_carb": "22.9",
+    "food_fat": "12.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "403",
+    "food_category_id": "8",
+    "food_name": "糖醋炸雞",
+    "food_calorie": "244",
+    "food_protein": "13.1",
+    "food_carb": "21",
+    "food_fat": "11.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "404",
+    "food_category_id": "8",
+    "food_name": "霸王黃金香雞腿",
+    "food_calorie": "189",
+    "food_protein": "14.7",
+    "food_carb": "8.7",
+    "food_fat": "10.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "405",
+    "food_category_id": "8",
+    "food_name": "霸王黃金酷辣雞腿排",
+    "food_calorie": "334",
+    "food_protein": "20.8",
+    "food_carb": "12.6",
+    "food_fat": "22.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "406",
+    "food_category_id": "8",
+    "food_name": "美式香辣雞球",
+    "food_calorie": "280",
+    "food_protein": "14.3",
+    "food_carb": "14.3",
+    "food_fat": "18.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "407",
+    "food_category_id": "8",
+    "food_name": "酥炸薯花",
+    "food_calorie": "222",
+    "food_protein": "2.1",
+    "food_carb": "27.7",
+    "food_fat": "11.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "408",
+    "food_category_id": "8",
+    "food_name": "香蒜排骨酥",
+    "food_calorie": "271",
+    "food_protein": "16.3",
+    "food_carb": "15.5",
+    "food_fat": "16",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "409",
+    "food_category_id": "8",
+    "food_name": "黃金起司香雞塊（重組）",
+    "food_calorie": "240",
+    "food_protein": "14.3",
+    "food_carb": "16.1",
+    "food_fat": "13.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "410",
+    "food_category_id": "8",
+    "food_name": "咖哩炸雞",
+    "food_calorie": "286",
+    "food_protein": "13.9",
+    "food_carb": "20.7",
+    "food_fat": "16.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "411",
+    "food_category_id": "8",
+    "food_name": "鮮肉爆漿餡餅",
+    "food_calorie": "317",
+    "food_protein": "13.8",
+    "food_carb": "32.8",
+    "food_fat": "14.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "412",
+    "food_category_id": "8",
+    "food_name": "鮮肉小籠湯包",
+    "food_calorie": "94",
+    "food_protein": "6.2",
+    "food_carb": "9.4",
+    "food_fat": "3.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "413",
+    "food_category_id": "8",
+    "food_name": "韓式泡菜豬肉煎餃",
+    "food_calorie": "60",
+    "food_protein": "2.3",
+    "food_carb": "5.8",
+    "food_fat": "3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "414",
+    "food_category_id": "8",
+    "food_name": "經典鮮肉鍋貼",
+    "food_calorie": "375",
+    "food_protein": "15.3",
+    "food_carb": "37.3",
+    "food_fat": "18.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "415",
+    "food_category_id": "8",
+    "food_name": "海陸綜合鮮肉燒賣",
+    "food_calorie": "145",
+    "food_protein": "9",
+    "food_carb": "9.4",
+    "food_fat": "7.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "416",
+    "food_category_id": "8",
+    "food_name": "夏威夷風味厚片ｐｉｚｚａ",
+    "food_calorie": "308",
+    "food_protein": "13",
+    "food_carb": "39.8",
+    "food_fat": "10.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "417",
+    "food_category_id": "8",
+    "food_name": "韓式泡菜厚片ｐｉｚｚａ",
+    "food_calorie": "304",
+    "food_protein": "14.7",
+    "food_carb": "36.3",
+    "food_fat": "11.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "418",
+    "food_category_id": "8",
+    "food_name": "玉米豬肉手工水餃",
+    "food_calorie": "139",
+    "food_protein": "6.6",
+    "food_carb": "17.2",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "419",
+    "food_category_id": "8",
+    "food_name": "港式臘味蘿蔔糕",
+    "food_calorie": "101",
+    "food_protein": "2",
+    "food_carb": "13.8",
+    "food_fat": "4.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "420",
+    "food_category_id": "8",
+    "food_name": "美式ＢＢＱ翅腿",
+    "food_calorie": "282",
+    "food_protein": "22.1",
+    "food_carb": "11.9",
+    "food_fat": "16.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "421",
+    "food_category_id": "8",
+    "food_name": "紐澳良辣味烤翅",
+    "food_calorie": "240",
+    "food_protein": "20.7",
+    "food_carb": "5.9",
+    "food_fat": "14.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "422",
+    "food_category_id": "8",
+    "food_name": "香烤雞腿條",
+    "food_calorie": "95",
+    "food_protein": "14.5",
+    "food_carb": "4.3",
+    "food_fat": "2.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "423",
+    "food_category_id": "8",
+    "food_name": "十三香烤雞翅",
+    "food_calorie": "248",
+    "food_protein": "18.7",
+    "food_carb": "6.6",
+    "food_fat": "16.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "424",
+    "food_category_id": "8",
+    "food_name": "墨西哥風味烤雞腿丁",
+    "food_calorie": "173",
+    "food_protein": "17.2",
+    "food_carb": "3.9",
+    "food_fat": "9.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "425",
+    "food_category_id": "8",
+    "food_name": "蜜汁雞柳",
+    "food_calorie": "190",
+    "food_protein": "10.7",
+    "food_carb": "18.8",
+    "food_fat": "8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "426",
+    "food_category_id": "8",
+    "food_name": "照燒雞腿肉串",
+    "food_calorie": "74",
+    "food_protein": "9.8",
+    "food_carb": "3.4",
+    "food_fat": "2.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "427",
+    "food_category_id": "8",
+    "food_name": "蕃茄肉醬義大利麵",
+    "food_calorie": "252",
+    "food_protein": "9.8",
+    "food_carb": "42",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "428",
+    "food_category_id": "8",
+    "food_name": "青醬雞肉義大利麵",
+    "food_calorie": "278",
+    "food_protein": "9.5",
+    "food_carb": "33.8",
+    "food_fat": "11.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "429",
+    "food_category_id": "8",
+    "food_name": "日式可可咖哩飯",
+    "food_calorie": "367",
+    "food_protein": "6.1",
+    "food_carb": "72.5",
+    "food_fat": "5.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "430",
+    "food_category_id": "8",
+    "food_name": "椒麻擔擔麵",
+    "food_calorie": "313",
+    "food_protein": "9.5",
+    "food_carb": "43.1",
+    "food_fat": "11.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "431",
+    "food_category_id": "8",
+    "food_name": "鹹魚雞粒炒飯",
+    "food_calorie": "404",
+    "food_protein": "11.5",
+    "food_carb": "55.7",
+    "food_fat": "15",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "432",
+    "food_category_id": "8",
+    "food_name": "蜜汁叉燒炒飯",
+    "food_calorie": "396",
+    "food_protein": "12.2",
+    "food_carb": "54",
+    "food_fat": "14.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "433",
+    "food_category_id": "8",
+    "food_name": "義式紅醬培根義大利麵",
+    "food_calorie": "243",
+    "food_protein": "10.9",
+    "food_carb": "32",
+    "food_fat": "7.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "434",
+    "food_category_id": "8",
+    "food_name": "青醬雞丁義大利麵",
+    "food_calorie": "284",
+    "food_protein": "13.8",
+    "food_carb": "27.5",
+    "food_fat": "13.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "435",
+    "food_category_id": "8",
+    "food_name": "奶油蕈菇松露燉飯",
+    "food_calorie": "265",
+    "food_protein": "3.3",
+    "food_carb": "41.3",
+    "food_fat": "9.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "436",
+    "food_category_id": "8",
+    "food_name": "咖哩豬肉烏龍麵",
+    "food_calorie": "272",
+    "food_protein": "6.7",
+    "food_carb": "42.7",
+    "food_fat": "8.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "437",
+    "food_category_id": "8",
+    "food_name": "胡麻乾拌麵",
+    "food_calorie": "313",
+    "food_protein": "12.8",
+    "food_carb": "44.1",
+    "food_fat": "9.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "438",
+    "food_category_id": "8",
+    "food_name": "ＸＯ蠔油粉絲煲",
+    "food_calorie": "232",
+    "food_protein": "2.1",
+    "food_carb": "44.1",
+    "food_fat": "5.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "439",
+    "food_category_id": "8",
+    "food_name": "美式卡真醬雞肉捲",
+    "food_calorie": "304",
+    "food_protein": "18.2",
+    "food_carb": "4.6",
+    "food_fat": "23.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "440",
+    "food_category_id": "8",
+    "food_name": "黑胡椒毛豆",
+    "food_calorie": "211",
+    "food_protein": "13",
+    "food_carb": "17.5",
+    "food_fat": "10",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "441",
+    "food_category_id": "8",
+    "food_name": "黑胡椒素雞塊",
+    "food_calorie": "281",
+    "food_protein": "14.9",
+    "food_carb": "23.4",
+    "food_fat": "14.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "442",
+    "food_category_id": "8",
+    "food_name": "素花枝丸",
+    "food_calorie": "135",
+    "food_protein": "3.7",
+    "food_carb": "19.7",
+    "food_fat": "4.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "443",
+    "food_category_id": "8",
+    "food_name": "香辣滷百頁",
+    "food_calorie": "266",
+    "food_protein": "14.4",
+    "food_carb": "12.9",
+    "food_fat": "17.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "444",
+    "food_category_id": "8",
+    "food_name": "傳香醬滷素米血",
+    "food_calorie": "177",
+    "food_protein": "3.6",
+    "food_carb": "36.7",
+    "food_fat": "1.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "445",
+    "food_category_id": "8",
+    "food_name": "素鹹酥雞",
+    "food_calorie": "307",
+    "food_protein": "18.2",
+    "food_carb": "11.7",
+    "food_fat": "20.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "446",
+    "food_category_id": "8",
+    "food_name": "美式香辣素雞米花",
+    "food_calorie": "369",
+    "food_protein": "13.3",
+    "food_carb": "18",
+    "food_fat": "27.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "447",
+    "food_category_id": "8",
+    "food_name": "紅燒牛肉湯",
+    "food_calorie": "195",
+    "food_protein": "16.6",
+    "food_carb": "9.9",
+    "food_fat": "9.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "448",
+    "food_category_id": "8",
+    "food_name": "蒜香舒食嫩雞胸（三入）",
+    "food_calorie": "90",
+    "food_protein": "18.7",
+    "food_carb": "1.8",
+    "food_fat": "0.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "449",
+    "food_category_id": "8",
+    "food_name": "韓式炸雞分享包",
+    "food_calorie": "247",
+    "food_protein": "12.3",
+    "food_carb": "21.8",
+    "food_fat": "12.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "450",
+    "food_category_id": "8",
+    "food_name": "美式香辣雞球分享包",
+    "food_calorie": "280",
+    "food_protein": "14.3",
+    "food_carb": "14.3",
+    "food_fat": "18.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "451",
+    "food_category_id": "8",
+    "food_name": "親愛的鬆餅",
+    "food_calorie": "290",
+    "food_protein": "5.4",
+    "food_carb": "29.4",
+    "food_fat": "16.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "452",
+    "food_category_id": "8",
+    "food_name": "川府麻辣熟水餃",
+    "food_calorie": "98",
+    "food_protein": "4.7",
+    "food_carb": "14.7",
+    "food_fat": "2.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "453",
+    "food_category_id": "8",
+    "food_name": "印度咖哩熟水餃",
+    "food_calorie": "102",
+    "food_protein": "4.8",
+    "food_carb": "15.4",
+    "food_fat": "2.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "454",
+    "food_category_id": "8",
+    "food_name": "塔香蕃茄熟水餃",
+    "food_calorie": "91",
+    "food_protein": "5",
+    "food_carb": "13.1",
+    "food_fat": "2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "455",
+    "food_category_id": "8",
+    "food_name": "韓式泡菜熟水餃",
+    "food_calorie": "92",
+    "food_protein": "4.3",
+    "food_carb": "14.8",
+    "food_fat": "1.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "456",
+    "food_category_id": "8",
+    "food_name": "芋香豬肉丸",
+    "food_calorie": "261",
+    "food_protein": "6.8",
+    "food_carb": "20.9",
+    "food_fat": "16.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "457",
+    "food_category_id": "8",
+    "food_name": "植物肉素餡餅",
+    "food_calorie": "160",
+    "food_protein": "6.5",
+    "food_carb": "18",
+    "food_fat": "6.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "458",
+    "food_category_id": "9",
+    "food_name": "鼎王麻辣蛋",
+    "food_calorie": "72",
+    "food_protein": "6",
+    "food_carb": "3",
+    "food_fat": "4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "459",
+    "food_category_id": "9",
+    "food_name": "奶皇包２０",
+    "food_calorie": "188",
+    "food_protein": "4.9",
+    "food_carb": "29.1",
+    "food_fat": "5.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "460",
+    "food_category_id": "9",
+    "food_name": "茶碗蒸（海鮮風味）",
+    "food_calorie": "106",
+    "food_protein": "8.2",
+    "food_carb": "6",
+    "food_fat": "5.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "461",
+    "food_category_id": "9",
+    "food_name": "金家ㄟ春川起司辣炒雞包",
+    "food_calorie": "229",
+    "food_protein": "10.3",
+    "food_carb": "36.7",
+    "food_fat": "4.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "462",
+    "food_category_id": "9",
+    "food_name": "金家ㄟ泡菜豬肉包",
+    "food_calorie": "236",
+    "food_protein": "8.2",
+    "food_carb": "37.4",
+    "food_fat": "5.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "463",
+    "food_category_id": "9",
+    "food_name": "金家ㄟ紫薯地瓜包",
+    "food_calorie": "157",
+    "food_protein": "3.4",
+    "food_carb": "31.5",
+    "food_fat": "2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "464",
+    "food_category_id": "9",
+    "food_name": "金家ㄟ紅豆包",
+    "food_calorie": "159",
+    "food_protein": "4.9",
+    "food_carb": "32.6",
+    "food_fat": "1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "465",
+    "food_category_id": "9",
+    "food_name": "叉燒包",
+    "food_calorie": "280",
+    "food_protein": "8.4",
+    "food_carb": "47.7",
+    "food_fat": "6.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "466",
+    "food_category_id": "9",
+    "food_name": "起司銀絲卷",
+    "food_calorie": "224",
+    "food_protein": "7",
+    "food_carb": "40.8",
+    "food_fat": "3.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "467",
+    "food_category_id": "9",
+    "food_name": "泰式甜辣虎皮蛋",
+    "food_calorie": "190",
+    "food_protein": "12.8",
+    "food_carb": "10",
+    "food_fat": "11",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "468",
+    "food_category_id": "9",
+    "food_name": "芝麻包",
+    "food_calorie": "224",
+    "food_protein": "5.2",
+    "food_carb": "34.3",
+    "food_fat": "7.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "469",
+    "food_category_id": "9",
+    "food_name": "日式茶碗蒸",
+    "food_calorie": "82",
+    "food_protein": "7.5",
+    "food_carb": "2.6",
+    "food_fat": "4.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "470",
+    "food_category_id": "9",
+    "food_name": "松花皮蛋",
+    "food_calorie": "88",
+    "food_protein": "7",
+    "food_carb": "1.3",
+    "food_fat": "6.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "471",
+    "food_category_id": "9",
+    "food_name": "出油熟鹹蛋",
+    "food_calorie": "102",
+    "food_protein": "7.2",
+    "food_carb": "1",
+    "food_fat": "7.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "472",
+    "food_category_id": "9",
+    "food_name": "花雕吉運蛋",
+    "food_calorie": "81",
+    "food_protein": "6.7",
+    "food_carb": "4.2",
+    "food_fat": "4.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "473",
+    "food_category_id": "9",
+    "food_name": "大鮮肉包２．０",
+    "food_calorie": "290",
+    "food_protein": "9.1",
+    "food_carb": "44.6",
+    "food_fat": "8.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "474",
+    "food_category_id": "9",
+    "food_name": "大鮮筍包２．０",
+    "food_calorie": "276",
+    "food_protein": "11.2",
+    "food_carb": "41.4",
+    "food_fat": "7.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "475",
+    "food_category_id": "9",
+    "food_name": "瑪利歐香菇肉包",
+    "food_calorie": "258",
+    "food_protein": "9.7",
+    "food_carb": "38.3",
+    "food_fat": "7.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "476",
+    "food_category_id": "9",
+    "food_name": "浪漫台三線梅干扣肉包",
+    "food_calorie": "244",
+    "food_protein": "8.4",
+    "food_carb": "38.2",
+    "food_fat": "6.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "477",
+    "food_category_id": "9",
+    "food_name": "青花椒麻虎紋蛋",
+    "food_calorie": "165",
+    "food_protein": "12.2",
+    "food_carb": "5.1",
+    "food_fat": "10.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "478",
+    "food_category_id": "9",
+    "food_name": "青花椒麻香肉包",
+    "food_calorie": "248",
+    "food_protein": "10.4",
+    "food_carb": "36.9",
+    "food_fat": "6.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "479",
+    "food_category_id": "9",
+    "food_name": "鮮乳坊起司銀絲卷",
+    "food_calorie": "209",
+    "food_protein": "7.1",
+    "food_carb": "41.6",
+    "food_fat": "1.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "480",
+    "food_category_id": "9",
+    "food_name": "金家ㄟ粉紅醬爆漿起司包",
+    "food_calorie": "264",
+    "food_protein": "9.3",
+    "food_carb": "42.9",
+    "food_fat": "6.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "481",
+    "food_category_id": "9",
+    "food_name": "金家ㄟ紅豆核桃包",
+    "food_calorie": "171",
+    "food_protein": "4.9",
+    "food_carb": "32.8",
+    "food_fat": "2.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "482",
+    "food_category_id": "9",
+    "food_name": "玫瑰鹽水煮蛋",
+    "food_calorie": "49",
+    "food_protein": "4.6",
+    "food_carb": "0.6",
+    "food_fat": "3.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "483",
+    "food_category_id": "10",
+    "food_name": "萬丹巧克力牛奶",
+    "food_calorie": "192",
+    "food_protein": "7.3",
+    "food_carb": "29",
+    "food_fat": "5.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "484",
+    "food_category_id": "10",
+    "food_name": "光泉無加糖優酪乳",
+    "food_calorie": "148",
+    "food_protein": "8",
+    "food_carb": "26.2",
+    "food_fat": "1.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "485",
+    "food_category_id": "10",
+    "food_name": "活益比菲多減糖纖維",
+    "food_calorie": "278",
+    "food_protein": "5.2",
+    "food_carb": "67.8",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "486",
+    "food_category_id": "10",
+    "food_name": "桂格顆粒燕麥９２０ｍｌ",
+    "food_calorie": "132",
+    "food_protein": "4",
+    "food_carb": "22.6",
+    "food_fat": "3.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "487",
+    "food_category_id": "10",
+    "food_name": "萬丹巧克力牛奶９３６ｍｌ",
+    "food_calorie": "206",
+    "food_protein": "7.8",
+    "food_carb": "31.2",
+    "food_fat": "5.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "488",
+    "food_category_id": "10",
+    "food_name": "桂格１００％喝的燕麥９２０ｍｌ",
+    "food_calorie": "133",
+    "food_protein": "3.9",
+    "food_carb": "24",
+    "food_fat": "3.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "489",
+    "food_category_id": "10",
+    "food_name": "光泉可可榛果燕麥奶",
+    "food_calorie": "220",
+    "food_protein": "8.2",
+    "food_carb": "35.6",
+    "food_fat": "5.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "490",
+    "food_category_id": "10",
+    "food_name": "ＯａｔＹａ職人燕麥奶",
+    "food_calorie": "243",
+    "food_protein": "5.3",
+    "food_carb": "30",
+    "food_fat": "11.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "491",
+    "food_category_id": "10",
+    "food_name": "義美無加糖高纖燕麥奶",
+    "food_calorie": "167",
+    "food_protein": "5.3",
+    "food_carb": "29.6",
+    "food_fat": "4.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "492",
+    "food_category_id": "10",
+    "food_name": "福樂超能蛋白牛乳奶茶風味",
+    "food_calorie": "189",
+    "food_protein": "20.6",
+    "food_carb": "26.6",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "493",
+    "food_category_id": "10",
+    "food_name": "自然零水蜜桃優酪乳",
+    "food_calorie": "135",
+    "food_protein": "7.1",
+    "food_carb": "21.4",
+    "food_fat": "2.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "494",
+    "food_category_id": "10",
+    "food_name": "ＦＭＣ芝麻米漿",
+    "food_calorie": "124",
+    "food_protein": "1",
+    "food_carb": "25.6",
+    "food_fat": "1.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "495",
+    "food_category_id": "10",
+    "food_name": "Ａ２β酪蛋白鮮乳２００ｍｌ",
+    "food_calorie": "136",
+    "food_protein": "6.4",
+    "food_carb": "9.6",
+    "food_fat": "8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "496",
+    "food_category_id": "10",
+    "food_name": "愛之味蜂蜜燕麥",
+    "food_calorie": "142",
+    "food_protein": "2",
+    "food_carb": "24.1",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "497",
+    "food_category_id": "10",
+    "food_name": "ＯａｔＹａ蜂蜜燕麥奶",
+    "food_calorie": "151",
+    "food_protein": "2.2",
+    "food_carb": "22.6",
+    "food_fat": "5.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "498",
+    "food_category_id": "10",
+    "food_name": "義美海鹽厚可可",
+    "food_calorie": "234",
+    "food_protein": "10.4",
+    "food_carb": "35",
+    "food_fat": "5.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "499",
+    "food_category_id": "10",
+    "food_name": "義美堅果杏仁全豆奶９００",
+    "food_calorie": "172",
+    "food_protein": "10.5",
+    "food_carb": "17.3",
+    "food_fat": "8.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "500",
+    "food_category_id": "10",
+    "food_name": "義美厚濃豆奶９３６ｍｌ",
+    "food_calorie": "178",
+    "food_protein": "16.5",
+    "food_carb": "10.9",
+    "food_fat": "8.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "501",
+    "food_category_id": "10",
+    "food_name": "義美高纖全豆豆奶９３６",
+    "food_calorie": "125",
+    "food_protein": "11.5",
+    "food_carb": "10.1",
+    "food_fat": "5.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "502",
+    "food_category_id": "10",
+    "food_name": "義美高纖燕麥奶９３６ｍｌ",
+    "food_calorie": "139",
+    "food_protein": "4.4",
+    "food_carb": "24.6",
+    "food_fat": "3.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "503",
+    "food_category_id": "10",
+    "food_name": "光泉優質蛋白牛乳９３６ｍｌ",
+    "food_calorie": "188",
+    "food_protein": "15.6",
+    "food_carb": "27.1",
+    "food_fat": "1.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "504",
+    "food_category_id": "10",
+    "food_name": "光泉高鈣牛乳９３６ｍｌ",
+    "food_calorie": "218",
+    "food_protein": "10.3",
+    "food_carb": "20.3",
+    "food_fat": "10.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "505",
+    "food_category_id": "10",
+    "food_name": "光泉富維他牛乳９３６ｍｌ",
+    "food_calorie": "179",
+    "food_protein": "4.7",
+    "food_carb": "26.8",
+    "food_fat": "5.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "506",
+    "food_category_id": "10",
+    "food_name": "光泉草莓牛乳",
+    "food_calorie": "142",
+    "food_protein": "4.9",
+    "food_carb": "24.1",
+    "food_fat": "2.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "507",
+    "food_category_id": "10",
+    "food_name": "福樂超能蜂蜜口味營養牛乳",
+    "food_calorie": "186",
+    "food_protein": "9.4",
+    "food_carb": "27.8",
+    "food_fat": "4.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "508",
+    "food_category_id": "10",
+    "food_name": "義美黑可可植物蛋白奶",
+    "food_calorie": "340",
+    "food_protein": "21.2",
+    "food_carb": "30.8",
+    "food_fat": "14.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "509",
+    "food_category_id": "10",
+    "food_name": "優豆核桃堅果奶",
+    "food_calorie": "96",
+    "food_protein": "2.5",
+    "food_carb": "9",
+    "food_fat": "5.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "510",
+    "food_category_id": "10",
+    "food_name": "燕麥核桃堅果奶",
+    "food_calorie": "118",
+    "food_protein": "2",
+    "food_carb": "14.3",
+    "food_fat": "5.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "511",
+    "food_category_id": "10",
+    "food_name": "光泉高鈣鮮豆漿",
+    "food_calorie": "203",
+    "food_protein": "15.3",
+    "food_carb": "18.4",
+    "food_fat": "7.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "512",
+    "food_category_id": "10",
+    "food_name": "光泉燕麥高纖無加糖鮮豆漿",
+    "food_calorie": "185",
+    "food_protein": "14.4",
+    "food_carb": "18",
+    "food_fat": "8.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "513",
+    "food_category_id": "10",
+    "food_name": "ＦＭＣ紅豆紫米漿",
+    "food_calorie": "127",
+    "food_protein": "2.9",
+    "food_carb": "28.8",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "514",
+    "food_category_id": "10",
+    "food_name": "福樂超能蛋白營養牛乳可可口味",
+    "food_calorie": "202",
+    "food_protein": "20.3",
+    "food_carb": "25.1",
+    "food_fat": "2.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "515",
+    "food_category_id": "10",
+    "food_name": "加倍佳草莓牛奶",
+    "food_calorie": "206",
+    "food_protein": "6",
+    "food_carb": "31.1",
+    "food_fat": "6.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "516",
+    "food_category_id": "10",
+    "food_name": "光泉米漿米米杯　",
+    "food_calorie": "144",
+    "food_protein": "3.2",
+    "food_carb": "21.8",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "517",
+    "food_category_id": "10",
+    "food_name": "養樂多巧克力牛奶",
+    "food_calorie": "78",
+    "food_protein": "3",
+    "food_carb": "11.3",
+    "food_fat": "2.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "518",
+    "food_category_id": "10",
+    "food_name": "ＬＣＡ活菌清爽發酵乳",
+    "food_calorie": "76",
+    "food_protein": "1.6",
+    "food_carb": "17.4",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "519",
+    "food_category_id": "10",
+    "food_name": "ＦＭＣ特濃黑可可",
+    "food_calorie": "280",
+    "food_protein": "8.5",
+    "food_carb": "32",
+    "food_fat": "13.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "520",
+    "food_category_id": "10",
+    "food_name": "光泉高鈣牛乳",
+    "food_calorie": "279",
+    "food_protein": "13.2",
+    "food_carb": "26",
+    "food_fat": "13.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "521",
+    "food_category_id": "10",
+    "food_name": "ＯａｔＹａ綠豆沙燕麥奶",
+    "food_calorie": "156",
+    "food_protein": "3.1",
+    "food_carb": "22.8",
+    "food_fat": "5.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "522",
+    "food_category_id": "10",
+    "food_name": "義美蜂蜜燕麥奶",
+    "food_calorie": "195",
+    "food_protein": "3",
+    "food_carb": "38.1",
+    "food_fat": "4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "523",
+    "food_category_id": "10",
+    "food_name": "乳香世家全脂鮮乳４４０ｍｌ",
+    "food_calorie": "291",
+    "food_protein": "14.5",
+    "food_carb": "21.6",
+    "food_fat": "16.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "524",
+    "food_category_id": "10",
+    "food_name": "林鳳營全脂鮮乳２２８ｍｌ",
+    "food_calorie": "148",
+    "food_protein": "7.3",
+    "food_carb": "10.9",
+    "food_fat": "8.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "525",
+    "food_category_id": "10",
+    "food_name": "乳香世家全脂鮮乳２２０ｍｌ",
+    "food_calorie": "145",
+    "food_protein": "7.3",
+    "food_carb": "10.8",
+    "food_fat": "8.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "526",
+    "food_category_id": "10",
+    "food_name": "義美全脂鮮乳２３６ｍｌ",
+    "food_calorie": "154",
+    "food_protein": "7.3",
+    "food_carb": "11.7",
+    "food_fat": "8.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "527",
+    "food_category_id": "10",
+    "food_name": "林鳳營全脂鮮乳３３８ｍｌ",
+    "food_calorie": "221",
+    "food_protein": "10.8",
+    "food_carb": "16.2",
+    "food_fat": "12.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "528",
+    "food_category_id": "10",
+    "food_name": "鮮乳坊嘉明鮮乳",
+    "food_calorie": "139",
+    "food_protein": "6.7",
+    "food_carb": "10.1",
+    "food_fat": "8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "529",
+    "food_category_id": "10",
+    "food_name": "義美全脂鮮乳２９０ｍｌ",
+    "food_calorie": "190",
+    "food_protein": "9",
+    "food_carb": "14.3",
+    "food_fat": "10.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "530",
+    "food_category_id": "10",
+    "food_name": "光泉全脂鮮乳２９０ｍｌ",
+    "food_calorie": "192",
+    "food_protein": "9.6",
+    "food_carb": "14.2",
+    "food_fat": "10.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "531",
+    "food_category_id": "10",
+    "food_name": "瑞穗全脂鮮奶",
+    "food_calorie": "189",
+    "food_protein": "9.3",
+    "food_carb": "13.9",
+    "food_fat": "10.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "532",
+    "food_category_id": "10",
+    "food_name": "牧場直送４．０鮮乳３７５ｍｌ",
+    "food_calorie": "255",
+    "food_protein": "12",
+    "food_carb": "18",
+    "food_fat": "15",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "533",
+    "food_category_id": "10",
+    "food_name": "林鳳營低脂鮮乳３３８ｍｌ",
+    "food_calorie": "150",
+    "food_protein": "10.8",
+    "food_carb": "16.2",
+    "food_fat": "4.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "534",
+    "food_category_id": "10",
+    "food_name": "林鳳營低脂鮮乳２２８ｍｌ",
+    "food_calorie": "102",
+    "food_protein": "7.3",
+    "food_carb": "10.9",
+    "food_fat": "3.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "535",
+    "food_category_id": "10",
+    "food_name": "光泉低脂鮮乳２９０ｍｌ",
+    "food_calorie": "133",
+    "food_protein": "9.6",
+    "food_carb": "14.5",
+    "food_fat": "4.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "536",
+    "food_category_id": "10",
+    "food_name": "瑞穗低脂鮮乳",
+    "food_calorie": "129",
+    "food_protein": "9.3",
+    "food_carb": "13.9",
+    "food_fat": "4.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "537",
+    "food_category_id": "10",
+    "food_name": "光泉果汁牛乳９３６ｍｌ",
+    "food_calorie": "186",
+    "food_protein": "5.3",
+    "food_carb": "29.3",
+    "food_fat": "5.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "538",
+    "food_category_id": "10",
+    "food_name": "光泉巧克力牛乳９３６ｍｌ",
+    "food_calorie": "199",
+    "food_protein": "7.8",
+    "food_carb": "32.1",
+    "food_fat": "4.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "539",
+    "food_category_id": "10",
+    "food_name": "統一木瓜牛乳",
+    "food_calorie": "303",
+    "food_protein": "9.1",
+    "food_carb": "47.3",
+    "food_fat": "8.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "540",
+    "food_category_id": "10",
+    "food_name": "統一阿華田",
+    "food_calorie": "197",
+    "food_protein": "5.8",
+    "food_carb": "31.3",
+    "food_fat": "5.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "541",
+    "food_category_id": "10",
+    "food_name": "綠豆沙牛乳",
+    "food_calorie": "231",
+    "food_protein": "6.8",
+    "food_carb": "34.8",
+    "food_fat": "7.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "542",
+    "food_category_id": "10",
+    "food_name": "光泉杯裝全脂鮮乳",
+    "food_calorie": "162",
+    "food_protein": "8.1",
+    "food_carb": "12",
+    "food_fat": "9.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "543",
+    "food_category_id": "10",
+    "food_name": "瑞穗麥芽牛奶",
+    "food_calorie": "279",
+    "food_protein": "7.2",
+    "food_carb": "40",
+    "food_fat": "10",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "544",
+    "food_category_id": "10",
+    "food_name": "愛之味黑巧燕麥飲",
+    "food_calorie": "183",
+    "food_protein": "4.4",
+    "food_carb": "22.9",
+    "food_fat": "9.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "545",
+    "food_category_id": "10",
+    "food_name": "光泉木瓜牛乳",
+    "food_calorie": "249",
+    "food_protein": "7.2",
+    "food_carb": "38.8",
+    "food_fat": "7.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "546",
+    "food_category_id": "10",
+    "food_name": "金蘋果調味乳蘋果風味",
+    "food_calorie": "112",
+    "food_protein": "2.6",
+    "food_carb": "19.6",
+    "food_fat": "2.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "547",
+    "food_category_id": "10",
+    "food_name": "光泉果汁牛乳",
+    "food_calorie": "178",
+    "food_protein": "4.9",
+    "food_carb": "27.3",
+    "food_fat": "5.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "548",
+    "food_category_id": "10",
+    "food_name": "光泉巧克力牛乳",
+    "food_calorie": "186",
+    "food_protein": "7.3",
+    "food_carb": "29.9",
+    "food_fat": "4.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "549",
+    "food_category_id": "10",
+    "food_name": "福樂鈣多多牛乳",
+    "food_calorie": "257",
+    "food_protein": "11.6",
+    "food_carb": "21.4",
+    "food_fat": "13.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "550",
+    "food_category_id": "10",
+    "food_name": "光泉富維他牛乳",
+    "food_calorie": "230",
+    "food_protein": "6",
+    "food_carb": "34.4",
+    "food_fat": "7.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "551",
+    "food_category_id": "10",
+    "food_name": "光泉杯裝麥芽牛乳",
+    "food_calorie": "156",
+    "food_protein": "4.7",
+    "food_carb": "23.3",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "552",
+    "food_category_id": "10",
+    "food_name": "桂格堅果燕麥飲",
+    "food_calorie": "118",
+    "food_protein": "3.5",
+    "food_carb": "20.6",
+    "food_fat": "2.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "553",
+    "food_category_id": "10",
+    "food_name": "光泉優質蛋白巧克力牛奶",
+    "food_calorie": "241",
+    "food_protein": "20",
+    "food_carb": "34.8",
+    "food_fat": "2.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "554",
+    "food_category_id": "10",
+    "food_name": "光泉燕麥奶",
+    "food_calorie": "203",
+    "food_protein": "6",
+    "food_carb": "34.5",
+    "food_fat": "4.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "555",
+    "food_category_id": "10",
+    "food_name": "桂格豆漿燕麥飲",
+    "food_calorie": "109",
+    "food_protein": "6.1",
+    "food_carb": "14.5",
+    "food_fat": "3.5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "556",
+    "food_category_id": "10",
+    "food_name": "愛之味純濃燕麥天然原味",
+    "food_calorie": "131",
+    "food_protein": "4.1",
+    "food_carb": "24.1",
+    "food_fat": "2.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "557",
+    "food_category_id": "10",
+    "food_name": "光泉蘋果牛乳",
+    "food_calorie": "203",
+    "food_protein": "4.6",
+    "food_carb": "34.5",
+    "food_fat": "5.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "558",
+    "food_category_id": "10",
+    "food_name": "光泉麥芽牛乳",
+    "food_calorie": "185",
+    "food_protein": "5.5",
+    "food_carb": "27.6",
+    "food_fat": "5.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "559",
+    "food_category_id": "10",
+    "food_name": "桂格１００％喝的燕麥",
+    "food_calorie": "127",
+    "food_protein": "3.8",
+    "food_carb": "22.9",
+    "food_fat": "2.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "560",
+    "food_category_id": "10",
+    "food_name": "瑞穗蘋果牛奶",
+    "food_calorie": "285",
+    "food_protein": "6",
+    "food_carb": "47.2",
+    "food_fat": "8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "561",
+    "food_category_id": "10",
+    "food_name": "桂格顆粒燕麥飲",
+    "food_calorie": "125",
+    "food_protein": "3.8",
+    "food_carb": "21.5",
+    "food_fat": "3.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "562",
+    "food_category_id": "10",
+    "food_name": "ＡＢ優酪乳原味９０２ｍｌ",
+    "food_calorie": "180",
+    "food_protein": "9",
+    "food_carb": "31.9",
+    "food_fat": "1.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "563",
+    "food_category_id": "10",
+    "food_name": "ＡＢ優酪乳無加糖９０２ｍｌ",
+    "food_calorie": "173",
+    "food_protein": "9.3",
+    "food_carb": "25.2",
+    "food_fat": "3.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "564",
+    "food_category_id": "10",
+    "food_name": "鮮乳坊玻妞優格飲",
+    "food_calorie": "74",
+    "food_protein": "2.6",
+    "food_carb": "11.9",
+    "food_fat": "1.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "565",
+    "food_category_id": "10",
+    "food_name": "ＡＢ優酪乳原味５１７ｍｌ",
+    "food_calorie": "155",
+    "food_protein": "7.8",
+    "food_carb": "27.4",
+    "food_fat": "1.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "566",
+    "food_category_id": "10",
+    "food_name": "ＡＢ優酪乳原味",
+    "food_calorie": "123",
+    "food_protein": "6.2",
+    "food_carb": "21.8",
+    "food_fat": "1.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "567",
+    "food_category_id": "10",
+    "food_name": "光泉原味優酪乳",
+    "food_calorie": "139",
+    "food_protein": "7",
+    "food_carb": "16.6",
+    "food_fat": "5",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "568",
+    "food_category_id": "10",
+    "food_name": "ＡＢ草莓優酪乳",
+    "food_calorie": "139",
+    "food_protein": "5.6",
+    "food_carb": "27.4",
+    "food_fat": "0.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "569",
+    "food_category_id": "10",
+    "food_name": "林鳳營無加糖益生菌優酪乳",
+    "food_calorie": "123",
+    "food_protein": "8",
+    "food_carb": "11.9",
+    "food_fat": "4.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "570",
+    "food_category_id": "10",
+    "food_name": "養樂多草莓優酪乳",
+    "food_calorie": "89",
+    "food_protein": "4",
+    "food_carb": "18.1",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "571",
+    "food_category_id": "10",
+    "food_name": "自然零無加糖優酪乳",
+    "food_calorie": "118",
+    "food_protein": "7.6",
+    "food_carb": "17.2",
+    "food_fat": "2.1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "572",
+    "food_category_id": "10",
+    "food_name": "光泉草莓綜合優酪乳",
+    "food_calorie": "121",
+    "food_protein": "4.6",
+    "food_carb": "21.2",
+    "food_fat": "2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "573",
+    "food_category_id": "10",
+    "food_name": "ＬＰ３３機能優酪乳",
+    "food_calorie": "107",
+    "food_protein": "4.8",
+    "food_carb": "19.6",
+    "food_fat": "1",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "574",
+    "food_category_id": "10",
+    "food_name": "ＡＢ優酪乳無加糖",
+    "food_calorie": "119",
+    "food_protein": "6.4",
+    "food_carb": "17.3",
+    "food_fat": "2.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "575",
+    "food_category_id": "10",
+    "food_name": "ＡＢ優酪乳無加糖５１７ｍｌ",
+    "food_calorie": "149",
+    "food_protein": "8",
+    "food_carb": "21.7",
+    "food_fat": "3.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "576",
+    "food_category_id": "10",
+    "food_name": "養樂多（５入）",
+    "food_calorie": "72",
+    "food_protein": "1.2",
+    "food_carb": "16.1",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "577",
+    "food_category_id": "10",
+    "food_name": "ＬＰ３３益敏優多",
+    "food_calorie": "112",
+    "food_protein": "2",
+    "food_carb": "26",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "578",
+    "food_category_id": "10",
+    "food_name": "活益比菲多發酵乳原味",
+    "food_calorie": "297",
+    "food_protein": "4.7",
+    "food_carb": "69.7",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "579",
+    "food_category_id": "10",
+    "food_name": "養樂多",
+    "food_calorie": "72",
+    "food_protein": "1.2",
+    "food_carb": "16.1",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "580",
+    "food_category_id": "10",
+    "food_name": "活益比菲多減糖配方",
+    "food_calorie": "185",
+    "food_protein": "4.4",
+    "food_carb": "37.4",
+    "food_fat": "1.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "581",
+    "food_category_id": "10",
+    "food_name": "ＬＣＡ活菌原味發酵乳",
+    "food_calorie": "215",
+    "food_protein": "3.6",
+    "food_carb": "50.1",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "582",
+    "food_category_id": "10",
+    "food_name": "統一多多活菌發酵乳牛奶口味",
+    "food_calorie": "126",
+    "food_protein": "2.4",
+    "food_carb": "27",
+    "food_fat": "0.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "583",
+    "food_category_id": "10",
+    "food_name": "統一多多活菌發酵乳原味３００",
+    "food_calorie": "243",
+    "food_protein": "4",
+    "food_carb": "56.8",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "584",
+    "food_category_id": "10",
+    "food_name": "統一多多活菌發酵乳草莓口味",
+    "food_calorie": "109",
+    "food_protein": "2",
+    "food_carb": "25.2",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "585",
+    "food_category_id": "10",
+    "food_name": "活益比菲多新纖順暢",
+    "food_calorie": "296",
+    "food_protein": "4.4",
+    "food_carb": "72.7",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "586",
+    "food_category_id": "10",
+    "food_name": "養樂多３００ＬＩＧＨＴ活菌發酵",
+    "food_calorie": "52",
+    "food_protein": "1.3",
+    "food_carb": "14.5",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "587",
+    "food_category_id": "10",
+    "food_name": "養樂多（５入）３００ＬＩＧＨＴ",
+    "food_calorie": "53",
+    "food_protein": "1.3",
+    "food_carb": "14.5",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "588",
+    "food_category_id": "10",
+    "food_name": "統一多多活菌發酵乳原味",
+    "food_calorie": "125",
+    "food_protein": "2",
+    "food_carb": "29.2",
+    "food_fat": "0",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "589",
+    "food_category_id": "10",
+    "food_name": "光泉薏仁糙米漿",
+    "food_calorie": "255",
+    "food_protein": "5.6",
+    "food_carb": "42.8",
+    "food_fat": "6.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "590",
+    "food_category_id": "10",
+    "food_name": "光泉鮮豆漿",
+    "food_calorie": "230",
+    "food_protein": "15.2",
+    "food_carb": "24.4",
+    "food_fat": "8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "591",
+    "food_category_id": "10",
+    "food_name": "統一陽光無糖高纖豆漿",
+    "food_calorie": "183",
+    "food_protein": "15.3",
+    "food_carb": "15.8",
+    "food_fat": "8.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "592",
+    "food_category_id": "10",
+    "food_name": "光泉米漿",
+    "food_calorie": "250",
+    "food_protein": "5.2",
+    "food_carb": "41.2",
+    "food_fat": "7.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "593",
+    "food_category_id": "10",
+    "food_name": "光泉燕麥高纖豆漿",
+    "food_calorie": "164",
+    "food_protein": "12.8",
+    "food_carb": "16",
+    "food_fat": "7.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "594",
+    "food_category_id": "10",
+    "food_name": "光泉無加糖鮮豆漿",
+    "food_calorie": "145",
+    "food_protein": "13.6",
+    "food_carb": "6.4",
+    "food_fat": "7.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "595",
+    "food_category_id": "10",
+    "food_name": "統一陽光黃金豆豆漿",
+    "food_calorie": "263",
+    "food_protein": "15.8",
+    "food_carb": "28.8",
+    "food_fat": "9.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "596",
+    "food_category_id": "10",
+    "food_name": "統一陽光低糖高纖豆漿",
+    "food_calorie": "212",
+    "food_protein": "15.3",
+    "food_carb": "23",
+    "food_fat": "8.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "597",
+    "food_category_id": "10",
+    "food_name": "光泉黑芝麻鮮豆漿",
+    "food_calorie": "230",
+    "food_protein": "9.6",
+    "food_carb": "30",
+    "food_fat": "8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "598",
+    "food_category_id": "10",
+    "food_name": "光泉豆漿９３６ｍｌ",
+    "food_calorie": "179",
+    "food_protein": "11.8",
+    "food_carb": "19",
+    "food_fat": "6.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "599",
+    "food_category_id": "10",
+    "food_name": "光泉米漿９３６ｍｌ",
+    "food_calorie": "195",
+    "food_protein": "4",
+    "food_carb": "32.1",
+    "food_fat": "5.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "600",
+    "food_category_id": "10",
+    "food_name": "義美古早傳統低糖豆奶",
+    "food_calorie": "168",
+    "food_protein": "13.6",
+    "food_carb": "12.7",
+    "food_fat": "7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "601",
+    "food_category_id": "10",
+    "food_name": "義美古早傳統豆奶",
+    "food_calorie": "209",
+    "food_protein": "14",
+    "food_carb": "21.8",
+    "food_fat": "7.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "602",
+    "food_category_id": "10",
+    "food_name": "義美古早傳統無糖豆奶",
+    "food_calorie": "136",
+    "food_protein": "13.6",
+    "food_carb": "4.8",
+    "food_fat": "6.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "603",
+    "food_category_id": "10",
+    "food_name": "義美古早傳統豆奶１Ｌ",
+    "food_calorie": "131",
+    "food_protein": "8.8",
+    "food_carb": "13.6",
+    "food_fat": "4.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "604",
+    "food_category_id": "10",
+    "food_name": "義美古早傳統無糖豆奶１Ｌ",
+    "food_calorie": "85",
+    "food_protein": "8.5",
+    "food_carb": "3",
+    "food_fat": "4.3",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "605",
+    "food_category_id": "10",
+    "food_name": "光泉無加糖黑豆漿",
+    "food_calorie": "142",
+    "food_protein": "14",
+    "food_carb": "5.2",
+    "food_fat": "7.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "606",
+    "food_category_id": "10",
+    "food_name": "ＦＭＣ薏仁漿",
+    "food_calorie": "72",
+    "food_protein": "1.3",
+    "food_carb": "15.4",
+    "food_fat": "0.6",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "607",
+    "food_category_id": "10",
+    "food_name": "義美無糖高纖豆奶",
+    "food_calorie": "159",
+    "food_protein": "13.6",
+    "food_carb": "14",
+    "food_fat": "7.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "608",
+    "food_category_id": "10",
+    "food_name": "光泉無加糖濃豆漿",
+    "food_calorie": "190",
+    "food_protein": "19.1",
+    "food_carb": "7.9",
+    "food_fat": "9.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "609",
+    "food_category_id": "10",
+    "food_name": "義美無加糖厚濃豆奶",
+    "food_calorie": "228",
+    "food_protein": "21.2",
+    "food_carb": "13.9",
+    "food_fat": "10.9",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "610",
+    "food_category_id": "10",
+    "food_name": "光泉無加糖濃黑豆漿",
+    "food_calorie": "198",
+    "food_protein": "19.1",
+    "food_carb": "11.6",
+    "food_fat": "9.8",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "611",
+    "food_category_id": "10",
+    "food_name": "義美無加糖高纖全豆豆奶",
+    "food_calorie": "132",
+    "food_protein": "12.2",
+    "food_carb": "10.7",
+    "food_fat": "6.2",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "612",
+    "food_category_id": "10",
+    "food_name": "義美無加糖厚濃高纖黑豆奶",
+    "food_calorie": "201",
+    "food_protein": "19.9",
+    "food_carb": "12.4",
+    "food_fat": "9.4",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "613",
+    "food_category_id": "10",
+    "food_name": "義美無加糖燕麥全豆豆奶",
+    "food_calorie": "171",
+    "food_protein": "6.5",
+    "food_carb": "30.2",
+    "food_fat": "3.7",
+    "food_unit": "份"
+  },
+  {
+    "food_id": "614",
+    "food_category_id": "10",
+    "food_name": "義美高纖堅果杏仁全豆奶",
+    "food_calorie": "172",
+    "food_protein": "10.5",
+    "food_carb": "17.3",
+    "food_fat": "8.3",
+    "food_unit": "份"
+  }
+]

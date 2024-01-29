@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>食物日記-歷史紀錄</title>
+    <link rel="stylesheet" href="../styles/styleguide.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/fytrack/fooddiary-history.module.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container flex space-between">
+        <div class="logo"><img src="../public/image/logo2.png" alt="" /></div>
+        <ul class="navbar">
+          <a href="#"><li class="navbar__link">健身追蹤</li></a>
+          <a href="#"><li class="navbar__link">課程專區</li></a>
+          <a href="#"><li class="navbar__link">線上商城</li></a>
+          <a href="#"><li class="navbar__link">健身論壇</li></a>
+        </ul>
+        <div class="navbar-icons">
+          <i class="navbar-icons__icon fa-solid fa-magnifying-glass"></i>
+          <i class="navbar-icons__icon fa-regular fa-bell"></i>
+          <i class="navbar-icons__icon fa-solid fa-cart-shopping"></i>
+          <div class="btn-login">登入</div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- 麵包屑導航 -->
+      <div class="breadcrumbs">
+        首頁 / 健身追蹤 / 營養追蹤 / 食物日記 / 歷史紀錄
+      </div>
+
+      <!-- 分頁切換按鈕 -->
+      <div class="tab-buttons">
+        <button class="tab-button-breakfast">早餐</button>
+        <button class="tab-button-lunch">午餐</button>
+        <button class="tab-button-dinner">晚餐</button>
+        <button class="tab-button-dessert">點心</button>
+      </div>
+
+      <!-- 主要內容區 -->
+      <div class="main-content">
+        <!-- 上面區塊 -->
+        <div class="content-upper">
+          <div class="title">歷史紀錄</div>
+          <div class="second" >
+            <div class="dropdowns">
+              <select name="recordsPerPage" class="recordsPerPage">
+                <option value="24">每頁顯示 24 個</option>
+                <option value="48">每頁顯示 48 個</option>
+                <option value="72">每頁顯示 72 個</option>
+              </select>
+              <select name="sortOrder" class="sortOrder">
+                <option value="newToOld">新增時間：由新到舊</option>
+                <option value="oldToNew">新增時間：由舊到新</option>
+              </select>
+            </div>
+            <div class="search-history">
+              <input type="text" placeholder="搜尋歷史紀錄" class="input-search"/>
+              <button class="search-button">搜尋</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 下面區塊 -->
+        <div class="content-lower">
+          <!-- 日期顯示和切換 -->
+          <div class="date-switcher">
+            <button class="date-btn">←</button>
+            <span class="date-display">2024-01-01</span>
+            <button class="date-btn">→</button>
+          </div>
+
+          <div class="dashboard">
+            <!-- 營養進度條區塊 -->
+            <div class="calorie-bar">
+              <div class="intake-title">
+                <p>每日攝取</p>
+                <!-- 使用占位符，在 JavaScript 中使用這些類別來動態更新數據 -->
+                <p>
+                  <span class="current-intake-calorie">555</span> /
+                  <span class="total-intake-calorie">1220</span> 克
+                </p>
+              </div>
+              <div class="progress-bar">
+                <div
+                  class="progress"
+                  style="width: 46%; background-color: deepskyblue"
+                ></div>
+              </div>
+            </div>
+            <div class="nutrition-bars">
+              <!-- 脂肪 -->
+              <div class="nutrition-bar">
+                <p class="paragraph">脂肪</p>
+                <div class="progress-bar">
+                  <div
+                    class="progress"
+                    style="width: 6%; background-color: deepskyblue"
+                  ></div>
+                </div>
+                <!-- 使用占位符，在 JavaScript 中使用這些類別來動態更新數據 -->
+                <p>
+                  <span class="current-intake-fat">10</span> /
+                  <span class="total-intake-fat">150</span> 克
+                </p>
+              </div>
+              <!-- 蛋白質 -->
+              <div class="nutrition-bar">
+                <p class="paragraph">蛋白質</p>
+                <div class="progress-bar">
+                  <div
+                    class="progress"
+                    style="width: 6%; background-color: deepskyblue"
+                  ></div>
+                </div>
+                <!-- 使用占位符，在 JavaScript 中使用這些類別來動態更新數據 -->
+                <p>
+                  <span class="current-intake-protein">10</span> /
+                  <span class="total-intake-protein">150</span> 克
+                </p>
+              </div>
+              <!-- 碳水化合物 -->
+              <div class="nutrition-bar">
+                <p class="paragraph">碳水化合物</p>
+                <div class="progress-bar">
+                  <div
+                    class="progress"
+                    style="width: 6%; background-color: deepskyblue"
+                  ></div>
+                </div>
+                <!-- 使用占位符，在 JavaScript 中使用這些類別來動態更新數據 -->
+                <p>
+                  <span class="current-intake-carbs">10</span> /
+                  <span class="total-intake-carbs">150</span> 克
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- icon按鈕切換歷史紀錄、收藏清單區塊 -->
+          <div class="button-block">
+            <!-- 兩顆相連的按鈕 -->
+            <button class="icon-button">
+              <i class="fa-regular fa-clock"></i>
+            </button>
+            <button class="icon-button">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+            <div class="underline"></div>
+          </div>
+
+          <!-- 文字 "RECENTS" -->
+          <div class="all-recents">ALL RECENTS</div>
+
+          <!-- 卡片 -->
+          <div class="cards">
+            <!-- 循環生成五張卡片 -->
+            <!-- 卡片示例 -->
+            <div class="card">
+              <div class="card-left">
+                <div class="food-name">食物名稱</div>
+                <div class="kcal">
+                  000 kcal <i class="fa-solid fa-heart" style="color: red"></i>
+                </div>
+                <div class="serving">0 份</div>
+              </div>
+              <div class="card-right">
+                <i class="fa-solid fa-circle-plus"></i>
+              </div>
+            </div>
+            <!-- ... 其他四張卡片 ... -->
+            <div class="card">
+              <div class="card-left">
+                <div class="food-name">食物名稱</div>
+                <div class="kcal">
+                  000 kcal <i class="fa-solid fa-heart" style="color: red"></i>
+                </div>
+                <div class="serving">0 份</div>
+              </div>
+              <div class="card-right">
+                <i class="fa-solid fa-circle-plus"></i>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-left">
+                <div class="food-name">食物名稱</div>
+                <div class="kcal">
+                  000 kcal <i class="fa-solid fa-heart" style="color: red"></i>
+                </div>
+                <div class="serving">0 份</div>
+              </div>
+              <div class="card-right">
+                <i class="fa-solid fa-circle-plus"></i>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-left">
+                <div class="food-name">食物名稱</div>
+                <div class="kcal">
+                  000 kcal <i class="fa-solid fa-heart" style="color: red"></i>
+                </div>
+                <div class="serving">0 份</div>
+              </div>
+              <div class="card-right">
+                <i class="fa-solid fa-circle-plus"></i>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-left">
+                <div class="food-name">食物名稱</div>
+                <div class="kcal">
+                  000 kcal <i class="fa-solid fa-heart" style="color: red"></i>
+                </div>
+                <div class="serving">0 份</div>
+              </div>
+              <div class="card-right">
+                <i class="fa-solid fa-circle-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ... -->
+      </div>
+    </div>
+  </body>
+</html>

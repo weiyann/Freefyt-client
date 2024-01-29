@@ -1,0 +1,241 @@
+  .profile {
+    font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile h5 {
+    font-size: var(--h5-font-size)
+  }
+
+  .profile h6 {
+    font-size: var(--h6-font-size)
+  }
+
+  .profile__heading, .profile__member-info {
+    width: 100%;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    max-width: 1440px;
+  }
+  
+  .section__title {
+    font-size: var(--h3-font-size);
+  }
+  
+  .section__title > span {
+    color: var(--o1-color);
+  }
+
+  /* TODO: Remove this */
+.nav {
+    background-color: var(--b1-color);
+    height: 100px;
+    width: 100%;
+    /* position: fixed; */
+    position: absolute;
+  }
+
+.profile__top {
+  display: flex;
+  padding: 148px 3rem 0 3rem;
+  /* NOTE: 148px = 3rem + 100px(navbar) */
+  width: 80%;
+  max-width: 1440px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.profile__breadcrumbs {
+  color: var(--g2-color);
+  font-size: var(--h6-font-size);
+}
+
+.profile__edit-button, .profile__button-container > button {
+  width: 7.5rem;
+  height: 2rem;
+  display: block;
+  margin-left: auto;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  border: 3px solid var(--b1-color);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--g4-color);
+  color: var(--b1-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.profile__prev-page-button {
+  width: 7.5rem;
+  height: 2rem;
+  display: block;
+  margin-left: auto;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  border: 3px solid var(--b1-color);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--white-color);
+  color: var(--b1-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.profile__edit-button:hover, .profile__button-container > button:hover {
+  background-color: var(--b1-color);
+  color: var(--g4-color);
+}
+
+.profile__prev-page-button:hover {
+  background-color: var(--b1-color);
+  color: var(--white-color);
+}
+
+.profile__title {
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--b1-color);
+}
+
+.profile__member-info-area {
+  width: 60%;
+  max-width: 950px;
+  background-color: var(--g4-color);
+  margin: 0 auto 2rem auto;
+  border-radius: 10px;
+  border: 3px solid var(--b1-color);
+  padding: 3rem 3rem 1rem 3rem;
+}
+
+.profile__training-info, .profile__contact-info, .profile__bio {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.profile__account-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile__basic-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile__subsection-title {
+  font-size: var(--h5-font-size);
+  font-weight: bold;
+  letter-spacing: 1rem;
+  text-align: center;
+  color: var(--black-color);
+  position: relative;
+}
+
+.profile__subsection-title::before {
+  content: '';
+  width: 3rem;
+  height: 2px;
+  background-color: var(--black-color);
+  position: absolute;
+  top: 0.6rem;
+  left: 15rem;
+  border-radius: 1px;
+}
+
+.profile__subsection-title::after {
+  content: '';
+  width: 3rem;
+  height: 2px;
+  background-color: var(--black-color);
+  position: absolute;
+  top: 0.6rem;
+  right: 16.25rem;
+  border-radius: 1px;
+}
+
+.profile__subsection-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile__item {
+  font-weight: bold;
+  letter-spacing: 1rem;
+  color: var(--black-color);
+  font-size: var(--p-font-size);
+}
+
+.profile__member-info {
+  font-size: var(--h6-font-size);
+  color: var(--g2-color);
+  line-height: 100%;
+  min-height: var(--h6-font-size);
+  padding: 0.25rem 0 0 0.25rem;
+}
+
+.profile__subsection-wrapper {
+  display: flex;
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+.profile__subsection-wrapper2 {
+  display: grid;
+  row-gap: 2rem;
+  /* padding-bottom: 2rem; */
+}
+
+.profile__subsection-contents, .profile__basic-info {
+  flex: 1;
+  /* NOTE: 1:1 ratio */
+}
+
+.profile__button-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* TODO: Replace temporary solution */
+  gap: 1.5rem;
+}
+
+.profile__pic-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.profile__button-container > button {
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.profile__button-container > .placeholder-button {
+  visibility: hidden;
+}
+
+.profile__pic-frame {
+  width: 11.75rem;
+  height: 11.75rem;
+  border-radius: 50%;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.profile__pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  object-fit: cover;
+}

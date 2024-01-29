@@ -1,0 +1,292 @@
+[
+  {
+    "add_sid": "1",
+    "member_id": "1",
+    "ntentry_date": "2024-01-01",
+    "ntentry_time": "09:15:04",
+    "intake_timing_id": "1",
+    "food_id": "1",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "2",
+    "member_id": "1",
+    "ntentry_date": "2024-01-02",
+    "ntentry_time": "14:30:07",
+    "intake_timing_id": "2",
+    "food_id": "2",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "3",
+    "member_id": "1",
+    "ntentry_date": "2024-01-03",
+    "ntentry_time": "17:55:09",
+    "intake_timing_id": "4",
+    "food_id": "3",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "4",
+    "member_id": "2",
+    "ntentry_date": "2024-01-04",
+    "ntentry_time": "15:40:23",
+    "intake_timing_id": "4",
+    "food_id": "4",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "5",
+    "member_id": "3",
+    "ntentry_date": "2024-01-05",
+    "ntentry_time": "08:45:28",
+    "intake_timing_id": "1",
+    "food_id": "5",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "6",
+    "member_id": "3",
+    "ntentry_date": "2024-01-06",
+    "ntentry_time": "20:15:43",
+    "intake_timing_id": "3",
+    "food_id": "6",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "7",
+    "member_id": "4",
+    "ntentry_date": "2024-01-07",
+    "ntentry_time": "12:00:39",
+    "intake_timing_id": "2",
+    "food_id": "7",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "8",
+    "member_id": "4",
+    "ntentry_date": "2024-01-08",
+    "ntentry_time": "16:15:18",
+    "intake_timing_id": "4",
+    "food_id": "8",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "9",
+    "member_id": "4",
+    "ntentry_date": "2024-01-09",
+    "ntentry_time": "19:45:27",
+    "intake_timing_id": "3",
+    "food_id": "9",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "10",
+    "member_id": "4",
+    "ntentry_date": "2024-01-10",
+    "ntentry_time": "18:25:37",
+    "intake_timing_id": "3",
+    "food_id": "10",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "11",
+    "member_id": "5",
+    "ntentry_date": "2024-01-11",
+    "ntentry_time": "11:20:55",
+    "intake_timing_id": "1",
+    "food_id": "11",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "12",
+    "member_id": "5",
+    "ntentry_date": "2024-01-12",
+    "ntentry_time": "09:50:46",
+    "intake_timing_id": "1",
+    "food_id": "12",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "13",
+    "member_id": "6",
+    "ntentry_date": "2024-01-13",
+    "ntentry_time": "19:00:21",
+    "intake_timing_id": "3",
+    "food_id": "13",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "14",
+    "member_id": "6",
+    "ntentry_date": "2024-01-14",
+    "ntentry_time": "14:05:29",
+    "intake_timing_id": "2",
+    "food_id": "14",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "15",
+    "member_id": "7",
+    "ntentry_date": "2024-01-15",
+    "ntentry_time": "10:45:21",
+    "intake_timing_id": "1",
+    "food_id": "15",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "16",
+    "member_id": "7",
+    "ntentry_date": "2024-01-16",
+    "ntentry_time": "12:50:29",
+    "intake_timing_id": "2",
+    "food_id": "16",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "17",
+    "member_id": "8",
+    "ntentry_date": "2024-01-17",
+    "ntentry_time": "08:20:00",
+    "intake_timing_id": "1",
+    "food_id": "17",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "18",
+    "member_id": "8",
+    "ntentry_date": "2024-01-18",
+    "ntentry_time": "13:55:12",
+    "intake_timing_id": "2",
+    "food_id": "18",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "19",
+    "member_id": "8",
+    "ntentry_date": "2024-01-19",
+    "ntentry_time": "10:30:37",
+    "intake_timing_id": "1",
+    "food_id": "19",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "20",
+    "member_id": "8",
+    "ntentry_date": "2024-01-20",
+    "ntentry_time": "17:10:18",
+    "intake_timing_id": "4",
+    "food_id": "20",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "21",
+    "member_id": "9",
+    "ntentry_date": "2024-01-21",
+    "ntentry_time": "16:40:46",
+    "intake_timing_id": "4",
+    "food_id": "21",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "22",
+    "member_id": "9",
+    "ntentry_date": "2024-01-22",
+    "ntentry_time": "20:30:26",
+    "intake_timing_id": "3",
+    "food_id": "22",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "23",
+    "member_id": "10",
+    "ntentry_date": "2024-01-23",
+    "ntentry_time": "08:00:54",
+    "intake_timing_id": "1",
+    "food_id": "23",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "24",
+    "member_id": "11",
+    "ntentry_date": "2024-01-24",
+    "ntentry_time": "09:00:50",
+    "intake_timing_id": "1",
+    "food_id": "24",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "25",
+    "member_id": "12",
+    "ntentry_date": "2024-01-25",
+    "ntentry_time": "10:30:15",
+    "intake_timing_id": "1",
+    "food_id": "25",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "26",
+    "member_id": "13",
+    "ntentry_date": "2024-01-26",
+    "ntentry_time": "13:30:00",
+    "intake_timing_id": "2",
+    "food_id": "26",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "27",
+    "member_id": "1",
+    "ntentry_date": "2024-01-26",
+    "ntentry_time": "14:30:00",
+    "intake_timing_id": "2",
+    "food_id": "27",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "28",
+    "member_id": "1",
+    "ntentry_date": "2024-01-26",
+    "ntentry_time": "15:30:00",
+    "intake_timing_id": "4",
+    "food_id": "28",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  },
+  {
+    "add_sid": "29",
+    "member_id": "1",
+    "ntentry_date": "2024-01-26",
+    "ntentry_time": "16:30:00",
+    "intake_timing_id": "4",
+    "food_id": "29",
+    "serving_size": "1",
+    "serving_size_unit": "份"
+  }
+]

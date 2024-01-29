@@ -1,0 +1,132 @@
+.breadcrumb-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 160px;
+}
+/* 管理介面 */
+.management-interface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+/* 管理選項 */
+.management-select-group {
+  display: flex;
+  justify-content: left;
+  width: 1200px;
+  margin-bottom: -4px;
+}
+.management-selection {
+  display: flex;
+  padding: 8px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0px 0px;
+  border: 4px solid var(--b1-color);
+  border-bottom: 0;
+  margin-right: -4px;
+  color: var(--b1-color);
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+}
+.management-selection:hover {
+  color: var(--white-color);
+  background-color: var(--b1-color);
+  cursor: pointer;
+}
+.management-selection-active {
+  color: var(--white-color);
+  background-color: var(--b1-color);
+}
+
+.management-content {
+  width: 1200px;
+  background-color: var(--g4-color);
+  border: 4px solid var(--b1-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 上課記錄 */
+.recordList {
+  width: 90%;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+.recordList-th {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--b4-color);
+  font-size: var(--h5-font-size);
+  color: var(--b1-color);
+  font-weight: 800;
+  border: 1px solid var(--g2-color);
+  height: 48px;
+}
+.recordList-td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.comment-td{
+  white-space: nowrap;       
+  overflow: hidden;         
+  text-overflow: ellipsis;   
+  max-width: 16.5%;
+  display: inline-block;
+  text-align: center;
+}
+.recordList-tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--white-color);
+  font-size: var(--p-font-size);
+  color: var(--g1-color);
+  border: 1px solid var(--g2-color);
+  border-top: 0px;
+  height: 48px;
+}
+.recordList p {
+  font-size: var(--h6-font-size);
+}
+.btn-reserved{
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  color: var(--white-color);
+  background-color: var(--o1-color);
+  font-size: var(--p-font-size);
+}
+.btn-unreserved{
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  color: var(--white-color);
+  background-color: var(--b2-color);
+  font-size: var(--p-font-size);
+}
+.btn-finished{
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  color: var(--white-color);
+  background-color: var(--g2-color);
+  font-size: var(--p-font-size);
+}

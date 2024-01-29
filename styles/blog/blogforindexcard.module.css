@@ -1,0 +1,176 @@
+.blog-group{
+    display: flex;
+    justify-content: center;
+}
+
+.blog-item{
+    width: 260px;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: var(--card-shadow1);
+  transition: all 1s ease;
+  position: relative;
+  background-color: var(--white-color);
+}
+
+
+.blog-img {
+    width:100%;
+    height: 270px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.blog-name {
+    height: 65px;
+    font-size: var(--h5-font-size);
+    color: var(--b1-color);
+    font-weight: bold;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+  }
+  
+  .blog-price {
+    font-size: var(--h6-font-size);
+    color: var(--o1-color);
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  
+  .blog-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    align-items: center;
+  }
+  
+  .blog-stock {
+    font-size: var(--p-sm-font-size);
+    color: var(--g2-color);
+    padding: 0px 10px;
+  }
+  
+  .blog-purchase-qty {
+    width: 60%;
+    font-size: var(--p-font-size);
+    color: var(--g2-color);
+    overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+    /* padding: 10px; */
+  }
+  
+  /* 加入購物車按鈕 */
+  .cart-btn {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .add-to-cart-btn {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid var(--b1-color);
+    background-color: transparent;
+    letter-spacing: 1px;
+    font-size: var(--p-font-size);
+    color: var(--b1-color);
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  .add-to-cart-btn1 {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid var(--b1-color);
+    background-color: transparent;
+    letter-spacing: 1px;
+    font-size: var(--p-font-size);
+    color: var(--b1-color);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* blog-card: Hover */
+  .blog-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    transform-origin: center;
+    transition: box-shadow 0.7s ease, transform 0.7s ease;
+    background-color: var(--o1-color);
+    height: auto;
+    
+    /* cursor: pointer; */
+  }
+  
+  
+  .blog-item:hover .blog-name {
+    font-size: var(--h5-font-size);
+    color: var(--white-color);
+  }
+  
+  .blog-item:hover .blog-price {
+    color: var(--white-color);
+  }
+  
+  .blog-item:hover .blog-stock, .blog-item:hover .blog-purchase-qty {
+    color: var(--white-color);
+  }
+  
+  /* 加入購物車按鈕: hover */
+  .blog-item:hover .add-to-cart-btn {
+    border: 3px solid var(--white-color);
+    background-color: transparent;
+    color: var(--white-color);
+  }
+  .blog-item:hover .add-to-cart-btn:hover {
+    display: block;
+    background-color: var(--white-color);
+    color: var(--o1-color);
+  }
+  
+  .blog-item:hover .add-to-cart-btn1 {
+    border: 3px solid var(--white-color);
+    background-color: transparent;
+    color: var(--white-color);
+  }
+  .blog-item:hover .add-to-cart-btn1:hover {
+    /* display: block; */
+    background-color: var(--white-color);
+    color: var(--o1-color);
+  }
+  
+  .blog-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .blog-aflex{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .page-link{
+    font-size: var(--h5-font-size);
+    color:var(--b1-color)
+  }
+  

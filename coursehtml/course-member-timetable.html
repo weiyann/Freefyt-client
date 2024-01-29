@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styleguide.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="/styles/course/course-management.module.css">
+   
+  </head>
+  <body>
+    <div class="container">
+      <div class="breadcrumb-box">
+        <div class="breadcrumb">首頁 / 課程專區 / 課程管理(一般會員)</div>
+      </div>
+      <div class="management-interface">
+      <div class="management-select-group">
+        <div class="management-selection">我的課表</div>
+        <div class="management-selection">我的課程</div>
+        <div class="management-selection">我的收藏</div>
+      </div>
+      <div class="management-content">
+        <div id="calendar"></div>
+      </div>
+    </div>
+    </div>
+
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js'></script>
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth'
+        });
+        calendar.render();
+      });
+    </script>
+  </body>
+</html>

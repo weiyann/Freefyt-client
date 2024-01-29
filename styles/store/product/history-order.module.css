@@ -1,0 +1,254 @@
+/* 麵包屑:沿用按讚好物 */
+.breadcrumb-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: var(--g4-color);
+  padding-top: 120px;
+}
+
+.breadcrumb {
+  width: 500px;
+  color: var(--g2-color);
+  font-size: var(--h6-font-size);
+}
+
+/* 我的訂單標題 */
+.my-order-list-title {
+  font-size: var(--h3-font-size);
+  color: var(--b1-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  margin: 40px 0 10px 0;
+}
+
+.my-order-list-title h4 {
+  letter-spacing: 3px;
+  margin-left: 10px;
+}
+
+.order-list-info {
+  text-align: center;
+  color: var(--g2-color);
+  font-size: var(--h6-font-size);
+
+}
+
+/* 訂單區塊 */
+.my-order-list-section {
+  background-color: var(--g4-color);
+}
+
+/* 沒有訂單記錄的提示 */
+.empty-info {
+  width: 100%;
+  height: 20vh;
+  color: var(--g3-color);
+  font-size: var(--h5-font-size);
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/* 購買清單 */
+.ongoing-po {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.ongoing-po table {
+  width: 1200px;
+  margin: 40px;
+}
+
+.ongoing-po-text {
+  background-color: var(--b2-color);
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+  padding: 10px 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  letter-spacing: 1px;
+}
+
+.po-item-field {
+  width: 100%;
+  padding: 10px 30px;
+  border: 1px solid var(--g3-color);
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr;
+  align-items: center;
+  border-top: none;
+  font-size: var(--h6-font-size);
+  color: var(--b1-color);
+  background-color: #f2f8ff;
+}
+
+.po-item {
+  width: 100%;
+  padding: 10px 30px;
+  border: 1px solid var(--g3-color);
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr;
+  align-items: center;
+  border-top: none;
+  font-size: var(--h6-font-size);
+  color: var(--g1-color);
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+
+/* 分隔線：沿用購物車 */
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--g3-color);
+  margin: 15px 0;
+}
+
+/* 歷史清單 */
+.history-po {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.history-po table {
+  width: 1200px;
+  margin: 40px;
+}
+
+.history-po-text {
+  background-color: var(--b2-color);
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+  padding: 10px 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  letter-spacing: 1px;
+}
+
+/* 展開的商品細項+評論商品 */
+.histiry-order-detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart-th:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-item-checkout-ongoing {
+  width: 100%;
+  padding: 10px 80px;
+  border: 1px solid var(--g3-color);
+  background-color: var(--white-color);
+  margin: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  align-items: center;
+  border-top: none;
+  margin: auto;
+}
+
+.cart-item-checkout {
+  width: 100%;
+  padding: 10px 80px;
+  border: 1px solid var(--g3-color);
+  background-color: var(--white-color);
+  margin: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  border-top: none;
+  margin: auto;
+}
+
+.cart-item-img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.cart-item-img img {
+  width: 100%;
+  height: auto;
+}
+
+.cart-item-name {
+  font-size: var(--h6-font-size);
+  text-align: left;
+  width: 200px;
+}
+
+.btn-comment-product {
+  width: 120px;
+  color: var(--white-color);
+  font-size: var(--p-font-size);
+  background-color: var(--o2-color);
+  letter-spacing: 1px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-comment-product-disabled{
+  width: 120px;
+  color: var(--white-color);
+  font-size: var(--p-font-size);
+  background-color: var(--g3-color);
+  letter-spacing: 1px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+
+
+/* 按鈕: 沿用 collection */
+.btn-box {
+  padding: 40px 10px;
+  display: flex;
+  justify-content: center;
+}
+.btn-goToProductList {
+  display: block;
+  width: 370px;
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+  background-color: var(--b2-color);
+  letter-spacing: 1px;
+  padding: 20px 60px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.btn-goToCart {
+  display: block;
+  width: 370px;
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+  background-color: var(--o2-color);
+  letter-spacing: 1px;
+  padding: 20px 60px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}

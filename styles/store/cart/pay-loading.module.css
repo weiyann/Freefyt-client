@@ -1,0 +1,84 @@
+@keyframes ldio-f6f6kj9mk4n {
+  0% { transform: translate(12px,80px) scale(0); }
+  25% { transform: translate(12px,80px) scale(0); }
+  50% { transform: translate(12px,80px) scale(1); }
+  75% { transform: translate(80px,80px) scale(1); }
+  100% { transform: translate(148px,80px) scale(1); }
+}
+@keyframes ldio-f6f6kj9mk4n-r {
+  0% { transform: translate(148px,80px) scale(1); }
+  100% { transform: translate(148px,80px) scale(0); }
+}
+@keyframes ldio-f6f6kj9mk4n-c {
+  0% { background: #1c3b5e }
+  25% { background: #fdfdfd }
+  50% { background: #4674a9 }
+  75% { background: #ff804a }
+  100% { background: #1c3b5e }
+}
+.ldio-f6f6kj9mk4n div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translate(80px,80px) scale(1);
+  background: #1c3b5e;
+  animation: ldio-f6f6kj9mk4n 2.7027027027027026s infinite cubic-bezier(0,0.5,0.5,1);
+}
+.ldio-f6f6kj9mk4n div:nth-child(1) {
+  background: #ff804a;
+  transform: translate(148px,80px) scale(1);
+  animation: ldio-f6f6kj9mk4n-r 0.6756756756756757s infinite cubic-bezier(0,0.5,0.5,1), ldio-f6f6kj9mk4n-c 2.7027027027027026s infinite step-start;
+}.ldio-f6f6kj9mk4n div:nth-child(2) {
+  animation-delay: -0.6756756756756757s;
+  background: #1c3b5e;
+}.ldio-f6f6kj9mk4n div:nth-child(3) {
+  animation-delay: -1.3513513513513513s;
+  background: #ff804a;
+}.ldio-f6f6kj9mk4n div:nth-child(4) {
+  animation-delay: -2.027027027027027s;
+  background: #4674a9;
+}.ldio-f6f6kj9mk4n div:nth-child(5) {
+  animation-delay: -2.7027027027027026s;
+  background: #fdfdfd;
+}
+.loading-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loadingio-spinner-ellipsis-e16fy4ujj7e {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: var(--g4-color);
+}
+.loading-text {
+  font-size: var(--h3-font-size);
+  color: var(--b1-color);
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-top: 30px;
+  margin-right: 60px;
+}
+.ldio-f6f6kj9mk4n {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -80px;
+  top: -60px;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-f6f6kj9mk4n div { 
+  box-sizing: content-box; 
+}

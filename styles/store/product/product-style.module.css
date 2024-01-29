@@ -1,0 +1,494 @@
+.loading-box {
+  padding-top: 100px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ParallaxSwiper-section {
+  padding-top: 100px;
+}
+
+/* -------- 第二區塊：選擇類別 */
+
+/* breadcrumb + search */
+/* #breadcrumbAndSearch {
+  width: 100%;
+  height: auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+
+.breadcrumbAndSearch {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 10px 0;
+}
+
+.breadcrumb {
+  width: 500px;
+  color: var(--g2-color);
+  font-size: var(--h6-font-size);
+}
+
+.search-product {
+  height: 36px;
+  display: flex;
+}
+
+.input-group {
+  width: 300px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 250px;
+  height: 36px;
+  background-color: var(--white-color);
+  border: 1px solid var(--g3-color);
+  padding-left: 10px;
+  font-size: var(--h6-font-size);
+}
+
+/* .btn-search-product {
+  width: 90px;
+  color: var(--white-color);
+  font-size: var(--h6-font-size);
+  padding: 10px;
+  background-color: var(--b1-color);
+  border: none;
+  font-size: var(--p-sm-font-size);
+  border-radius: 30px;
+  margin-left: 10px;
+} */
+
+/* category-card */
+.category-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.category-title {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.category-name {
+  font-size: var(--h5-font-size);
+  margin-top: 10px;
+}
+
+.select-text {
+  font-size: var(--h3-font-size);
+  color: var(--o1-color);
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.category-text {
+  font-size: var(--h3-font-size);
+  color: var(--b1-color);
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-left: 5px;
+}
+
+.fyt-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-all {
+  width: 280px;
+  height: 200px;
+  background-color: var(--g1-color);
+  color: var(--white-color);
+  font-size: var(--h4-font-size);
+  font-weight: bold;
+  letter-spacing: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.category-clothing {
+  width: 280px;
+  height: 200px;
+  background-color: var(--b1-color);
+  color: var(--white-color);
+  font-size: var(--h4-font-size);
+  font-weight: bold;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.category-equipment {
+  width: 280px;
+  height: 200px;
+  background-color: var(--b2-color);
+  color: var(--white-color);
+  font-size: var(--h4-font-size);
+  font-weight: bold;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.category-healthyfood {
+  width: 280px;
+  height: 200px;
+  background-color: var(--o1-color);
+  color: var(--white-color);
+  font-size: var(--h4-font-size);
+  font-weight: bold;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.fyt-card .category-all,
+.fyt-card .category-clothing,
+.fyt-card .category-equipment,
+.fyt-card .category-healthyfood {
+  transition: transform 0.3s ease;
+}
+
+.fyt-card .category-all:hover,
+.fyt-card .category-clothing:hover,
+.fyt-card .category-equipment:hover,
+.fyt-card .category-healthyfood:hover {
+  transform: scale(1.1);
+}
+
+/* ------ 第三區塊：商品列表 */
+#product-list {
+  width: 100%;
+}
+
+/* 本頁商品類別 */
+.main-category-text {
+  color: var(--b1-color);
+  font-size: var(--h4-font-size);
+  font-weight: bold;
+  margin: 10px 10px 20px 10px;
+}
+
+/* 次分類、食品品牌 */
+.subcategory,
+.food-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.subcategory-title {
+  color: var(--b1-color);
+  font-size: var(--h6-font-size);
+  margin-right: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.btn-subcategory {
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  background-color: transparent;
+  border: 3px solid var(--b1-color);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-subcategory:hover,
+.btn-subcategory-active {
+  font-size: var(--p-font-size);
+  color: var(--white-color);
+  background-color: var(--b1-color);
+  border: 3px solid var(--b1-color);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.food-brand-title {
+  color: var(--b1-color);
+  font-size: var(--h6-font-size);
+  margin-right: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.food-brand {
+  color: var(--b1-color);
+  font-size: var(--p-font-size);
+}
+
+/* sort */
+.sort {
+  width: auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 10px;
+}
+
+.sort-title {
+  color: var(--b1-color);
+  font-size: var(--h6-font-size);
+  margin-right: 10px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.sort-select-box {
+  width: 300px;
+  height: auto;
+}
+.sort-select {
+  width: 100%;
+  background-color: var(--white-color);
+  border: 1px solid var(--g3-color);
+  padding: 10px;
+  font-size: var(--h6-font-size);
+}
+
+/* 商品筆數 */
+.total-rows {
+  color: var(--b1-color);
+  font-size: var(--h5-font-size);
+  margin: 20px 10px;
+  display: flex;
+  justify-content: end;
+}
+
+/* product-card: Default */
+.product-group {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px 120px;
+  /* justify-content: left; */
+  align-content: center;
+}
+
+.product-item {
+  width: 270px;
+  height: auto;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(150, 150, 150, 0.3);
+}
+
+.product-img {
+  width: 270px;
+  height: 270px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-name {
+  height: 65px;
+  font-size: var(--h6-font-size);
+  color: var(--b1-color);
+  font-weight: bold;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+}
+
+.product-price {
+  font-size: var(--h6-font-size);
+  color: var(--o1-color);
+  font-weight: bold;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  letter-spacing: 1px;
+  align-items: center;
+}
+
+.product-stock {
+  font-size: var(--p-sm-font-size);
+  color: var(--g2-color);
+  /* padding: 0px 10px; */
+}
+
+.product-purchase-qty {
+  font-size: var(--p-sm-font-size);
+  color: var(--g2-color);
+  /* padding: 10px; */
+}
+
+/* 加入購物車按鈕 */
+.cart-btn {
+  width: 100%;
+  padding: 10px;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid var(--b1-color);
+  background-color: transparent;
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 加入收藏按鈕 */
+.btn-fav {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  position: relative;
+  top: -50px;
+  height: 0px;
+
+}
+
+/* product-card: Hover */
+.product-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+  transform-origin: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  background-color: var(--o1-color);
+  height: auto;
+}
+
+.product-item:hover .product-name {
+  color: var(--white-color);
+}
+
+.product-item:hover .product-price {
+  color: var(--white-color);
+}
+
+.product-item:hover .product-stock,
+.product-item:hover .product-purchase-qty {
+  color: var(--white-color);
+}
+
+/* 加入購物車按鈕: hover */
+.product-item:hover .add-to-cart-btn {
+  border: 3px solid var(--white-color);
+  background-color: transparent;
+  color: var(--white-color);
+}
+.product-item:hover .add-to-cart-btn:hover {
+  display: block;
+  background-color: var(--white-color);
+  color: var(--o1-color);
+}
+
+
+/* ----- 第四區塊：猜你喜歡 */
+#guesswhatyoulike {
+  width: 100%;
+}
+.guesswhatyoulike-section {
+  width: 100%;
+  padding-top: 60px;
+}
+
+.guesswhatyoulike {
+  color: var(--b1-color);
+  font-size: var(--h4-font-size);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+#guesswhatyoulike .gwyl-group {
+  display: flex;
+}
+
+.product-swiper {
+  margin: 60px 0;
+}
+
+.product-swiper > div {
+  height: 550px;
+}

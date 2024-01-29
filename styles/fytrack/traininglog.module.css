@@ -1,0 +1,191 @@
+.workout-log {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 100px 0 0 0;
+}
+
+.workout-log section {
+  width: 100%;
+  /* height: calc(100vh - 100px); */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 7rem 0 3rem 0;
+}
+
+.section__title {
+  font-size: var(--h3-font-size);
+  color: var(--b1-color);
+  text-align: center;
+}
+
+.section__subtitle {
+  font-size: var(--h4-font-size);
+  color: var(--b2-color);
+  text-align: center;
+}
+
+.section__title > span {
+  color: var(--o1-color);
+}
+
+.breadcrumb {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  color: var(--g2-color);
+  font-weight: bold;
+}
+
+.log__container {
+  width: 100%;
+}
+
+.card__container {
+  width: 50%;
+  /* border: 3px solid black; */
+  margin: auto;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.card {
+  width: 600px;
+  background-color: var(--white-color);
+  /* border: 3px solid black; */
+  padding: 1.5rem;
+  border-radius: 5px;
+  transition: all 0.6s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
+}
+
+.card__table {
+  width: 100%;
+}
+
+.card__table td {
+  text-align: center;
+  width: 100px;
+  padding: 0.25rem 0;
+}
+
+.card__table th {
+  padding: 0.25rem 0;
+}
+
+.first-column input,
+.third-column input,
+.fourth-column input,
+.fifth-column input {
+  width: 2.5rem;
+  background-color: var(--g4-color);
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1rem;
+  padding: 0.25rem;
+  appearance: textfield;
+}
+
+.workout-log [type=number]::-webkit-inner-spin-button, 
+.workout-log [type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.second-column {
+  color: var(--g3-color);
+}
+
+.exercise {
+  color: var(--b2-color);
+}
+
+.log__button {
+  width: 6rem;
+  height: 2.5rem;
+  border: 3px solid var(--b1-color);
+  border-radius: 3px;
+  background-color: var(--white-color);
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.log__button:hover {
+  background-color: var(--b1-color);
+  color: var(--white-color);
+}
+
+.log__button2 {
+  width: 6rem;
+  height: 2.5rem;
+  border: 3px solid var(--b1-color);
+  border-radius: 3px;
+  background-color: var(--b1-color);
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.log__button2:hover {
+  background-color: var(--b2-color);
+  border: 3px solid var(--b2-color);
+  color: var(--white-color);
+}
+
+.button-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+  padding: 0 24rem;
+  margin-top: 3rem;
+}
+
+.datepicker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 1.5rem 0;
+}
+
+.datepicker {
+  padding-left: 0.5rem;
+}
+
+.log__prev-page-button {
+  width: 7.5rem;
+  height: 2rem;
+  display: block;
+  margin-left: auto;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  border: 3px solid var(--b1-color);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--white-color);
+  color: var(--b1-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.log__prev-page-button:hover {
+  background-color: var(--b1-color);
+  color: var(--white-color);
+}

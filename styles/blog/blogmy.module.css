@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+/* .blog-headimg {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .blog-headimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   */
+.bgm-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.bgm-cont {
+  padding-top: 120px;
+}
+.bgm-head {
+  width: 100%;
+
+  height: auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+.bgm-selfpro {
+  height: auto;
+  width: 300px;
+}
+.bgm-selfpro-a {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.bgm-selfpro-img {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+}
+.bgm-selfpro-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.bgm-selfpro-b {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.bgm-selfpro-btm {
+  background-color: transparent;
+  border: none;
+
+  color: var(--b1-color);
+}
+
+.bgm-selfpro-b h6 {
+  font-size: var(--h5-font-size);
+  font-weight: bold;
+}
+
+.bgm-selfpro-d {
+  width: 100%;
+  margin-top: 30px;
+  overflow: hidden;
+  /* white-space: nowrap;
+  text-overflow: ellipsis; */
+  max-height: 180px;
+  overflow: hidden;
+  transition: max-height 0.7s;
+}
+.bgm-selfpro.open {
+  max-height: 1000px;
+  /* Set transitions */
+  transition: max-height 0.7s;
+}
+
+.bgm-follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+  width: 39%;
+}
+
+.bgm-follow-a {
+  width: 100%;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 20px;
+}
+.bgm-follow-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bgm-follow-b {
+  width: 399px;
+  display: flex;
+  justify-content: space-between;
+}
+.bgm-follow-fans {
+  width: 399px;
+  display: flex;
+  justify-content: center;
+}
+.bgm-follow-btn {
+  width: 120px;
+
+  padding: 10px;
+  border: 3px solid var(--b1-color);
+  background-color: transparent;
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bgm-follow-btn:hover {
+  color: var(--white-color);
+  background-color: var(--b2-color);
+}
+.bgm-follow-btnfans {
+  width: 80%;
+
+  padding: 10px;
+  border: 3px solid var(--b1-color);
+  background-color: transparent;
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bgm-follow-btnfans:hover {
+  color: var(--white-color);
+  background-color: var(--b1-color);
+}
+
+.follow {
+  width: 120px;
+
+  padding: 10px;
+  border: 3px solid var(--b1-color);
+  background-color: transparent;
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.follow:hover {
+  color: var(--white-color);
+  background-color: var(--b2-color);
+}
+.following {
+  width: 120px;
+
+  padding: 10px;
+  border: 3px solid var(--b1-color);
+  background-color: var(--b1-color);
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--white-color);
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 編輯 收藏 建立文章 */
+.bgm-mid {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  background-color: var(--g3-color);
+}
+.bgm-mid-btn {
+  width: 120px;
+  padding: 10px;
+
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+
+  font-weight: bold;
+  cursor: pointer;
+}
+.bgm-mid-btn:hover {
+  font-size: var(--p-font-size);
+  color: var(--o1-color);
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 卡片 */
+.container-a {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.blog-item {
+  width: 100%;
+  height: auto;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(150, 150, 150, 0.3);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.blog-item-b {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+.blog-item-b1 {
+  width: 90%;
+
+  display: flex;
+}
+.blog-img {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.blog-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-name {
+  height: auto;
+  margin-bottom: 5px;
+  font-size: var(--h5-font-size);
+  color: var(--b1-color);
+  font-weight: bold;
+
+  letter-spacing: 1px;
+}
+.blog-purchase-qty {
+  font-size: var(--p-font-size);
+  color: var(--g2-color);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  /* padding: 10px; */
+}
+.blog-editt {
+  font-size: var(--h5-font-size);
+  height: auto;
+  width: 80%;
+}
+
+.blog-editc {
+  font-size: var(--p-font-size);
+  height: 300px;
+  width: 80%;
+}
+.blog-editbtn {
+  font-size: var(--p-font-size);
+  height: auto;
+  width: 80%;
+}
+.blog-price {
+  font-size: var(--h6-font-size);
+  color: var(--o1-color);
+  font-weight: bold;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.blog-info {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  letter-spacing: 1px;
+  align-items: center;
+}
+
+.blog-stock {
+  font-size: var(--p-sm-font-size);
+  color: var(--g2-color);
+  padding: 10px;
+}
+
+/* 加入購物車按鈕 */
+.cart-btn {
+  width: 100%;
+  padding: 10px;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid var(--b1-color);
+  background-color: transparent;
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.add-to-cart-btn1 {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid var(--b1-color);
+  background-color: transparent;
+  letter-spacing: 1px;
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  border-radius: 10px;
+  font-weight: bold;
+  /* cursor: pointer; */
+}
+
+/* blog-card: Hover */
+.blog-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
+  transform-origin: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  background-color: var(--o1-color);
+  height: auto;
+  /* cursor: pointer; */
+}
+
+.blog-item:hover .blog-name {
+  color: var(--white-color);
+}
+
+.blog-item:hover .blog-price {
+  color: var(--white-color);
+}
+
+.blog-item:hover .blog-stock,
+.blog-item:hover .blog-purchase-qty {
+  color: var(--white-color);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.blog-item-c {
+  width: 80%;
+}
+
+.blog-more {
+  color: var(--b1-color);
+  font-size: var(--p-sm-font-size);
+}
+
+.blogsl {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--g3-color);
+  font-size: large;
+}
+
+.blogslbtn {
+  background-color: transparent;
+  border-style: none;
+
+  cursor: pointer;
+  font-size: var(--h5-font-size);
+  margin-right: 20px;
+  position: relative;
+}
+.blogslbtnina {
+  width: 100%;
+  padding: 20px;
+}
+
+.blogslbtninb {
+  width: 100%;
+  font-size: var(--p-font-size);
+
+  background-color: transparent;
+  border-style: none;
+
+  cursor: pointer;
+}
+.blogslbtnin {
+  font-size: var(--p-font-size);
+
+  background-color: transparent;
+  border-style: none;
+
+  cursor: pointer;
+  padding: 20px;
+}
+.blogslbtnina:hover {
+  background-color: var(--g2-color);
+}
+.blogslbtnin:hover {
+  background-color: var(--g2-color);
+}
+
+.blog-fav {
+  margin: 30px;
+  cursor: pointer;
+}
+
+.@media screen and (max-width: 767px) {
+  .bgm-follow-a {
+    width: 100px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}

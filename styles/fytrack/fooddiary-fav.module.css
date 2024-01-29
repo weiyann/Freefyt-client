@@ -1,0 +1,390 @@
+/* 通用樣式 */
+.container {
+  max-width: 1440px;
+  margin: auto;
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f9f9f9; /* 添加淺色背景 */
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
+}
+
+/* 麵包屑樣式 */
+.breadcrumbs {
+  font-size: 20px;
+  color: #888888;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+/* 分頁切換按鈕樣式 */
+.tab-buttons {
+  width: 450px;
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #1c3b5e;
+  border-radius: 5px;
+  overflow: visible;
+}
+
+.tab-button-allTime,
+.tab-button-breakfast,
+.tab-button-lunch,
+.tab-button-dinner,
+.tab-button-dessert {
+  flex: 1;
+  padding: 8px 15px;
+  /* border: none; */
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; /* 過渡效果 */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.tab-button-allTime:hover,
+.tab-button-breakfast:hover,
+.tab-button-lunch:hover,
+.tab-button-dinner:hover,
+.tab-button-dessert:hover {
+  background-color: #ff804a; /* 滑鼠懸停時的背景顏色 */
+  transform: scale(1.1); /* 使用scale放大按鈕 */
+  transition: transform 0.2s ease, background-color 0.2s; /* 添加過度效果平滑動畫 */
+}
+
+.tab-button-allTime:active,
+.tab-button-breakfast:active,
+.tab-button-lunch:active,
+.tab-button-dinner:active,
+.tab-button-dessert:active {
+  color: #ffffff;
+  background-color: #34414f;
+}
+
+/* 主要内容區樣式 */
+.main-content {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.main-content .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.content-upper {
+  background-color: #d9e8f5;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height: 150px;
+}
+
+.fav-controls {
+  display: flex;
+  justify-content: space-between; /* 使元素分布在兩端 */
+  align-items: center;
+  padding: 0 20px; /* 增加左右內邊距 *
+   width: 100%; /* 確保容器寬度充足 */
+  margin-right: 100px;
+}
+
+/* 下拉選單樣式 */
+.dropdowns {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* 將下拉選單推向中央 */
+  max-width: 500px; /* 設置下拉選單的最大寬度 */
+  gap: 20px;
+}
+
+.dropdownStyle {
+  margin-right: 10px; /* 右边间距 */
+}
+
+/* 選擇器樣式 */
+.dropdowns .recordsPerPage,
+.dropdowns .sortOrder {
+  margin: 0 10px;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+/* 主要內容區-下面區塊樣式 */
+.content-lower {
+  /* background-color: #f0f0f0; */
+  margin-top: 20px;
+}
+
+.date-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.date-btn {
+  cursor: pointer;
+  color: #4a90e2;
+  font-size: 28px;
+  margin: 0 10px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.date-btn:hover {
+  color: #2a6ba8;
+  transform: scale(1.1);
+}
+
+.date-btn:active {
+  transform: scale(0.95);
+}
+
+.date-display {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 營養進度條區塊樣式 */
+.dashboard {
+  background-color: #d9e8f5;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.dashboard .nutrition-bars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 10px; /* 元素之間的間距 */
+}
+
+.dashboard .intake-title {
+  padding-top: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between; /* 在元素之間提供空間 */
+  align-items: center; /* 垂直居中對齊 */
+  width: 100%; /* 占滿整個容器寬度 */
+  margin-bottom: 10px; /* 下邊距 */
+}
+
+.dashboard .calorie-bar {
+  margin: 15px;
+  /* padding: 10px; */
+}
+
+.dashboard .nutrition-bar {
+  flex-basis: calc(33.33% - 20px); /* 三個元素每行顯示一個 */
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.dashboard .nutrition-bar .paragraph {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.dashboard .progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: lightgrey;
+  margin-top: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.dashboard .progress {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.dashboard .progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+/* 兩個相連的按鈕樣式調整 */
+.button-block {
+  /* background-color: #f0f0f0; */
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center; /* 將按鈕置中 */
+}
+
+/* 調整圖標按鈕大小和間距 */
+.icon-button {
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  align-items: center; /* 垂直置中 */
+  font-size: 20px;
+  margin: 0 10px; /* 增加圖標間距 */
+  padding: 8px 12px; /* 調整填充以適應圖標大小 */
+  background: #1c3b5e;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* 添加过渡效果 */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.icon-button:hover {
+  background-color: #ff804a; /* 懸停時的背景颜色 */
+  color: #ffffff; /* 懸停的圖標顏色 */
+  transform: translateY(-2px); /* 位移 */
+  transform: scale(1.1); /* 懸停時放大 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 懸停時增加陰影 */
+}
+
+.icon-button:active {
+  color: white;
+  background-color: #707070; /* 選中的按鈕背景色 */
+}
+
+.underline {
+  height: 2px;
+  background-color: #1c3b5e; /* 底線顏色 */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* 調整間距和對齊 */
+.main-content,
+.content-upper,
+.dashboard {
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.dropdowns,
+.nutrition-bars {
+  margin-top: 15px;
+}
+
+.all-recents {
+  margin-bottom: 10px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* 卡片樣式調整 */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 40px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column; /* 改為垂直排列 */
+  align-items: center; /* 元素居中對齊 */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 3px solid #ff804a;
+}
+
+/* 卡片頭部（日期、時間） */
+.card-header {
+  color: #444;
+  margin-bottom: 10px;
+  text-align: center; /* 居中顯示時間 */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 卡片標題（包括愛心圖標和食物名稱） */
+.card-title {
+  display: flex;
+  align-items: center; /* 垂直居中對齊 */
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* 卡片主體（包括份量和營養資訊） */
+.card-body {
+  display: flex; /* 使用flex布局 */
+  flex-direction: column; /* 元素垂直堆疊 */
+  align-items: center; /* 元素置中對齊 */
+  margin-top: 10px;
+}
+
+.card-divider {
+  height: 1px; /* 更細的分隔線 */
+  background-color: #d3d3d3; /* 更淺的顏色 */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* 添加淺色陰影增加深度感 */
+  width: 100%; /* 確保分隔線寬度和卡片一致 */
+}
+
+.food-nutrition {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-top: 5px;
+  line-height: 1.8; /* 調整行高 */
+}
+
+.favorite-icon {
+  font-size: 36px;
+  color: red;
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+  margin-right: 10px;
+}
+
+.favorite-icon:hover {
+  font-size: 36px; /* 圖標大小 */
+  transition: 0.3s;
+  transform: scale(1.2);
+  color: #ff4040;
+}
+
+.favorite-icon:active {
+  transform: scale(1.1);
+  color: #cc0000;
+
+}
+
+.food-name {
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}

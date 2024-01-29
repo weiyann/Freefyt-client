@@ -1,0 +1,13 @@
+.blog-headimgs{
+  height: 200px;
+}
+.blog-headimg{
+  width:500px;
+  height:500px;
+  border: black 1px solid;
+  
+  margin: 20px;
+}
+.bgid-writecontent{
+  margin: 20px;
+}

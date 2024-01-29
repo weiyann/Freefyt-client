@@ -1,0 +1,194 @@
+/* modal css */
+.modalBackground {
+  width: 100%;
+  height: 100%;
+  max-width: 90%; 
+  max-height: 90vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalContainer {
+  width: 1200px;
+  height: 820px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  font-size: var(--h6-font-size);
+  letter-spacing: 1px;
+  color: var(--b1-color);
+}
+
+
+.modalContainer .modal-body {
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 1.7rem;
+  text-align: center; */
+}
+
+.modalContainer .footer {
+  flex: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 56px;
+  margin: 10px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  background-color: var(--g3-color);
+}
+
+.btn-continue {
+  background-color: var(--b2-color);
+}
+
+/* calendar css */
+.calendar-title{
+  display: flex;
+  margin: 30px 0px;
+  padding-left: 60px;
+  width: 100%;
+  align-items: center;
+}
+.preWeek{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border: 2px solid var(--b1-color);
+  border-radius: 20px 0 0 20px;
+  cursor: pointer;
+}
+.preWeek:hover,.nextWeek:hover{
+  background-color: var(--b2-color);
+}
+.preWeek svg,.nextWeek svg{
+  color:var(--b1-color);
+  width: 30px;
+  height: 30px;
+}
+.preWeek:hover svg,.nextWeek:hover svg{
+  color:var(--white-color);
+}
+.nextWeek{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border: 2px solid var(--b1-color);
+  border-radius: 0 20px 20px 0;
+  margin-left: -1px;
+  cursor: pointer;
+}
+.yearAndMonth{
+  color: var(--g1-color);
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+  margin-left: 30px;
+  width: 45%;
+}
+.selected-time-box{
+  /* background-color: red; */
+}
+.init-time{
+  font-size: var(--h5-font-size);
+  color: var(--g1-color);
+}
+.selected-time{
+  font-size: var(--h5-font-size);
+  color: var(--g1-color);
+}
+.selected-time span{
+  color: var(--o1-color);
+  font-weight: 800;
+  text-shadow: 0px -0px 0px var(--g1-color);
+}
+
+.calendar {
+  width: 90%;
+  border-collapse: collapse;
+  margin-bottom: 20px; /* 可根據需要調整 */
+}
+.tr{
+  border: 1px solid var(--g2-color);
+  text-align: center;
+  background-color: var(--b4-color);
+  color: var(--b2-color);
+  font-size: var(--h5-font-size);
+}
+.th {
+  border: 1px solid var(--g2-color);
+  padding: 8px;
+}
+.td {
+  /* border: 1px solid var(--g2-color); */
+  vertical-align: top;
+  text-align: center;
+  padding: 2px;
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+  color: var(--b2-color);
+}
+.day-box{
+  /* height: 140px; */
+  width: 153px;
+  background-color: var(--white-color);
+}
+.time-period{
+  margin-top: 12px;
+  width:100%;
+  padding: 0px 12px;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+.time-period:hover:not(.disabled) {
+  background-color: var(--o1-color);
+  color: var(--white-color);
+}
+.disabled{
+  color: var(--g2-color);
+  cursor:default;
+}
+.active{
+  background-color: var(--o1-color);
+  color: var(--white-color);
+}
+.initselect-time{
+  /* background-color: var(--o2-color); */
+  color: var(--o1-color);
+  border: 2px solid var(--o1-color);
+}

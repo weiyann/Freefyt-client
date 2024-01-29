@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新增食物日記</title>
+    <link rel="stylesheet" href="../styles/styleguide.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/fytrack/fooddiary-add.module.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex space-between">
+        <div class="logo"><img src="../public/image/logo2.png" alt="" /></div>
+        <ul class="navbar">
+          <a href="#"><li class="navbar__link">健身追蹤</li></a>
+          <a href="#"><li class="navbar__link">課程專區</li></a>
+          <a href="#"><li class="navbar__link">線上商城</li></a>
+          <a href="#"><li class="navbar__link">健身論壇</li></a>
+        </ul>
+        <div class="navbar-icons">
+          <i class="navbar-icons__icon fa-solid fa-magnifying-glass"></i>
+          <i class="navbar-icons__icon fa-regular fa-bell"></i>
+          <i class="navbar-icons__icon fa-solid fa-cart-shopping"></i>
+          <div class="btn-login">登入</div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- 麵包屑導航 -->
+      <div class="breadcrumbs">首頁 / 健身追蹤 / 營養追蹤 / 食物日記 / 新增</div>
+      <!-- 主要內容區 -->
+      <div class="image-container">
+        <img
+          src="../public/fytrack_img/add-img.jpg"
+          alt="新增食物日記頁面圖"
+        />
+        <i class="fa-regular fa-square-plus icon-plus"></i>
+      </div>
+      <form class="nutrition-form">
+        <div class="form-title">新增食物日記</div>
+        
+        <!-- 時間表單項目 -->
+        <div class="form-item">
+          <div class="input-group">
+            <i class="fa-solid fa-calendar-days"></i>
+            <label for="date">時間</label>
+          </div>
+          <input type="text" id="date" placeholder="請輸入日期、時間" />
+        </div>
+        
+        <!-- 食物名稱表單項目 -->
+        <div class="form-item">
+          <div class="input-group">
+            <i class="fa-brands fa-nutritionix"></i>
+            <label for="foodname">食物名稱</label>
+          </div>
+          <input type="text" id="foodname" placeholder="請輸入食物名稱" />
+        </div>
+        
+        <!-- 份量表單項目 -->
+        <div class="form-item">
+          <div class="input-group">
+            <i class="fa-solid fa-chart-pie"></i>
+            <label for="serving-size">份量</label>
+          </div>
+          <input type="text" id="serving-size" placeholder="請輸入份量" />
+        </div>
+        
+        <!-- 份量單位表單項目 -->
+        <div class="form-item">
+          <div class="input-group">
+            <i class="fa-solid fa-chart-pie"></i>
+            <label for="serving-size-unit">份量單位</label>
+          </div>
+          <input type="text" id="serving-size-unit" placeholder="請輸入份量單位" />
+        </div>
+
+        <button type="submit" class="button">送出</button>
+      </form>
+    </div>
+  </body>
+</html>

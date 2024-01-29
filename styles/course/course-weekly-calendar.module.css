@@ -1,0 +1,99 @@
+.calendar-title{
+  display: flex;
+  margin: 30px 0px;
+  padding-left: 60px;
+  width: 100%;
+  align-items: center;
+}
+.preWeek{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border: 2px solid var(--b1-color);
+  border-radius: 20px 0 0 20px;
+  cursor: pointer;
+}
+.preWeek:hover,.nextWeek:hover{
+  background-color: var(--b2-color);
+}
+.preWeek svg,.nextWeek svg{
+  color:var(--b1-color);
+  width: 30px;
+  height: 30px;
+}
+.preWeek:hover svg,.nextWeek:hover svg{
+  color:var(--white-color);
+}
+.nextWeek{
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border: 2px solid var(--b1-color);
+  border-radius: 0 20px 20px 0;
+  margin-left: -1px;
+  cursor: pointer;
+}
+.yearAndMonth{
+  color: var(--g1-color);
+  font-size: var(--h4-font-size);
+  font-weight: 800;
+  margin-left: 30px;
+  width: 100%;
+}
+.calendar {
+  width: 90%;
+  border-collapse: collapse;
+  margin-bottom: 20px; /* 可根據需要調整 */
+}
+.tr{
+  border: 1px solid var(--g2-color);
+  text-align: center;
+  background-color: var(--b4-color);
+  color: var(--b2-color);
+  font-size: var(--h5-font-size);
+}
+.th {
+  border: 1px solid var(--g2-color);
+  padding: 8px;
+}
+.td {
+  /* border: 1px solid var(--g2-color); */
+  vertical-align: top;
+  text-align: center;
+  padding: 2px;
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+  color: var(--b2-color);
+}
+.day-box{
+  /* height: 140px; */
+  width: 153px;
+  background-color: var(--white-color);
+}
+.time-period{
+  margin-top: 12px;
+  width:100%;
+  padding: 0px 12px;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+.time-period:hover:not(.disabled) {
+  background-color: var(--o1-color);
+  color: var(--white-color);
+}
+.disabled{
+  color: var(--g2-color);
+  cursor:default;
+}
+.active{
+  background-color: var(--o1-color);
+  color: var(--white-color);
+}
+

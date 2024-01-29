@@ -1,0 +1,61 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.image-container {
+  flex: 1;
+  transition: flex-grow 0.5s ease; /* 平滑延展效果 */
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 400px; /* 固定高度 */
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  transition: opacity 0.5s ease; /* 文字轉場效果 */
+}
+
+.main-text {
+  font-size: 24px;
+  font-weight: bold;
+  opacity: 1; /* 確保主要文字始終可見 */
+}
+
+.hover-text {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  opacity: 0; /* 初始狀態透明 */
+  transition: opacity 0.5s ease; /* 平滑顯示效果 */
+}
+
+.image-container:hover {
+  flex-grow: 2;
+}
+
+.image-container:hover .hover-text {
+  opacity: 1; /* 懸停時顯示附加文字 */
+}
+
+#sport:hover ~ #nutrition,
+#nutrition:hover ~ #sport {
+  flex-grow: 1;
+}
+

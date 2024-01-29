@@ -1,0 +1,46 @@
+.result {
+    border: 3px solid var(--b1-color);
+    border-radius: 10px;
+    width: 50%;
+    padding: 5rem;
+    position: fixed;
+    background-color: var(--white-color);
+    top: 25%;
+    left: 25%;
+}
+
+.result__exercise-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.result__exercise-list-entry {
+    width: 15rem;
+    margin: 0 0.5rem;
+}
+
+.result__exercise-name {
+    font-size: var(--h6-font-size);
+    font-weight: bold;
+    color: var(--o1-color);
+    text-align: center;
+}
+
+.result__exercise-stats {
+    font-size: var(--p-font-size);
+    font-weight: bold;
+    color: var(--b1-color);
+    text-align: center;
+}
+
+.close-button {
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+}

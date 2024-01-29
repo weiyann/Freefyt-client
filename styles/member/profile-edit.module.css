@@ -1,0 +1,61 @@
+.hide {
+  visibility: hidden;
+}
+
+.profile input, .profile select {
+  font-size: var(--h6-font-size);
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.profile-img-upload {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--g3-color);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img-upload-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.profile-img-upload-icon path {
+  fill: var(--b1-color);
+}
+
+.profile-img-upload-input {
+  visibility: hidden;
+}
+
+.edit-button {
+  width: 7.5rem;
+  height: 2rem;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  border: 3px solid var(--b1-color);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--g4-color);
+  color: var(--b1-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.edit-button:hover {
+  background-color: var(--b1-color);
+  color: var(--g4-color);
+}
+
+.edit-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-bottom: 2rem;
+}

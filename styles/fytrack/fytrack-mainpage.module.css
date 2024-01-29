@@ -1,0 +1,63 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+.image-container {
+  flex: 1;
+  transition: flex-grow 0.5s ease; /* 平滑延展效果 */
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, filter 0.5s ease; /* 添加 filter 轉場效果 */
+  height: calc(100vh - 100px);
+}
+
+/* 當停留在任一圖片容器上時，其他圖片套用暗化效果 */
+#container:hover .image-container:not(:hover) img {
+  filter: brightness(50%);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  transition: opacity 0.5s ease; /* 文字轉場效果 */
+}
+
+.main-text {
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 1; /* 確保主要文字始終可見 */
+  font-family: 'Arial', sans-serif;
+}
+
+.hover-text {
+  font-size: 30px;
+  margin-top: 10px;
+  display: block;
+  opacity: 0; /* 初始狀態透明 */
+  transition: opacity 0.5s ease; /* 平滑顯示效果 */
+  font-family: 'Arial', sans-serif;
+}
+
+.image-container:hover {
+  flex-grow: 2;
+}
+
+.image-container:hover .hover-text {
+  opacity: 1; /* 懸停時顯示附加文字 */
+}

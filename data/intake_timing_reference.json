@@ -1,0 +1,6 @@
+[
+  { "intake_timing_id": "1", "intake_timing_name": "早餐" },
+  { "intake_timing_id": "2", "intake_timing_name": "午餐" },
+  { "intake_timing_id": "3", "intake_timing_name": "晚餐" },
+  { "intake_timing_id": "4", "intake_timing_name": "點心" }
+]

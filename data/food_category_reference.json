@@ -1,0 +1,42 @@
+[
+  {
+    "food_category_id": "1",
+    "food_category_name": "飯糰、壽司"
+  },
+  {
+    "food_category_id": "2",
+    "food_category_name": "麵包、吐司、蛋糕"
+  },
+  {
+    "food_category_id": "3",
+    "food_category_name": "三明治、漢堡"
+  },
+  {
+    "food_category_id": "4",
+    "food_category_name": "飯麵粥品"
+  },
+  {
+    "food_category_id": "5",
+    "food_category_name": "湯品"
+  },
+  {
+    "food_category_id": "6",
+    "food_category_name": "小菜沙拉、雞胸肉"
+  },
+  {
+    "food_category_id": "7",
+    "food_category_name": "夯蕃薯、現烤熟食"
+  },
+  {
+    "food_category_id": "8",
+    "food_category_name": "冷凍食品"
+  },
+  {
+    "food_category_id": "9",
+    "food_category_name": "茶葉蛋、蒸箱熟食"
+  },
+  {
+    "food_category_id": "10",
+    "food_category_name": "飲品"
+  }
+]

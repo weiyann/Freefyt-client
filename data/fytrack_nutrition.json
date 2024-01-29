@@ -1,0 +1,263 @@
+[
+  {
+    "ntdentry_sid": "1",
+    "member_id": "1",
+    "ntdentry_date_time": "2024-01-01 09:15:04",
+    "caloric_target": "1200",
+    "protein_target": "50",
+    "carb_target": "20",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "2",
+    "member_id": "1",
+    "ntdentry_date_time": "2024-01-02 14:30:07",
+    "caloric_target": "1250",
+    "protein_target": "50",
+    "carb_target": "20",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "3",
+    "member_id": "1",
+    "ntdentry_date_time": "2024-01-03 17:55:09",
+    "caloric_target": "1300",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "4",
+    "member_id": "2",
+    "ntdentry_date_time": "2024-01-04 15:40:23",
+    "caloric_target": "1350",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "5",
+    "member_id": "3",
+    "ntdentry_date_time": "2024-01-05 08:45:28",
+    "caloric_target": "1400",
+    "protein_target": "50",
+    "carb_target": "20",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "6",
+    "member_id": "3",
+    "ntdentry_date_time": "2024-01-06 20:15:43",
+    "caloric_target": "1450",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "7",
+    "member_id": "4",
+    "ntdentry_date_time": "2024-01-07 12:00:39",
+    "caloric_target": "1500",
+    "protein_target": "55",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "8",
+    "member_id": "4",
+    "ntdentry_date_time": "2024-01-08 16:15:18",
+    "caloric_target": "1550",
+    "protein_target": "55",
+    "carb_target": "25",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "9",
+    "member_id": "4",
+    "ntdentry_date_time": "2024-01-09 19:45:27",
+    "caloric_target": "1600",
+    "protein_target": "55",
+    "carb_target": "25",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "10",
+    "member_id": "4",
+    "ntdentry_date_time": "2024-01-10 18:25:37",
+    "caloric_target": "1650",
+    "protein_target": "55",
+    "carb_target": "45",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "11",
+    "member_id": "5",
+    "ntdentry_date_time": "2024-01-11 11:20:55",
+    "caloric_target": "1700",
+    "protein_target": "60",
+    "carb_target": "45",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "12",
+    "member_id": "5",
+    "ntdentry_date_time": "2024-01-12 09:50:46",
+    "caloric_target": "1750",
+    "protein_target": "60",
+    "carb_target": "45",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "13",
+    "member_id": "6",
+    "ntdentry_date_time": "2024-01-13 19:00:21",
+    "caloric_target": "1800",
+    "protein_target": "60",
+    "carb_target": "45",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "14",
+    "member_id": "6",
+    "ntdentry_date_time": "2024-01-14 14:05:29",
+    "caloric_target": "1850",
+    "protein_target": "60",
+    "carb_target": "25",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "15",
+    "member_id": "7",
+    "ntdentry_date_time": "2024-01-15 10:45:21",
+    "caloric_target": "1100",
+    "protein_target": "50",
+    "carb_target": "20",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "16",
+    "member_id": "7",
+    "ntdentry_date_time": "2024-01-16 12:50:29",
+    "caloric_target": "1150",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "17",
+    "member_id": "8",
+    "ntdentry_date_time": "2024-01-17 08:20:00",
+    "caloric_target": "1200",
+    "protein_target": "50",
+    "carb_target": "20",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "18",
+    "member_id": "8",
+    "ntdentry_date_time": "2024-01-18 13:55:12",
+    "caloric_target": "1250",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "19",
+    "member_id": "8",
+    "ntdentry_date_time": "2024-01-19 10:30:37",
+    "caloric_target": "1300",
+    "protein_target": "50",
+    "carb_target": "20",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "20",
+    "member_id": "8",
+    "ntdentry_date_time": "2024-01-20 17:10:18",
+    "caloric_target": "1350",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "21",
+    "member_id": "9",
+    "ntdentry_date_time": "2024-01-21 16:40:46",
+    "caloric_target": "1700",
+    "protein_target": "60",
+    "carb_target": "25",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "22",
+    "member_id": "9",
+    "ntdentry_date_time": "2024-01-22 20:30:26",
+    "caloric_target": "1750",
+    "protein_target": "60",
+    "carb_target": "45",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "23",
+    "member_id": "10",
+    "ntdentry_date_time": "2024-01-23 08:00:54",
+    "caloric_target": "1800",
+    "protein_target": "60",
+    "carb_target": "45",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "24",
+    "member_id": "11",
+    "ntdentry_date_time": "2024-01-24 09:00:50",
+    "caloric_target": "1550",
+    "protein_target": "55",
+    "carb_target": "25",
+    "fat_target": "70"
+  },
+  {
+    "ntdentry_sid": "25",
+    "member_id": "12",
+    "ntdentry_date_time": "2024-01-25 10:30:15",
+    "caloric_target": "1350",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "26",
+    "member_id": "13",
+    "ntdentry_date_time": "2024-01-26 13:30:00",
+    "caloric_target": "1100",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "27",
+    "member_id": "1",
+    "ntdentry_date_time": "2024-01-26 14:30:00",
+    "caloric_target": "1200",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "28",
+    "member_id": "1",
+    "ntdentry_date_time": "2024-01-26 15:30:00",
+    "caloric_target": "1200",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  },
+  {
+    "ntdentry_sid": "29",
+    "member_id": "1",
+    "ntdentry_date_time": "2024-01-26 16:30:00",
+    "caloric_target": "1200",
+    "protein_target": "50",
+    "carb_target": "40",
+    "fat_target": "55"
+  }
+]

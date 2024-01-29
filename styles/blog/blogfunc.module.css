@@ -1,0 +1,46 @@
+.blogsl{
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+    background-color: var(--g3-color);
+}
+
+.blogslbtn{
+    
+    background-color: transparent;
+    border-style: none;
+
+    cursor: pointer;
+}
+
+.blogslbtnin{
+    padding: 10px;
+    font-size: var(--h5-font-size);
+
+    background-color: transparent;
+    border-style: none;
+
+    cursor: pointer
+}
+
+.blogslbtnin:hover{
+    background-color: var(--g2-color);
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+  }

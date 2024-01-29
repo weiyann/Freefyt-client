@@ -1,0 +1,386 @@
+/* 到課程管理的按鈕 */
+.to-course-management {
+  padding-top: 150px;
+  /* margin-bottom: 48px; */
+  display: flex;
+  justify-content: center;
+
+}
+.to-course-management__member {
+  display: flex;
+  width: 500px;
+  padding: 16px 70px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  background: var(--o1-color);
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+}
+.to-course-management__member:hover {
+  background-color: var(--o3-color);
+  color: var(--b1-color);
+  cursor: pointer;
+  font-weight: 800;
+}
+.to-course-management__coach {
+  display: flex;
+  width: 500px;
+  padding: 16px 70px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 20px 20px 0px;
+  border: none;
+  background: var(--b1-color);
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+}
+.to-course-management__coach:hover {
+  background-color: var(--b4-color);
+  color: var(--b1-color);
+  cursor: pointer;
+  font-weight: 800;
+}
+.to-course-management-disabled{
+  background-color: var(--g3-color);
+  display: flex;
+  width: 500px;
+  padding: 16px 70px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 20px 20px 0px;
+  border: none;
+  font-size: var(--h5-font-size);
+  color: var(--white-color);
+}
+
+.sort-container{
+  margin-left: 30px;
+}
+
+/* breadcrumb */
+.breadcrumb-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 130px;
+}
+
+.breadcrumb {
+  width: 500px;
+  color: var(--g2-color);
+  font-size: var(--p-font-size);
+}
+
+#search-form{
+  width: 100%;
+}
+
+.search-course {
+  width: 600px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.search-title{
+  color: var(--b1-color);
+  font-size: var(--p-font-size);
+  margin-right: 10px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+
+.search-input{
+  height: 40px;
+  width: 300px;
+  background-color: var(--white-color);
+  border: 1px solid var(--g3-color);
+  padding-left: 10px;
+  font-size: var(--p-font-size);
+  margin-right: 20px;
+}
+
+.btn-search-course {
+  width: 100px;
+  color: var(--white-color);
+  font-size: var(--p-font-size);
+  padding: 10px;
+  background-color: var(--b2-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-search-course:hover {
+  font-weight: 800;
+  color: var(--b1-color);
+  background-color: var(--b4-color);
+}
+
+/* 標籤 */
+.tags{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.tags-title {
+  color: var(--b1-color);
+  font-size: var(--p-font-size);
+  margin-right: 10px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.btn-tag {
+  font-size: var(--p-font-size);
+  color: var(--b1-color);
+  background-color:  transparent;
+  border: 3px solid var(--b1-color);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-tag:hover {
+  color: var(--white-color);
+  background-color:  var(--b1-color);
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.btn-tag-active{
+  color: var(--white-color);
+  background-color:  var(--b1-color);
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.btn-search-tags{
+  width: 100px;
+  color: var(--white-color);
+  font-size: var(--p-font-size);
+  padding: 10px;
+  background-color: var(--b2-color);
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+/* 篩選 */
+.sort {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.sort-title {
+  color: var(--b1-color);
+  font-size: var(--p-font-size);
+  margin-right: 10px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-left: 300px;
+
+}
+
+.sort-select-box {
+  width: 220px;
+}
+.sort-select{
+  width: 100%;
+  height: 40px;
+  background-color: var(--white-color);
+  border: 1px solid var(--g3-color);
+  padding-left: 10px;
+  font-size: var(--p-font-size);
+}
+
+/* 筆數 */
+.total-rows {
+  color: var(--b1-color);
+  font-size: var(--p-font-size);
+  margin: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+
+/* 所有課程 */
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+  justify-content: flex-start;
+
+}
+
+/* 課程卡片 */
+.card-box__card {
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  margin: 65px;
+  box-shadow: var(--card-shadow1);
+  transition: all 1s ease;
+  position: relative;
+  background-color: var(--white-color);
+}
+.card-box__card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* 課程圖片 */
+.card-img {
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+.card-box__card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* 課程內容 */
+.card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+.card__course-name {
+  color: var(--b1-color);
+  font-size: var(--h5-font-size);
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+}
+.heart-icon{
+  font-size: 30px;
+  color: red;
+  position: absolute;
+  top: 215px;
+  left: 300px;
+  z-index: 1;
+}
+.tag-box {
+  display: flex;
+}
+.tag-box__tag {
+  margin-right: 4px;
+  color: var(--b2-color);
+  font-size: var(--p-font-size);
+}
+.coach-info {
+  display: flex;
+  align-items: center;
+}
+.coach-info__img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.coach-info__img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.coach-info__name {
+  color: var(--b1-color);
+  font-size: var(--h6-font-size);
+  font-weight: 700;
+  margin-right: 70px;
+}
+/* 報名按鈕 */
+/* .coach-info__applybtn {
+  border-radius: 10px;
+  border: none;
+  background-color: var(--o1-color);
+  color: var(--white-color);
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--p-font-size);
+}
+.coach-info__applybtn:hover{
+  background-color: var(--o3-color);
+  color: var(--b1-color);
+  cursor: pointer;
+  font-weight: 800;
+} */
+
+/* 課程評分和課程價格 */
+.card-footer{
+  display: flex;
+  align-items: center;
+}
+.star-rating{
+  display: flex;
+  align-items: center;
+  width: 129px;
+  height: 24.5px;
+  background-color: var(--g4-color);
+}
+.back-stars{
+  display: flex;
+  background-color: #ffc107 ;
+  /* width: 50%; */
+  height: 24.5px;
+  position: relative;
+}
+.front-stars{
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  top: -1.8px;
+  left:-1px;
+  z-index: 1;
+}
+
+/* .card-footer__star svg {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+} */
+.card-footer__score{
+  color: var(--black-color);
+  font-size: var(--h6-font-size);
+  /* width: 100px; */
+  margin-right: 60px;
+}
+.card-footer__price{
+  color: var(--o1-color);
+  font-size: var(--h5-font-size);
+  font-weight: 700;
+}
+
+/* loading動畫 */
+.loading-box {
+  padding-top: 100px;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

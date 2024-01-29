@@ -1,0 +1,205 @@
+.container {
+  max-width: 1440px;
+  margin: auto;
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f9f9f9; /* 添加淺色背景 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
+}
+
+/* 麵包屑樣式 */
+.breadcrumbs {
+  font-size: 20px;
+  color: #888888;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.main-content {
+  padding: 20px;
+  overflow-x: auto; /* 允許水平滾動 */
+}
+
+/* 搜索區塊樣式 */
+.search-block {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #2d3e50;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.search-block h2 {
+  margin-bottom: 20px;
+}
+
+.search-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 食品種類、關鍵字搜尋標題 */
+.search-inputs .input-label {
+  color: white;
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 分類框、搜索輸入框 */
+.search-inputs #food-type,
+.search-inputs #keyword {
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  width: 180px;
+  margin-right: 80px;
+}
+
+/* 清除、搜尋按鈕 */
+.search-buttons button {
+  padding: 10px 20px;
+  border: none;
+  margin: 5px;
+  margin-top: 20px;
+  width: 80px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-buttons {
+  text-align: center;
+}
+
+.clear-btn {
+  background-color: #666;
+  color: white;
+}
+
+.clear-btn:hover {
+  background-color: #555;
+}
+
+.search-btn {
+  background-color: #ff804a;
+  color: #fff;
+}
+
+.search-btn:hover {
+  background-color: #f76121;
+}
+
+/* 搜尋區標題和輸入框 */
+.search-inputs .input-label,
+.search-inputs #keyword {
+  vertical-align: middle; /* 設置垂直對齊 */
+  line-height: 50px; /* 確保行高與input的高度一致 */
+  font-size: 20px; /* 確保字體大小一致 */
+}
+
+.search-inputs #keyword {
+  padding: 0 5px; /* 調整內部間距以適應行高 */
+}
+
+/* .pagination .page-link {
+  color: blue;
+  text-decoration: none;
+  margin-right: 5px;
+  cursor: pointer;
+} */
+
+/* .pagination .page-link:hover {
+  text-decoration: underline;
+} */
+
+.search-results {
+  font-size: 18px;
+  text-align: right;
+}
+
+.search-results .data-table {
+  border-collapse: collapse; /* 確保邊框不會重疊 */
+  width: 100%; /* 完整寬度 */
+  table-layout: auto; /* 自動調整寬度 */
+}
+
+.search-results .data-table,
+.search-results .data-th,
+.search-results .data-td {
+  border: 1px solid #a7a7a7;
+  text-align: center; /* 讓文字和數字都置中 */
+  padding: 10px; /* 增加間距使表格看起來更舒適 */
+}
+
+.data-table th {
+  background-color: #ff804a; /* 表頭背景色 */
+  color: #000000; /* 表頭字體顏色 */
+  font-weight: bold;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #e2e2e2; /* 每隔一行添加背景色 */
+}
+
+/* 確保圖標垂直居中 */
+.search-results i {
+  vertical-align: middle;
+}
+
+/* .icon-container {
+  display: inline-block;
+  position: relative;
+} */
+
+/* 添加hover效果的過渡 */
+/* .icon {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+} */
+
+/* 滑鼠懸停時放大 */
+/* .icon:hover {
+  transform: scale(1.1); 
+} */
+
+/* 放大圖標大小 */
+/* .icon-container:hover .icon {
+  transform: scale(1.2); 
+} */
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.data-table {
+  border-collapse: collapse; /* 確保邊框不會重疊 */
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #a7a7a7; /* 為表頭和單元格添加邊框 */
+  padding: 12px 15px; /* 添加一些內間距 */
+}
+
+.food-name-cell {
+  text-align: left; /* 食品名稱靠左對齊 */
+  overflow: hidden; /* 隱藏超出部分 */
+  text-overflow: ellipsis; /* 顯示省略號 */
+  white-space: nowrap; /* 防止文本換行 */
+  max-width: 200px; /* 可以調整最大寬度以適合您的需求 */
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

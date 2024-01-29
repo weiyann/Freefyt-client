@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>食物日記</title>
+    <link rel="stylesheet" href="../styles/styleguide.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/fytrack/food-diary.module.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container flex space-between">
+        <div class="logo"><img src="../public/image/logo2.png" alt="" /></div>
+        <ul class="navbar">
+          <a href="#"><li class="navbar__link">健身追蹤</li></a>
+          <a href="#"><li class="navbar__link">課程專區</li></a>
+          <a href="#"><li class="navbar__link">線上商城</li></a>
+          <a href="#"><li class="navbar__link">健身論壇</li></a>
+        </ul>
+        <div class="navbar-icons">
+          <i class="navbar-icons__icon fa-solid fa-magnifying-glass"></i>
+          <i class="navbar-icons__icon fa-regular fa-bell"></i>
+          <i class="navbar-icons__icon fa-solid fa-cart-shopping"></i>
+          <div class="btn-login">登入</div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <!-- 麵包屑導航 -->
+      <div class="breadcrumbs">首頁 / 健身追蹤 / 營養追蹤 / 食物日記</div>
+      <!-- 主要內容區 -->
+      <div class="main-content">
+        <!-- 儀表板區塊 -->
+        <div class="dashboard">
+          <div class="date-display">
+            <span>今天日期：2024-1-26 星期五</span>
+            <button class="settings-button">設定</button>
+          </div>
+
+          <div class="nutrition-container">
+            <div class="nutrition-info">
+              <i
+                class="fa-solid fa-bullseye"
+                style="color: #536080; font-size: 24px"
+              ></i>
+              <div class="target">
+                <p>目標</p>
+                <p>---</p>
+                <p>kcal</p>
+              </div>
+            </div>
+            <div class="circular-chart">
+              <div class="remainder">
+                <p>還可以吃</p>
+                <p>---</p>
+                <p>kcal</p>
+              </div>
+            </div>
+            <div class="nutrition-info">
+              <i
+                class="fa-solid fa-utensils"
+                style="color: #536080; font-size: 24px"
+              ></i>
+              <div class="intake">
+                <p>已攝取</p>
+                <p>---</p>
+                <p>kcal</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 營養進度條區塊 -->
+          <div class="nutrition-bars">
+            <!-- 脂肪 -->
+            <div class="nutrition-bar">
+              <p class="paragraph">脂肪</p>
+              <div class="progress-bar">
+                <div
+                  class="progress"
+                  style="width: 50%; background-color: deepskyblue"
+                ></div>
+              </div>
+              <p>還差 --- 克</p>
+            </div>
+            <!-- 蛋白質 -->
+            <div class="nutrition-bar">
+              <p class="paragraph">蛋白質</p>
+              <div class="progress-bar">
+                <div
+                  class="progress"
+                  style="width: 75%; background-color: deepskyblue"
+                ></div>
+              </div>
+              <p>還差 --- 克</p>
+            </div>
+            <!-- 碳水化合物 -->
+            <div class="nutrition-bar">
+              <p class="paragraph">碳水化合物</p>
+              <div class="progress-bar">
+                <div
+                  class="progress"
+                  style="width: 75%; background-color: deepskyblue"
+                ></div>
+              </div>
+              <p>還差 --- 克</p>
+            </div>
+          </div>
+          <!-- 今日熱量消耗區塊 -->
+          <div class="calorie-info">
+            <div class="calorie-burned">
+              <img src="../public/fytrack_img/fire-solid.svg" />
+              <span>今日熱量消耗 --- kcal</span>
+            </div>
+          </div>
+        </div>
+        <!-- 儀表板區塊结束 -->
+
+        <div class="food-diary">
+          <!-- 早餐卡片 -->
+          <div class="meal-card">
+            <div class="meal-image">
+              <img
+                src="../public/fytrack_img/breakfast-img.png"
+                alt="早餐"
+                class="img-resize"
+              />
+            </div>
+            <div class="meal-info">
+              <p class="breakfast">早餐</p>
+              <p>建議 244 - 366 kcal</p>
+            </div>
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <!-- 午餐卡片 -->
+          <div class="meal-card">
+            <div class="meal-image">
+              <img
+                src="../public/fytrack_img/lunch-img.png"
+                alt="午餐"
+                class="img-resize"
+              />
+            </div>
+            <div class="meal-info">
+              <p class="lunch">午餐</p>
+              <p>建議 366 - 488 kcal</p>
+            </div>
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <!-- 晚餐卡片 -->
+          <div class="meal-card">
+            <div class="meal-image">
+              <img
+                src="../public/fytrack_img/dinner-img.png"
+                alt="晚餐"
+                class="img-resize"
+              />
+            </div>
+            <div class="meal-info">
+              <p class="dinner">晚餐</p>
+              <p>建議 366 - 488 kcal</p>
+            </div>
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+          <!-- 點心卡片 -->
+          <div class="meal-card">
+            <div class="meal-image">
+              <img
+                src="../public/fytrack_img/dessert-img.png"
+                alt="點心"
+                class="img-resize"
+              />
+            </div>
+            <div class="meal-info">
+              <p class="dessert">點心</p>
+              <p>建議 61 - 122 kcal</p>
+            </div>
+            <i class="fa-solid fa-circle-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+/* 左右邊界 120px */
+.container {
+  margin: auto;
+  width: 80%;
+  max-width: 1440px;
+  max-height: 100%;
+}
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background: var(--b1-color);
+  gap: 12px;
+  position: fixed;
+  z-index: 999;
+}
+
+.logo {
+  width: 100%;
+  max-height: 100%;
+}
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  max-height: 100%;
+  gap: 36px;
+}
+.navbar a {
+  height: 100%;
+}
+
+.navbar .navbar__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  width: 120px;
+  height: 100%;
+  font-size: var(--h6-font-size);
+}
+
+.navbar .navbar__link:hover {
+  color: var(--o1-color);
+  cursor: pointer;
+}
+.navbar-icons {
+  width: 100%;
+  color: var(--white-color);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.navbar-icons__icon {
+  margin: 12px;
+  font-size: var(--h5-font-size);
+  color: var(--white-color);
+}
+
+/* 購物車icon數量提示 */
+.cart-icon {
+  position: relative;
+}
+
+.cart-badge {
+  position: absolute;
+  background-color: var(--o1-color);
+  color: white;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  border-radius: 30px;
+  top: -4px;
+  right: -3px;
+  min-width: 25px;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+/* 登入按鈕與會員大頭貼 */
+
+.btn-login {
+  margin: 12px;
+  font-size: var(--p-font-size);
+  border: 3px solid var(--white-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 36px;
+  color: white;
+}
+.btn-login:hover {
+  background-color: var(--o1-color);
+  cursor: pointer;
+  border: 3px solid var(--o1-color);
+}
+
+.avatar-login {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.avatar-login-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+/* 會員大頭貼下拉選單 */
+
+.user-menu {
+  position: absolute;
+  background-color: var(--g4-color);
+  color: var(--black-color);
+  top: 5.5rem;
+  right: -4.5rem;
+  font-size: var(--p-font-size);
+  letter-spacing: 0.15rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 1.5rem;
+  transform: translateY(-5%);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  z-index: 999;
+  pointer-events: none;
+  width: 12rem;
+}
+
+section {
+  z-index: -1;
+}
+
+.user-menu-show {
+  transform: translateY(1%);
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+  pointer-events: auto;
+}
+
+.user-menu-shape {
+  position: absolute;
+  top: -0.4rem;
+  left: 5.25rem;
+  border-left: 0.75rem solid transparent;
+  border-right: 0.75rem solid transparent;
+  border-bottom: 0.5rem solid var(--g4-color);
+}
+
+.user-menu h6 {
+  font-size: var(--h6-font-size);
+  color: var(--b1-color);
+}
+
+.user-menu p {
+  font-size: var(--p-font-size);
+  color: var(--g2-color);
+  letter-spacing: 0;
+  /* border-bottom: 1px solid var(--g2-color); */
+  padding: 0 0.75rem 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.user-menu ul {
+  width: 100%;
+}
+
+/* .user-menu li {
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  text-decoration: none;
+  color: var(--black-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease-in-out;
+} */
+
+.user-menu-link {
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  text-decoration: none;
+  color: var(--black-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+/* .user-menu li:hover {
+  padding: 0.5rem 0 0.5rem 0.75rem;
+  font-weight: bold;
+  color: var(--b1-color)
+} */
+
+.user-menu-link:hover {
+  padding: 0.5rem 0 0.5rem 0.75rem;
+  font-weight: bold;
+  color: var(--b1-color)
+}
+
+/* 表單 */
+.select {
+  width: 100%;
+  height: 36px;
+  background-color: var(--white-color);
+  border: 1px solid var(--g3-color);
+  padding: 10px;
+}
+
+/* pagination */
+.pagination {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+  font-size: var(--h5-font-size);
+}
+
+.pagination-item {
+  margin: 40px 0;
+}
+
+.pagination-link {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--b1-color);
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.pagination-link:hover {
+  border-bottom: 3px solid var(--b1-color);
+}
+.pagination-link-active {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--b1-color);
+  font-weight: bold;
+  margin: 0 10px;
+  border-bottom: 3px solid var(--b1-color);
+}
+
+.pagination-prev {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--b1-color);
+  font-weight: bold;
+  position: relative;
+  margin-right: 10px;
+}
+
+.pagination-prev:hover {
+  top: -2px;
+}
+
+.pagination-next {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--b1-color);
+  font-weight: bold;
+  position: relative;
+}
+
+.pagination-next:hover {
+  top: -2px;
+}
+
+.page-disable {
+  color: var(--g3-color);
+  padding: 5px 10px;
+}
+
+/* ============= footer  =============*/
+
+footer {
+  width: 100%;
+  background-color: var(--b1-color);
+  padding-top: 5%;
+  /* padding-bottom: 5%; */
+  
+}
+
+#footertitle {
+  font-size: var(--h3-font-size);
+  font-weight: bold;
+  color: var(--o1-color);
+  padding-bottom: 5%;
+}
+
+/* .container {
+  width: 80%;
+  margin: auto;
+} */
+
+#footercontain {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.ftc-1 {
+  width: 35%;
+}
+.ftc-2 {
+  width: 15%;
+  text-align: center;
+}
+
+.ftc-3 {
+  width: 40%;
+}
+.ftc-title {
+  padding-bottom: 30px;
+  font-size: var(--h6-font-size);
+  font-weight: bold;
+  color: var(--o2-color);
+}
+
+.ftc-2 > ul > li {
+  padding: 5px;
+}
+
+.ftc-2 > ul > li > a {
+  color: var(--white-color);
+}
+
+.ftc-text1 {
+  line-height: 2;
+  color: var(--white-color);
+}
+
+#ftemail {
+  width: 70%;
+  height: 30px;
+  background-color: none;
+  color: black;
+}
+
+#ftemailbtn {
+  width: 20%;
+  height: 35px;
+  background-color: var(--o1-color);
+  border-radius: 5px;
+}
+
+#footercopyright{
+  background-color: var(--black-color);
+  /* padding: var(--h2-font-size); */
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top:30px;
+
+}
+.ft-icons__icon{
+  margin-left:var(--h6-font-size);
+  color: var(--white-color);
+}
+
+/* =============footer ENDING =============*/
+
+/* breadcrumb */
+
+.breadcrumb {
+  width: 500px;
+  color: var(--g2-color);
+  font-size: var(--p-font-size);
+}
+/* rwd相關 */
+.menu-icon{
+  display: none;
+}
+.mobile-nav{
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .navbar,.navbar-icons{
+    display: none;
+  }
+  .container{
+    width: 90%;
+  }
+  .header{
+    position: relative;
+  }
+  .menu-icon{
+    display: block;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+  }
+  .mobile-nav{
+    /* display: block; */
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    font-size: var(--h3-font-size);
+
+    transform-origin: top;
+  }
+  .mobile-nav li{
+    background-color: var(--g3-color);
+    border-bottom: 1px solid var(--g4-color);
+    padding: 16px 50px;
+    
+  }
+  .mobile-nav li a{
+    color: var(--white-color);
+    height: 32px;
+    background-color: var(--g3-color);
+    max-width: 100%;
+    width: 100%;
+  }
+  .logo {
+    width: 100%;
+    max-height: 120%;
+    margin-left: -30px;
+  }
+  .logo img {
+    max-width: 120%;
+    max-height: 120%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+  .visible{
+    display: block;
+  }
+}
+
+/* 404 page not found */
+.page-not-found {
+  padding: 40vh;
+  text-align: center;
+  color: var(--g3-color);
+}
+
+

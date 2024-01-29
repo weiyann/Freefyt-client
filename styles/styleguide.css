@@ -1,0 +1,31 @@
+:root {
+  --swiper-navigation-color: #ffffff; /* swiper navigation 左右箭頭顏色*/
+
+  /* 顏色 */
+  --b1-color: #1c3b5e;
+  --b2-color: #4674a9;
+  --b3-color: #95c4f0;
+  --b4-color: #dfeeff;
+  --o1-color: #ff804a;
+  --o2-color: #f8a784;
+  --o3-color: #ffddce;
+  --g1-color: #313131;
+  --g2-color: #888888;
+  --g3-color: #c6c6c6;
+  --g4-color: #eeeceb;
+  --black-color: #2a2929;
+  --white-color: #ffffff;
+
+  /* 字體大小 */
+  --h1-font-size: 4.5rem;
+  --h2-font-size: 3.75rem;
+  --h3-font-size: 3rem;
+  --h4-font-size: 2.25rem;
+  --h5-font-size: 1.5rem;
+  --h6-font-size: 1.25rem;
+  --p-font-size: 1rem;
+  --p-sm-font-size: 0.75rem;
+
+   --card-shadow1: 5px 5px 10px 0px rgba(70, 116, 169, 0.5);
+ /* --button-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+}

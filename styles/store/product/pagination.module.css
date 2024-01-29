@@ -1,0 +1,85 @@
+/* pagination */
+.pagination {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+  font-size: var(--h5-font-size);
+}
+
+.pagination-item {
+  margin: 40px 0;
+}
+
+.pagination-link {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--b1-color);
+  font-size: var(--h5-font-size);
+  font-weight: bold;
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination-link:hover {
+  border-bottom: 3px solid var(--b1-color);
+}
+.pagination-link-active {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--b1-color);
+  font-size: var(--h5-font-size);
+  font-weight: bold;
+  margin: 0 10px;
+  border: none;
+  border-bottom: 3px solid var(--b1-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination-prev {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--b1-color);
+  font-size: var(--h5-font-size);
+  font-weight: bold;
+  position: relative;
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination-prev:hover {
+  top: -2px;
+}
+
+.pagination-next {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--b1-color);
+  font-size: var(--h5-font-size);
+  font-weight: bold;
+  position: relative;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination-next:hover {
+  top: -2px;
+}
+
+.page-disable {
+  color: var(--g3-color);
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  font-size: var(--h5-font-size);
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <title>營養追蹤頁面</title>
+    <link rel="stylesheet" href="../styles/styleguide.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../styles/fytrack/fytrack-nutrition.module.css"
+    />
+  </head>
+  <body>
+    <header>
+        <div class="container flex space-between">
+          <div class="logo"><img src="../public/image/logo2.png" alt="" /></div>
+          <ul class="navbar">
+            <a href="#"><li class="navbar__link">健身追蹤</li></a>
+            <a href="#"><li class="navbar__link">課程專區</li></a>
+            <a href="#"><li class="navbar__link">線上商城</li></a>
+            <a href="#"><li class="navbar__link">健身論壇</li></a>
+          </ul>
+          <div class="navbar-icons">
+            <i class="navbar-icons__icon fa-solid fa-magnifying-glass"></i>
+            <i class="navbar-icons__icon fa-regular fa-bell"></i>
+            <i class="navbar-icons__icon fa-solid fa-cart-shopping"></i>
+            <div class="btn-login">登入</div>
+          </div>
+        </div>
+      </header>
+
+    <div class="container">
+      <!-- 麵包屑導航 -->
+      <div class="breadcrumbs">首頁 / 健身追蹤 / 營養追蹤</div>
+
+      <!-- 分頁切換按鈕 -->
+      <div class="tab-buttons">
+        <button class="tab-button">營養追蹤</button>
+        <button class="tab-button">飲水追蹤</button>
+        <button class="tab-button">斷食追蹤</button>
+      </div>
+
+      <!-- 主要內容區 -->
+      <div class="main-content">
+        <!-- 儀表板區塊 -->
+        <div class="dashboard">
+          <div class="date-display">
+            <span>今天日期：2023-12-31 星期日</span>
+            <button class="settings-button">設定</button>
+          </div>
+
+          <div class="nutrition-container">
+            <div class="nutrition-info">
+                <i class="fa-solid fa-bullseye" style="color: #536080;"></i>
+              <div class="target">
+                <p>目標</p>
+                <p>---</p>
+                <p>kcal</p>
+              </div>
+            </div>
+            <div class="circular-chart">
+              <div class="remainder">
+                <p>還可以吃</p>
+                <p>---</p>
+                <p>kcal</p>
+              </div>
+            </div>
+            <div class="nutrition-info">
+              <i class="fa-solid fa-utensils" style="color: #536080;"></i>
+              <div class="intake">
+                <p>已攝取</p>
+                <p>---</p>
+                <p>kcal</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 營養進度條區塊 -->
+          <div class="nutrition-bars">
+            <!-- 脂肪 -->
+            <div class="nutrition-bar">
+              <p class="paragraph">脂肪</p>
+              <div class="progress-bar">
+                <div
+                  class="progress"
+                  style="width: 50%; background-color: deepskyblue"
+                ></div>
+              </div>
+              <p>還差 --- 克</p>
+            </div>
+            <!-- 蛋白質 -->
+            <div class="nutrition-bar">
+              <p class="paragraph">蛋白質</p>
+              <div class="progress-bar">
+                <div
+                  class="progress"
+                  style="width: 75%; background-color: deepskyblue"
+                ></div>
+              </div>
+              <p>還差 --- 克</p>
+            </div>
+            <!-- 碳水化合物 -->
+            <div class="nutrition-bar">
+              <p class="paragraph">碳水化合物</p>
+              <div class="progress-bar">
+                <div
+                  class="progress"
+                  style="width: 30%; background-color: deepskyblue"
+                ></div>
+              </div>
+              <p>還差 --- 克</p>
+            </div>
+          </div>
+          <!-- 儀表板區塊结束 -->
+          <!-- 今日熱量消耗區塊 -->
+          <div class="calorie-info">
+            <div class="calorie-burned">
+              <img src="../public/fytrack_img/fire-solid.svg" />
+              <span>今日熱量消耗 --- kcal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 文字區塊 -->
+        <div class="text-section">
+          <!-- 第一子區塊 -->
+          <div class="intro-text">
+            <span style="color: white" class="highlight-text">你的</span>
+            <span style="color: #ff804a">營養管理小幫手</span>
+          </div>
+
+          <!-- 第二子區塊 -->
+          <p class="description">
+            無論是減重瘦身、飲食保健，掌握以下五大功能，帶你輕鬆上手 FYTrack
+          </p>
+
+          <!-- 第三子區塊 -->
+          <div class="feature-buttons">
+            <!-- 第一排按钮 -->
+            <div class="button-row">
+              <button class="feature-button">營養追蹤</button>
+              <button class="feature-button">食物日記</button>
+            </div>
+            <!-- 第二排按钮 -->
+            <div class="button-row">
+              <button class="feature-button full-width">食品資料庫</button>
+            </div>
+            <!-- 第三排按钮 -->
+            <div class="button-row">
+              <button class="feature-button">歷史紀錄</button>
+              <button class="feature-button">收藏清單</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

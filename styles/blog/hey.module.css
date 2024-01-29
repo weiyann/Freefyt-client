@@ -1,0 +1,22 @@
+/* App.css */
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 999; /* 確保它在最上層顯示 */
+    display: none; /* 預設隱藏 */
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .popup.show {
+    display: block; /* 顯示浮動視窗 */
+  }
+  
