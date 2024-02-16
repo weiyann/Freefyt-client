@@ -1,39 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # Freefyt-client
+
+## 【網站簡介】
+
+FreeFYT 健身網是一個有別於傳統健身網站的全方位健身平台，透過課程、商城、論壇以及各種和健身相關的計算機和追蹤工具，幫助人們實現自己訂下的健身訓練目標。 
+[後端連結](https://github.com/weiyann/FreeFyt-server)
+[專案企劃書連結](https://drive.google.com/file/d/12C3EMI37sLOJJcCcxD2vsG7DfTdVlUNM/view?usp=sharing)
+
+## 【課程專區功能簡介】
+
+1. 可進行課程排序、關鍵字搜尋、標籤搜尋方便找到適合使用者的課程
+2. 會員可對喜歡的課程進行收藏
+3. 以自製的時間表實現課程預約功能
+4. 串接綠界金流api實現課程付款功能
+5. 以月曆的形式管理個人課表
+6. 可進行課程時間更改，課程評論
+7. 訂單成立伺服器寄發通知信到會員信箱
+
+
+## 【使用技術】
+
+1. 前端使用 React.js 進行開發，並用 Next.js 框架實現了 SSR、靜態生成、路由系統等功能
+2. 後端使用 Node.js 和 Express搭建伺服器，實現 RESTful API
+3. 使用useContext在全域管理收藏狀態
+4. 使用dayjs套件處理時間邏輯，搭配lodash函式庫自製預約時間表和可滑鼠拖放課程的月曆課表
+5. 自製彈出視窗元件，星星評分元件
+6. 用nodemailer套件從伺服器寄送email
